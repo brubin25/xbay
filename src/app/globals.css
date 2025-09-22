@@ -1,0 +1,103 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ---------------------------
+   Theme tokens
+   - Light: :root
+   - Dark:  html.dark   (when <html class="dark">)
+---------------------------- */
+
+/* LIGHT (default) */
+:root{
+  --bg:#f7fafc;
+  --card:#ffffff;
+  --card-alpha: rgba(255,255,255,.80);   /* NEW */
+  --border:#e5eaf1;
+  --muted:#66768a;
+  --text:#0b1220;
+  --accent:#4ea1ff;        /* brand blue */
+  --accent-strong:#2d8dff;
+  --chip:#eef2f8;
+  --chip-active:#dbe7ff;
+  --table-header:#f3f7ff;
+  --table-row:#ffffff;
+  --table-row-alt:#fafcff;
+  --table-hover:#eef5ff;
+}
+
+/* DARK */
+html.dark{
+  --bg:#0b0f14;
+  --card:#0f141b;
+  --card-alpha: rgba(15,20,27,.80);
+  --border:#1e2633;
+  --muted:#8ca0b3;
+  --text:#e6edf3;
+  --accent:#7cc4ff;
+  --accent-strong:#4ea1ff;
+  --chip:#172030;
+  --chip-active:#213148;
+  --table-header:#0f1726;
+  --table-row:#0f1726;
+  --table-row-alt:#0b1424;
+  --table-hover:#172235;
+}
+
+html,body{ height:100%; }
+body{
+  font-family: var(--font-sans), ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial,"Apple Color Emoji","Segoe UI Emoji";
+  font-synthesis-weight:none;
+}
+
+/* Layout helper */
+.container-app{ @apply mx-auto w-full max-w-[1200px] px-4 sm:px-6 lg:px-8; }
+
+/* Cards */
+.card{ @apply rounded-2xl border border-[var(--border)] bg-[var(--card)] shadow-lg shadow-black/10; }
+.card-header{ @apply px-4 py-3 border-b border-[var(--border)] font-semibold tracking-wide; }
+.card-body{ @apply p-4; }
+
+/* Buttons */
+.btn{ @apply inline-flex items-center gap-2 rounded-xl px-3.5 py-2 text-sm font-medium transition-colors border border-[var(--border)]; }
+.btn-primary{ @apply bg-[var(--accent)] text-black border-transparent hover:bg-[var(--accent-strong)]; }
+.btn-outline{ @apply text-[var(--text)] hover:bg-[var(--chip)]; }
+.btn-ghost{ @apply text-[var(--muted)] hover:text-[var(--text)] hover:bg-[var(--chip)]; }
+
+/* Inputs */
+.input{
+  @apply w-full rounded-xl border border-[var(--border)] bg-[#0b1220]/0 px-3.5 py-2 text-sm outline-none placeholder:text-[var(--muted)]
+  focus:ring-2; /* ring thickness via Tailwind */
+}
+.input:focus{ --tw-ring-color: var(--accent); }
+
+/* Chips */
+.chips{ @apply flex flex-wrap gap-2; }
+.chip{ @apply cursor-pointer rounded-xl px-3 py-1.5 text-sm border border-[var(--border)] bg-[var(--chip)] text-[var(--muted)] hover:bg-[var(--chip-active)] transition-colors; }
+.chip-active{ @apply bg-[var(--chip-active)] text-[var(--text)] border-[color:var(--accent)]; }
+
+/* Badges */
+.badge{ @apply inline-flex items-center rounded-md bg-[var(--chip)] px-2 py-0.5 text-xs text-[var(--muted)] border border-[var(--border)]; }
+
+/* Toolbar */
+.toolbar{
+  @apply flex items-center justify-between gap-3 p-3 border-b border-[var(--border)] backdrop-blur;
+  background-color: var(--card-alpha); /* use token instead of bg-[...]/80 in @apply */
+}
+
+/* Data table */
+.table-wrap{ @apply rounded-2xl overflow-hidden border border-[var(--border)] bg-[var(--card)]; }
+.table{ width:100%; border-collapse:separate; border-spacing:0; font-size:.94rem; }
+.table thead th{
+  position:sticky; top:0; z-index:10; background:var(--table-header); color:var(--muted);
+  text-align:left; font-weight:600; letter-spacing:.02em; padding:10px 12px; border-bottom:1px solid var(--border);
+}
+.table tbody tr{ background:var(--table-row); }
+.table tbody tr:nth-child(2n){ background:var(--table-row-alt); }
+.table tbody tr:hover{ background:var(--table-hover); }
+.table td{ padding:10px 12px; border-bottom:1px solid var(--border); }
+.table .num{ font-variant-numeric: tabular-nums; text-align:right; }
+.table-foot{ @apply flex items-center justify-between gap-3 p-3; }
+
+/* Utility */
+.kbd{ @apply rounded-md border border-[var(--border)] px-1.5 py-0.5 text-[10px] text-[var(--muted)]; }

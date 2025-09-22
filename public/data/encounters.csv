@@ -1,0 +1,1201 @@
+encounter_id,patient_id,encounter_datetime,department,location,provider_type,chief_complaint,is_urgent,encounter_tags
+E200000,P100139,2024-09-01T04:13:28,Neurology,Waterloo,PA,cough,False,inpatient;new_patient
+E200001,P100262,2023-12-20T09:42:43,Psychiatry,Waterloo,MD,abdominal pain,False,followup;outpatient;urgent
+E200002,P100202,2024-12-31T12:13:37,Emergency,Thunder Bay,MD,abdominal pain,True,outpatient
+E200003,P100148,2024-06-03T20:38:38,Cardiology,Thunder Bay,NP,dizziness,True,new_patient
+E200004,P100272,2025-03-22T13:22:59,Pediatrics,Sudbury,PA,fatigue,True,inpatient;urgent
+E200005,P100009,2024-09-14T02:26:25,Cardiology,Kingston,NP,sore throat,False,chronic;new_patient;routine
+E200006,P100213,2024-05-04T20:57:16,Cardiology,Waterloo,MD,fatigue,True,chronic;new_patient;routine
+E200007,P100470,2024-06-30T01:25:23,Cardiology,Waterloo,MD,fever,False,new_patient;outpatient;urgent
+E200008,P100202,2025-07-30T03:45:04,ICU,Hamilton,NP,fever,False,followup
+E200009,P100261,2025-01-26T20:09:48,Cardiology,Sudbury,PA,fever,False,followup;telehealth
+E200010,P100052,2024-01-14T17:55:05,ICU,Toronto,MD,sore throat,True,chronic;followup;routine
+E200011,P100252,2024-09-17T08:42:43,Orthopedics,Hamilton,PA,sore throat,False,followup;inpatient;routine
+E200012,P100034,2024-09-21T05:19:21,Orthopedics,Hamilton,NP,abdominal pain,True,followup;telehealth
+E200013,P100236,2024-09-08T00:17:06,Emergency,Thunder Bay,NP,abdominal pain,True,followup;new_patient;outpatient
+E200014,P100259,2024-07-17T15:16:22,Orthopedics,Sudbury,PA,chest pain,False,inpatient;outpatient;telehealth
+E200015,P100243,2024-10-16T10:09:50,Oncology,Thunder Bay,NP,headache,False,followup;outpatient;routine
+E200016,P100088,2023-10-23T09:39:43,Pediatrics,Hamilton,NP,cough,True,routine;telehealth
+E200017,P100198,2024-08-05T12:00:49,Psychiatry,Hamilton,PA,chest pain,False,routine
+E200018,P100048,2024-11-29T09:11:17,Neurology,Ottawa,NP,sore throat,True,followup;outpatient
+E200019,P100339,2024-01-10T20:24:57,Psychiatry,Ottawa,PA,dizziness,True,followup;outpatient;telehealth
+E200020,P100192,2025-02-03T19:35:01,Psychiatry,Kingston,MD,back pain,True,new_patient;outpatient;telehealth
+E200021,P100009,2024-06-30T15:18:37,ICU,Toronto,MD,fatigue,False,inpatient
+E200022,P100070,2024-01-21T08:23:14,Cardiology,Ottawa,MD,back pain,True,new_patient;outpatient;routine
+E200023,P100067,2024-12-29T21:28:50,Neurology,Toronto,MD,shortness of breath,True,chronic;inpatient;urgent
+E200024,P100186,2025-03-01T08:19:07,Pediatrics,Waterloo,PA,abdominal pain,False,inpatient
+E200025,P100158,2025-06-12T01:50:29,Orthopedics,Kingston,MD,fatigue,False,new_patient;outpatient
+E200026,P100195,2024-10-17T14:51:36,Primary Care,Waterloo,MD,fever,True,routine;urgent
+E200027,P100246,2025-08-01T22:43:15,Psychiatry,Sudbury,MD,back pain,True,followup;new_patient
+E200028,P100082,2024-04-21T21:11:54,Orthopedics,Sudbury,MD,dizziness,True,chronic
+E200029,P100452,2024-06-20T12:44:17,Emergency,Waterloo,MD,dizziness,False,new_patient
+E200030,P100041,2024-07-10T04:52:43,Pediatrics,Thunder Bay,NP,headache,False,telehealth
+E200031,P100019,2024-05-02T19:49:10,Orthopedics,Hamilton,MD,cough,False,chronic;new_patient;urgent
+E200032,P100131,2024-03-08T12:05:44,Oncology,Sudbury,PA,sore throat,False,outpatient
+E200033,P100121,2024-05-13T21:51:54,Cardiology,Thunder Bay,MD,dizziness,False,followup
+E200034,P100428,2025-08-26T01:09:39,Orthopedics,Sudbury,PA,chest pain,True,chronic;inpatient;telehealth
+E200035,P100000,2025-01-12T12:52:52,Psychiatry,Toronto,PA,dizziness,True,followup;outpatient;telehealth
+E200036,P100034,2024-11-04T14:27:31,Primary Care,Sudbury,PA,back pain,True,chronic;urgent
+E200037,P100325,2024-07-19T11:59:25,Psychiatry,Ottawa,PA,chest pain,False,routine
+E200038,P100123,2025-04-14T07:00:39,Cardiology,Kingston,PA,fatigue,True,routine
+E200039,P100279,2024-06-11T22:58:41,Oncology,Kingston,PA,cough,False,followup;new_patient;telehealth
+E200040,P100032,2025-04-01T04:02:50,Orthopedics,Thunder Bay,NP,fever,True,urgent
+E200041,P100161,2025-09-16T23:17:46,ICU,Sudbury,NP,back pain,False,new_patient;urgent
+E200042,P100331,2024-02-18T10:25:34,ICU,Ottawa,MD,fatigue,False,routine
+E200043,P100223,2025-08-13T21:13:49,Neurology,Hamilton,NP,dizziness,False,chronic
+E200044,P100354,2024-10-13T10:30:29,Psychiatry,Kingston,PA,abdominal pain,True,inpatient;new_patient;urgent
+E200045,P100308,2025-06-22T17:33:09,Oncology,Sudbury,NP,fatigue,True,routine
+E200046,P100338,2024-05-09T15:07:41,ICU,Waterloo,PA,dizziness,True,chronic;inpatient;telehealth
+E200047,P100021,2025-04-09T12:48:08,Psychiatry,Sudbury,NP,abdominal pain,True,new_patient
+E200048,P100186,2024-10-25T12:36:59,Oncology,Thunder Bay,MD,sore throat,False,telehealth
+E200049,P100034,2024-03-24T07:16:21,Psychiatry,Ottawa,NP,sore throat,True,inpatient;routine;telehealth
+E200050,P100485,2024-07-07T03:16:46,Psychiatry,Waterloo,MD,sore throat,True,inpatient;routine;telehealth
+E200051,P100332,2024-04-26T11:09:13,Pediatrics,Thunder Bay,MD,shortness of breath,False,new_patient;outpatient;urgent
+E200052,P100134,2025-05-16T22:23:06,ICU,Hamilton,NP,fever,False,chronic;followup;urgent
+E200053,P100069,2025-07-16T09:50:03,Cardiology,Waterloo,MD,cough,True,chronic;routine;telehealth
+E200054,P100363,2023-11-12T10:33:07,Primary Care,Sudbury,NP,abdominal pain,True,chronic;new_patient;telehealth
+E200055,P100260,2024-03-15T04:10:00,Cardiology,Toronto,MD,fever,False,routine
+E200056,P100283,2024-12-10T12:01:26,Psychiatry,Waterloo,PA,shortness of breath,True,outpatient
+E200057,P100203,2025-04-01T20:36:39,Orthopedics,Sudbury,NP,dizziness,True,routine
+E200058,P100328,2023-11-19T14:32:10,Orthopedics,Waterloo,PA,back pain,False,telehealth
+E200059,P100393,2024-01-01T05:20:55,Neurology,Sudbury,MD,headache,True,followup;telehealth
+E200060,P100165,2025-09-18T00:46:34,Pediatrics,Ottawa,PA,abdominal pain,True,inpatient;routine
+E200061,P100489,2024-11-23T20:25:41,ICU,Toronto,PA,abdominal pain,True,new_patient;outpatient;telehealth
+E200062,P100078,2024-02-02T23:24:39,Psychiatry,Kingston,PA,chest pain,True,urgent
+E200063,P100485,2025-02-02T05:33:51,ICU,Hamilton,MD,sore throat,False,inpatient;routine;urgent
+E200064,P100279,2024-05-04T23:52:15,ICU,Waterloo,MD,dizziness,False,followup;routine
+E200065,P100030,2024-01-23T18:49:59,Orthopedics,Waterloo,NP,cough,True,chronic;telehealth
+E200066,P100441,2025-04-02T23:15:17,Psychiatry,Hamilton,NP,dizziness,True,followup;telehealth
+E200067,P100123,2024-09-19T07:40:44,Cardiology,Ottawa,NP,fever,True,urgent
+E200068,P100148,2024-07-17T09:04:18,Neurology,Toronto,MD,fatigue,False,telehealth
+E200069,P100255,2024-10-26T19:09:59,Orthopedics,Waterloo,NP,cough,True,new_patient
+E200070,P100258,2024-09-12T03:23:48,Pediatrics,Toronto,PA,fatigue,True,outpatient
+E200071,P100253,2024-12-30T02:33:25,Orthopedics,Ottawa,PA,chest pain,True,chronic;telehealth
+E200072,P100372,2024-07-03T02:35:21,Neurology,Ottawa,MD,dizziness,True,inpatient;outpatient;telehealth
+E200073,P100147,2023-11-19T02:43:52,Neurology,Sudbury,NP,back pain,False,chronic;followup;urgent
+E200074,P100201,2024-07-08T20:55:16,Psychiatry,Sudbury,NP,shortness of breath,True,new_patient;outpatient;urgent
+E200075,P100023,2023-10-23T05:24:32,Oncology,Hamilton,NP,cough,False,telehealth
+E200076,P100167,2025-09-15T09:58:17,Psychiatry,Toronto,NP,sore throat,False,new_patient;outpatient;routine
+E200077,P100272,2024-10-07T11:24:12,ICU,Waterloo,MD,fatigue,False,followup;inpatient;outpatient
+E200078,P100157,2025-06-02T20:35:10,Emergency,Sudbury,NP,abdominal pain,True,inpatient;outpatient;urgent
+E200079,P100087,2024-11-03T04:23:56,Neurology,Toronto,PA,fever,True,chronic;followup;urgent
+E200080,P100225,2024-05-23T15:39:06,Neurology,Toronto,NP,fever,False,chronic;new_patient;routine
+E200081,P100372,2023-11-10T09:00:26,Oncology,Sudbury,MD,back pain,False,chronic;inpatient;outpatient
+E200082,P100160,2024-02-04T12:21:15,Orthopedics,Sudbury,NP,back pain,False,chronic;inpatient;outpatient
+E200083,P100098,2024-04-01T11:26:59,ICU,Sudbury,NP,fever,False,inpatient;routine
+E200084,P100360,2024-10-06T19:40:41,Psychiatry,Waterloo,NP,back pain,False,followup;outpatient
+E200085,P100346,2024-11-17T21:48:42,Neurology,Waterloo,NP,shortness of breath,False,outpatient
+E200086,P100489,2025-03-30T16:33:30,Cardiology,Ottawa,NP,abdominal pain,False,inpatient
+E200087,P100423,2024-11-14T07:49:12,ICU,Sudbury,PA,abdominal pain,True,inpatient
+E200088,P100124,2023-11-01T10:20:10,Primary Care,Toronto,PA,fever,True,new_patient
+E200089,P100169,2025-04-02T04:31:24,Orthopedics,Thunder Bay,PA,shortness of breath,True,inpatient;routine;telehealth
+E200090,P100478,2025-08-07T00:27:30,Orthopedics,Waterloo,PA,fever,False,outpatient;routine
+E200091,P100030,2025-08-28T05:10:17,Cardiology,Hamilton,PA,fever,True,new_patient
+E200092,P100451,2025-07-04T14:05:12,Oncology,Thunder Bay,NP,cough,True,new_patient;outpatient;urgent
+E200093,P100152,2024-12-07T03:34:35,Cardiology,Ottawa,NP,cough,False,chronic
+E200094,P100139,2024-02-19T18:15:53,Cardiology,Ottawa,MD,cough,False,routine;telehealth;urgent
+E200095,P100172,2025-05-29T04:58:39,ICU,Sudbury,PA,fever,True,chronic;inpatient;new_patient
+E200096,P100263,2024-06-03T16:59:45,Cardiology,Waterloo,PA,headache,True,chronic
+E200097,P100165,2025-09-18T21:02:58,Pediatrics,Thunder Bay,NP,dizziness,True,outpatient;telehealth
+E200098,P100154,2024-12-18T09:51:19,Emergency,Ottawa,PA,fatigue,True,followup
+E200099,P100238,2024-05-18T07:17:05,Oncology,Waterloo,PA,back pain,False,followup;routine;telehealth
+E200100,P100188,2025-01-12T09:26:55,Pediatrics,Toronto,MD,cough,True,inpatient;routine
+E200101,P100359,2024-11-22T14:28:23,Orthopedics,Kingston,PA,fever,True,followup;inpatient;outpatient
+E200102,P100270,2025-03-22T15:09:05,Psychiatry,Thunder Bay,PA,headache,True,inpatient;new_patient;outpatient
+E200103,P100076,2024-01-28T19:11:41,Psychiatry,Kingston,PA,cough,True,inpatient;outpatient;routine
+E200104,P100250,2023-12-02T15:16:30,Primary Care,Waterloo,MD,cough,True,inpatient;new_patient;outpatient
+E200105,P100029,2024-11-30T00:44:05,Orthopedics,Hamilton,NP,chest pain,False,routine;urgent
+E200106,P100111,2024-12-15T04:30:12,Cardiology,Thunder Bay,NP,fatigue,True,chronic;inpatient;urgent
+E200107,P100016,2024-05-02T23:45:31,Neurology,Toronto,MD,dizziness,False,chronic;new_patient
+E200108,P100469,2025-08-27T07:22:04,Neurology,Waterloo,MD,back pain,True,followup;routine;urgent
+E200109,P100275,2024-07-24T07:08:38,Primary Care,Toronto,PA,fever,True,outpatient
+E200110,P100237,2025-02-27T02:56:50,Primary Care,Waterloo,PA,dizziness,True,chronic
+E200111,P100177,2024-01-21T11:40:19,ICU,Toronto,PA,headache,True,new_patient;outpatient;urgent
+E200112,P100123,2024-03-01T01:38:23,Cardiology,Thunder Bay,PA,chest pain,False,followup;routine;urgent
+E200113,P100022,2024-07-31T10:46:10,Orthopedics,Toronto,PA,fever,True,outpatient
+E200114,P100119,2025-06-17T15:21:28,Psychiatry,Sudbury,PA,fatigue,True,routine;telehealth
+E200115,P100266,2024-03-12T16:32:07,Neurology,Ottawa,NP,chest pain,True,inpatient;new_patient;outpatient
+E200116,P100024,2024-06-16T12:21:27,Neurology,Kingston,PA,fatigue,False,chronic;telehealth
+E200117,P100192,2024-02-12T19:45:09,Primary Care,Waterloo,MD,fever,False,inpatient;new_patient;telehealth
+E200118,P100468,2023-11-06T18:11:16,Primary Care,Waterloo,NP,back pain,True,inpatient;telehealth
+E200119,P100104,2024-06-05T12:32:54,Cardiology,Waterloo,NP,headache,True,outpatient
+E200120,P100193,2025-02-27T06:09:17,Emergency,Kingston,MD,fever,True,inpatient;new_patient
+E200121,P100464,2024-06-07T14:54:16,ICU,Thunder Bay,MD,fever,True,chronic;followup;routine
+E200122,P100309,2025-03-22T15:11:50,Pediatrics,Waterloo,MD,back pain,False,inpatient;new_patient
+E200123,P100273,2025-02-07T21:02:32,Psychiatry,Ottawa,NP,fatigue,False,followup;new_patient
+E200124,P100369,2024-09-21T15:56:08,Psychiatry,Toronto,NP,fatigue,False,inpatient
+E200125,P100379,2024-01-14T08:11:47,Emergency,Ottawa,PA,sore throat,False,followup;telehealth
+E200126,P100168,2024-03-19T15:51:28,Neurology,Sudbury,MD,cough,False,chronic;routine
+E200127,P100328,2025-04-19T11:01:59,Orthopedics,Waterloo,MD,fatigue,True,chronic
+E200128,P100094,2025-09-04T04:14:36,Primary Care,Hamilton,MD,back pain,True,urgent
+E200129,P100391,2023-09-27T23:00:11,Neurology,Toronto,PA,fever,True,followup;telehealth;urgent
+E200130,P100258,2024-09-11T04:38:10,Psychiatry,Thunder Bay,PA,sore throat,False,chronic;new_patient;urgent
+E200131,P100272,2024-11-24T11:22:52,Neurology,Thunder Bay,MD,back pain,False,chronic;outpatient;urgent
+E200132,P100416,2025-03-18T01:02:09,Neurology,Kingston,MD,headache,True,followup;new_patient;telehealth
+E200133,P100317,2024-11-04T21:51:03,ICU,Kingston,NP,abdominal pain,False,routine
+E200134,P100491,2024-08-03T08:53:58,Orthopedics,Sudbury,MD,fever,False,followup;new_patient;routine
+E200135,P100388,2023-10-17T14:38:31,Cardiology,Waterloo,NP,dizziness,False,urgent
+E200136,P100359,2024-02-03T02:49:17,Cardiology,Waterloo,NP,fatigue,True,followup;new_patient;urgent
+E200137,P100461,2025-07-28T06:52:18,Orthopedics,Ottawa,MD,headache,False,followup;telehealth;urgent
+E200138,P100008,2024-03-01T21:42:25,Oncology,Kingston,PA,dizziness,True,outpatient;telehealth
+E200139,P100123,2024-12-06T03:58:39,Neurology,Hamilton,PA,fatigue,False,new_patient;routine;telehealth
+E200140,P100370,2023-11-22T21:59:53,Primary Care,Hamilton,NP,chest pain,True,inpatient;new_patient
+E200141,P100038,2024-06-13T13:06:32,Neurology,Kingston,NP,chest pain,False,chronic;followup
+E200142,P100182,2024-11-25T13:22:13,Neurology,Waterloo,MD,sore throat,False,outpatient
+E200143,P100408,2024-04-01T10:09:24,Cardiology,Thunder Bay,NP,shortness of breath,False,inpatient;routine;telehealth
+E200144,P100162,2024-06-29T03:56:22,Cardiology,Thunder Bay,MD,abdominal pain,False,outpatient;urgent
+E200145,P100067,2023-11-29T19:20:18,Oncology,Waterloo,NP,back pain,False,urgent
+E200146,P100045,2024-06-23T21:26:25,Primary Care,Thunder Bay,PA,sore throat,False,telehealth;urgent
+E200147,P100211,2024-07-20T05:06:27,Cardiology,Hamilton,PA,fever,True,chronic;followup;new_patient
+E200148,P100137,2024-05-13T21:29:37,ICU,Waterloo,MD,headache,True,inpatient;outpatient
+E200149,P100153,2024-10-03T02:43:33,Cardiology,Ottawa,NP,fever,False,chronic;inpatient;urgent
+E200150,P100069,2024-05-16T15:14:12,Emergency,Waterloo,NP,sore throat,False,chronic;telehealth
+E200151,P100220,2025-06-17T09:33:52,Oncology,Ottawa,NP,sore throat,True,followup;routine
+E200152,P100493,2024-07-28T07:43:25,Psychiatry,Ottawa,PA,cough,True,new_patient;telehealth
+E200153,P100418,2025-05-25T09:36:50,Neurology,Ottawa,MD,sore throat,True,outpatient;routine;telehealth
+E200154,P100013,2025-04-09T20:14:22,Orthopedics,Hamilton,MD,cough,False,followup;inpatient;new_patient
+E200155,P100344,2024-10-14T19:41:11,Oncology,Hamilton,NP,fever,False,inpatient;routine;telehealth
+E200156,P100404,2024-07-11T19:37:05,Cardiology,Waterloo,PA,cough,False,new_patient;outpatient;urgent
+E200157,P100404,2024-06-28T06:06:55,Primary Care,Sudbury,PA,headache,True,routine
+E200158,P100085,2025-02-06T12:57:04,Emergency,Sudbury,PA,dizziness,False,followup;urgent
+E200159,P100050,2024-04-10T23:13:58,Pediatrics,Sudbury,PA,back pain,True,inpatient;routine
+E200160,P100237,2025-05-14T21:30:09,Primary Care,Toronto,NP,chest pain,False,outpatient
+E200161,P100212,2025-09-07T00:14:59,Cardiology,Thunder Bay,PA,shortness of breath,False,inpatient;routine
+E200162,P100401,2024-03-01T16:17:11,Primary Care,Waterloo,NP,cough,True,chronic;telehealth
+E200163,P100034,2024-05-13T05:19:41,Emergency,Kingston,PA,headache,True,followup;routine
+E200164,P100409,2024-01-28T15:46:56,Pediatrics,Sudbury,MD,back pain,True,inpatient;new_patient
+E200165,P100118,2025-06-03T15:14:44,Neurology,Hamilton,MD,shortness of breath,False,routine;urgent
+E200166,P100314,2025-08-08T22:07:41,Pediatrics,Waterloo,PA,dizziness,False,inpatient
+E200167,P100105,2024-04-26T04:43:25,Cardiology,Sudbury,MD,back pain,True,followup;routine
+E200168,P100234,2023-12-20T12:16:28,ICU,Hamilton,NP,back pain,False,inpatient;new_patient;outpatient
+E200169,P100300,2023-12-20T17:26:24,Psychiatry,Ottawa,NP,sore throat,True,chronic;new_patient;outpatient
+E200170,P100043,2025-02-26T01:02:24,Oncology,Ottawa,MD,fever,False,telehealth
+E200171,P100191,2025-03-14T14:35:38,Oncology,Sudbury,NP,dizziness,True,followup;inpatient;new_patient
+E200172,P100249,2025-01-28T14:36:33,Primary Care,Hamilton,PA,shortness of breath,True,followup;outpatient
+E200173,P100095,2024-05-24T08:11:47,Orthopedics,Sudbury,MD,fatigue,True,followup;telehealth
+E200174,P100417,2024-07-17T05:14:17,Primary Care,Sudbury,PA,cough,False,chronic;inpatient;routine
+E200175,P100430,2024-09-01T17:59:46,Orthopedics,Toronto,MD,sore throat,True,outpatient
+E200176,P100016,2024-04-23T11:37:47,Pediatrics,Sudbury,NP,shortness of breath,False,chronic;new_patient;outpatient
+E200177,P100057,2024-12-10T20:09:49,Cardiology,Ottawa,PA,fatigue,True,chronic;followup;outpatient
+E200178,P100217,2023-12-11T13:10:50,Pediatrics,Ottawa,MD,cough,False,followup;inpatient
+E200179,P100443,2023-12-23T04:14:02,Pediatrics,Toronto,PA,sore throat,False,followup;new_patient;outpatient
+E200180,P100071,2025-05-24T14:39:05,Pediatrics,Kingston,MD,chest pain,False,chronic;new_patient;outpatient
+E200181,P100086,2024-05-31T09:20:26,ICU,Ottawa,PA,abdominal pain,True,new_patient
+E200182,P100470,2023-11-08T01:10:08,ICU,Kingston,PA,shortness of breath,True,telehealth
+E200183,P100364,2024-05-30T04:19:04,Pediatrics,Kingston,PA,dizziness,False,outpatient
+E200184,P100321,2024-08-09T17:42:55,Neurology,Waterloo,MD,headache,False,outpatient;routine;telehealth
+E200185,P100232,2024-10-06T01:48:30,Psychiatry,Sudbury,MD,headache,False,new_patient;routine;urgent
+E200186,P100407,2024-11-11T02:23:38,Neurology,Toronto,NP,fever,False,new_patient;routine
+E200187,P100145,2024-06-11T08:12:44,Primary Care,Sudbury,MD,sore throat,False,chronic;urgent
+E200188,P100050,2025-01-21T08:49:56,Orthopedics,Thunder Bay,MD,shortness of breath,False,inpatient;urgent
+E200189,P100103,2025-03-10T20:16:58,Oncology,Hamilton,NP,shortness of breath,False,routine
+E200190,P100128,2023-11-26T00:25:48,Psychiatry,Hamilton,PA,shortness of breath,True,outpatient;routine
+E200191,P100358,2025-05-01T14:32:52,Pediatrics,Waterloo,PA,headache,True,inpatient
+E200192,P100244,2023-11-22T12:52:59,Oncology,Sudbury,MD,back pain,False,urgent
+E200193,P100356,2024-06-15T20:41:10,Cardiology,Kingston,NP,shortness of breath,False,inpatient
+E200194,P100196,2023-12-01T09:15:07,Cardiology,Thunder Bay,NP,fatigue,False,new_patient
+E200195,P100396,2025-06-15T18:16:37,Oncology,Hamilton,PA,shortness of breath,True,outpatient;routine;urgent
+E200196,P100084,2024-08-29T20:02:52,Psychiatry,Hamilton,MD,shortness of breath,False,chronic;followup;new_patient
+E200197,P100044,2025-08-19T09:42:14,Cardiology,Toronto,MD,sore throat,False,new_patient;telehealth
+E200198,P100405,2024-01-09T14:37:25,Pediatrics,Ottawa,PA,headache,True,new_patient;outpatient;routine
+E200199,P100013,2025-07-12T13:51:15,ICU,Toronto,PA,sore throat,True,new_patient;routine;telehealth
+E200200,P100027,2025-05-23T19:07:14,Pediatrics,Waterloo,NP,headache,True,followup;outpatient
+E200201,P100455,2023-10-02T08:56:43,Psychiatry,Ottawa,MD,dizziness,False,new_patient;telehealth
+E200202,P100241,2025-05-13T08:40:57,Cardiology,Thunder Bay,PA,headache,True,inpatient;urgent
+E200203,P100472,2023-11-08T23:13:16,Neurology,Sudbury,NP,back pain,False,new_patient;urgent
+E200204,P100327,2024-11-12T18:17:35,Primary Care,Sudbury,MD,abdominal pain,True,followup;outpatient
+E200205,P100471,2024-02-27T19:52:32,Oncology,Sudbury,NP,dizziness,True,new_patient;routine
+E200206,P100488,2025-07-11T11:18:33,Pediatrics,Thunder Bay,MD,headache,False,chronic
+E200207,P100313,2025-01-07T21:27:31,Emergency,Ottawa,PA,shortness of breath,True,telehealth
+E200208,P100359,2023-10-01T19:35:26,Oncology,Waterloo,NP,back pain,False,routine
+E200209,P100064,2025-04-27T08:50:41,ICU,Hamilton,MD,chest pain,False,chronic;outpatient
+E200210,P100032,2024-04-14T05:44:12,Cardiology,Waterloo,NP,back pain,False,chronic
+E200211,P100439,2024-12-06T07:31:24,Oncology,Ottawa,MD,abdominal pain,True,chronic;followup;routine
+E200212,P100260,2023-09-24T23:52:49,Emergency,Kingston,MD,fever,True,inpatient;routine
+E200213,P100471,2024-01-17T13:46:51,Oncology,Kingston,MD,back pain,False,routine
+E200214,P100127,2024-08-11T07:35:07,Psychiatry,Ottawa,MD,sore throat,False,urgent
+E200215,P100091,2024-03-14T08:28:15,Primary Care,Thunder Bay,NP,headache,False,outpatient;telehealth
+E200216,P100044,2024-11-25T14:22:15,Orthopedics,Thunder Bay,NP,fever,False,chronic;outpatient;routine
+E200217,P100124,2024-09-17T08:13:13,Psychiatry,Sudbury,NP,fever,True,urgent
+E200218,P100477,2024-08-06T11:37:37,Emergency,Toronto,PA,fatigue,True,new_patient;urgent
+E200219,P100336,2024-07-11T06:16:16,ICU,Thunder Bay,MD,back pain,True,chronic;urgent
+E200220,P100497,2024-01-11T14:02:02,ICU,Thunder Bay,MD,fever,False,chronic;inpatient;routine
+E200221,P100043,2024-12-17T02:20:57,Cardiology,Sudbury,MD,dizziness,True,inpatient;routine;urgent
+E200222,P100493,2024-01-02T12:34:44,Pediatrics,Ottawa,NP,fatigue,False,inpatient;routine;telehealth
+E200223,P100139,2024-03-22T10:49:44,Cardiology,Toronto,MD,sore throat,True,followup
+E200224,P100084,2024-09-06T04:31:53,Orthopedics,Ottawa,NP,headache,False,chronic
+E200225,P100157,2024-09-16T21:24:23,ICU,Kingston,MD,headache,True,new_patient;outpatient;routine
+E200226,P100356,2025-01-03T14:22:24,Emergency,Toronto,NP,shortness of breath,True,chronic;inpatient;telehealth
+E200227,P100262,2023-10-31T00:30:20,ICU,Ottawa,MD,chest pain,False,inpatient;urgent
+E200228,P100236,2023-12-11T03:41:26,Oncology,Thunder Bay,MD,chest pain,True,inpatient
+E200229,P100421,2024-07-30T03:23:10,Psychiatry,Hamilton,PA,headache,False,urgent
+E200230,P100033,2024-02-23T14:20:00,Orthopedics,Kingston,MD,headache,False,urgent
+E200231,P100482,2024-09-15T01:34:05,Emergency,Toronto,PA,dizziness,False,inpatient;urgent
+E200232,P100349,2024-08-19T09:35:37,Oncology,Ottawa,MD,shortness of breath,False,chronic;followup
+E200233,P100017,2025-01-11T23:46:34,Pediatrics,Hamilton,NP,cough,False,chronic;new_patient;urgent
+E200234,P100143,2024-07-16T11:55:20,Oncology,Waterloo,MD,back pain,True,inpatient;routine;urgent
+E200235,P100183,2024-09-29T13:57:57,Primary Care,Kingston,NP,fatigue,False,followup;outpatient
+E200236,P100013,2024-05-27T16:18:31,Pediatrics,Thunder Bay,NP,chest pain,False,new_patient;outpatient;routine
+E200237,P100119,2024-01-24T23:37:19,Cardiology,Toronto,PA,fever,False,followup;new_patient;urgent
+E200238,P100294,2025-07-11T11:59:54,Neurology,Ottawa,MD,shortness of breath,True,chronic;new_patient;routine
+E200239,P100357,2024-06-27T16:12:08,Emergency,Hamilton,PA,fatigue,True,chronic;inpatient;new_patient
+E200240,P100277,2024-05-20T01:10:00,Oncology,Waterloo,MD,headache,True,inpatient
+E200241,P100010,2024-11-04T21:42:41,Orthopedics,Thunder Bay,NP,sore throat,True,routine
+E200242,P100367,2024-02-07T20:05:30,Psychiatry,Thunder Bay,MD,shortness of breath,True,routine
+E200243,P100491,2023-11-18T08:05:13,Psychiatry,Hamilton,PA,dizziness,True,outpatient;telehealth
+E200244,P100069,2024-01-23T08:05:06,Neurology,Kingston,PA,cough,False,routine
+E200245,P100114,2025-02-20T22:24:34,Oncology,Waterloo,NP,abdominal pain,True,urgent
+E200246,P100485,2025-03-21T06:23:09,Neurology,Kingston,PA,chest pain,True,new_patient;outpatient;routine
+E200247,P100113,2025-01-31T19:52:48,Cardiology,Waterloo,MD,fatigue,True,routine
+E200248,P100163,2024-01-31T09:38:53,Cardiology,Kingston,PA,fatigue,False,outpatient
+E200249,P100107,2024-04-03T19:46:43,Cardiology,Ottawa,NP,headache,True,new_patient
+E200250,P100224,2025-04-14T00:21:53,Neurology,Toronto,NP,cough,False,new_patient;urgent
+E200251,P100424,2024-09-29T10:19:38,Pediatrics,Toronto,NP,headache,True,telehealth;urgent
+E200252,P100133,2023-12-13T08:12:59,Cardiology,Ottawa,MD,dizziness,True,followup;outpatient;urgent
+E200253,P100173,2024-12-27T09:31:54,Orthopedics,Hamilton,MD,dizziness,True,followup;new_patient;urgent
+E200254,P100051,2024-06-06T04:03:01,Pediatrics,Toronto,NP,back pain,False,followup;outpatient;telehealth
+E200255,P100049,2023-10-31T13:16:18,Neurology,Sudbury,PA,cough,True,routine
+E200256,P100001,2024-08-20T03:09:10,Cardiology,Ottawa,PA,sore throat,False,followup
+E200257,P100013,2024-03-01T17:52:59,Oncology,Hamilton,NP,headache,False,outpatient
+E200258,P100401,2024-07-27T17:19:42,Orthopedics,Waterloo,PA,abdominal pain,True,followup;new_patient;telehealth
+E200259,P100453,2024-07-15T06:39:13,Psychiatry,Toronto,NP,chest pain,False,chronic;telehealth
+E200260,P100115,2025-07-04T04:16:44,ICU,Sudbury,MD,shortness of breath,True,routine
+E200261,P100413,2024-11-16T13:20:27,Neurology,Kingston,PA,fever,True,new_patient;outpatient
+E200262,P100351,2025-07-27T08:04:32,Orthopedics,Sudbury,MD,cough,False,new_patient
+E200263,P100462,2025-07-17T06:35:31,Emergency,Sudbury,PA,back pain,True,chronic
+E200264,P100088,2024-01-30T20:10:38,Pediatrics,Kingston,MD,shortness of breath,True,followup;routine
+E200265,P100222,2024-02-26T20:02:53,Oncology,Kingston,PA,abdominal pain,False,followup;inpatient;urgent
+E200266,P100284,2024-07-27T15:14:02,Primary Care,Ottawa,NP,back pain,False,new_patient
+E200267,P100057,2024-08-09T21:45:58,Oncology,Toronto,PA,sore throat,True,followup
+E200268,P100402,2024-05-02T05:09:26,Primary Care,Ottawa,NP,abdominal pain,False,chronic;new_patient;outpatient
+E200269,P100242,2023-10-22T02:24:38,Oncology,Ottawa,NP,shortness of breath,False,new_patient
+E200270,P100455,2025-08-05T16:57:28,Psychiatry,Hamilton,MD,chest pain,False,routine;urgent
+E200271,P100172,2025-06-18T21:10:40,ICU,Ottawa,NP,cough,True,telehealth
+E200272,P100153,2025-04-22T16:00:48,Orthopedics,Kingston,NP,abdominal pain,False,chronic;followup;inpatient
+E200273,P100108,2025-09-01T11:37:17,Neurology,Hamilton,NP,back pain,False,telehealth
+E200274,P100033,2024-05-21T15:45:17,Primary Care,Waterloo,MD,back pain,True,inpatient
+E200275,P100448,2025-06-30T22:56:21,Pediatrics,Kingston,MD,fever,True,telehealth;urgent
+E200276,P100360,2024-02-24T15:40:30,ICU,Ottawa,NP,back pain,False,followup;routine;urgent
+E200277,P100123,2024-07-08T07:17:01,Orthopedics,Sudbury,NP,shortness of breath,False,followup;routine;telehealth
+E200278,P100428,2025-08-17T18:32:16,ICU,Hamilton,PA,headache,False,new_patient
+E200279,P100025,2024-01-27T12:48:50,Pediatrics,Kingston,MD,fever,True,new_patient;outpatient
+E200280,P100010,2025-07-25T13:52:12,Emergency,Waterloo,MD,shortness of breath,True,outpatient
+E200281,P100311,2025-06-09T07:52:57,ICU,Hamilton,PA,abdominal pain,False,inpatient;routine
+E200282,P100129,2024-03-10T11:42:41,Orthopedics,Ottawa,PA,back pain,False,followup;outpatient;urgent
+E200283,P100339,2025-07-08T23:57:07,Psychiatry,Sudbury,PA,sore throat,False,followup;inpatient
+E200284,P100032,2024-06-10T04:46:53,ICU,Hamilton,NP,abdominal pain,False,followup;new_patient;outpatient
+E200285,P100264,2025-05-09T13:28:36,Pediatrics,Thunder Bay,PA,dizziness,False,routine;telehealth;urgent
+E200286,P100335,2024-10-13T07:42:05,ICU,Ottawa,NP,dizziness,False,outpatient;routine;urgent
+E200287,P100292,2025-06-17T19:36:59,Pediatrics,Ottawa,PA,fever,False,outpatient;routine;telehealth
+E200288,P100432,2024-02-02T00:46:51,Primary Care,Toronto,NP,headache,False,outpatient
+E200289,P100371,2025-06-11T20:37:18,Primary Care,Kingston,MD,fatigue,True,routine
+E200290,P100114,2025-04-23T01:04:42,ICU,Waterloo,NP,fatigue,False,inpatient;outpatient;urgent
+E200291,P100240,2023-11-03T16:36:39,Cardiology,Waterloo,MD,back pain,True,new_patient;outpatient;telehealth
+E200292,P100211,2023-11-03T23:47:17,Oncology,Toronto,MD,fatigue,False,chronic;followup;telehealth
+E200293,P100441,2025-03-31T21:01:37,Oncology,Kingston,MD,cough,False,chronic;routine;telehealth
+E200294,P100029,2023-09-26T15:51:57,Orthopedics,Ottawa,MD,shortness of breath,True,chronic;followup
+E200295,P100314,2024-08-24T20:58:00,Neurology,Waterloo,NP,cough,False,urgent
+E200296,P100273,2024-02-24T21:21:03,Psychiatry,Thunder Bay,NP,back pain,True,urgent
+E200297,P100320,2025-04-14T19:21:20,Pediatrics,Toronto,PA,fatigue,False,followup
+E200298,P100196,2024-10-17T22:52:19,ICU,Toronto,MD,chest pain,False,chronic;routine
+E200299,P100266,2024-12-29T05:08:27,Primary Care,Ottawa,NP,shortness of breath,False,new_patient;routine
+E200300,P100096,2024-01-29T01:39:04,Neurology,Thunder Bay,MD,fever,True,urgent
+E200301,P100301,2024-10-18T23:03:04,Oncology,Thunder Bay,NP,chest pain,False,chronic;new_patient;outpatient
+E200302,P100319,2023-10-30T17:43:35,Emergency,Hamilton,MD,chest pain,True,followup;inpatient;new_patient
+E200303,P100194,2023-12-27T23:58:44,Primary Care,Ottawa,NP,shortness of breath,True,inpatient;telehealth;urgent
+E200304,P100338,2023-12-10T10:24:02,Primary Care,Ottawa,PA,sore throat,True,followup;outpatient
+E200305,P100368,2025-01-14T18:43:28,Cardiology,Ottawa,MD,headache,False,inpatient
+E200306,P100398,2024-04-14T06:33:42,Primary Care,Toronto,NP,dizziness,False,urgent
+E200307,P100280,2024-10-12T12:43:20,Pediatrics,Hamilton,NP,fatigue,True,urgent
+E200308,P100343,2023-12-01T03:07:59,Cardiology,Kingston,PA,cough,True,followup
+E200309,P100370,2025-04-07T00:26:20,Cardiology,Ottawa,PA,fever,False,inpatient;outpatient
+E200310,P100025,2023-12-09T12:34:22,Oncology,Kingston,MD,abdominal pain,False,chronic;inpatient;routine
+E200311,P100059,2023-12-05T18:53:59,Emergency,Thunder Bay,MD,shortness of breath,False,chronic;outpatient
+E200312,P100137,2025-08-05T07:58:15,Cardiology,Ottawa,NP,shortness of breath,True,inpatient;new_patient
+E200313,P100139,2025-07-03T02:43:57,Neurology,Hamilton,NP,dizziness,True,telehealth
+E200314,P100356,2025-04-09T05:17:04,Emergency,Kingston,MD,headache,False,chronic;new_patient;outpatient
+E200315,P100347,2024-08-28T07:56:48,Oncology,Sudbury,NP,fatigue,True,inpatient;new_patient;telehealth
+E200316,P100057,2025-08-12T09:57:00,Neurology,Waterloo,MD,headache,False,chronic;routine;urgent
+E200317,P100444,2025-03-02T13:30:39,Primary Care,Kingston,PA,sore throat,True,new_patient;outpatient;routine
+E200318,P100352,2025-03-20T03:45:40,Cardiology,Waterloo,PA,fever,False,followup;new_patient
+E200319,P100429,2025-06-25T21:55:03,Primary Care,Sudbury,MD,chest pain,True,chronic;inpatient;new_patient
+E200320,P100445,2024-01-29T11:21:06,Cardiology,Kingston,NP,fatigue,True,outpatient;urgent
+E200321,P100259,2024-03-13T23:33:01,Primary Care,Hamilton,NP,dizziness,True,chronic
+E200322,P100227,2025-06-06T08:35:34,Orthopedics,Thunder Bay,NP,cough,False,chronic
+E200323,P100381,2025-02-11T11:45:20,Emergency,Thunder Bay,NP,dizziness,True,chronic;new_patient;urgent
+E200324,P100405,2025-01-04T07:09:55,ICU,Sudbury,PA,fever,False,new_patient;routine
+E200325,P100027,2025-06-18T06:18:59,Pediatrics,Kingston,NP,fatigue,False,chronic;inpatient;routine
+E200326,P100058,2023-12-07T16:21:27,Pediatrics,Thunder Bay,NP,fatigue,False,chronic;routine;urgent
+E200327,P100023,2025-08-19T15:00:04,Oncology,Waterloo,MD,dizziness,True,followup;inpatient
+E200328,P100061,2025-09-14T12:29:16,Neurology,Toronto,NP,fever,False,new_patient
+E200329,P100023,2025-09-11T17:34:13,Cardiology,Kingston,NP,cough,True,outpatient;urgent
+E200330,P100376,2023-10-30T17:26:25,Primary Care,Waterloo,PA,cough,True,followup;routine;telehealth
+E200331,P100053,2024-07-19T21:45:48,Psychiatry,Sudbury,NP,dizziness,True,new_patient;telehealth
+E200332,P100496,2024-05-08T11:47:32,Orthopedics,Kingston,MD,shortness of breath,False,new_patient;outpatient;routine
+E200333,P100280,2025-07-22T12:45:05,Psychiatry,Hamilton,PA,back pain,True,inpatient
+E200334,P100319,2025-03-30T21:05:34,ICU,Hamilton,NP,shortness of breath,True,chronic;routine;urgent
+E200335,P100389,2024-06-22T14:11:18,Primary Care,Waterloo,PA,sore throat,False,inpatient;new_patient;outpatient
+E200336,P100413,2023-10-02T22:03:34,Primary Care,Thunder Bay,MD,dizziness,True,urgent
+E200337,P100102,2024-04-17T08:50:08,Oncology,Ottawa,PA,abdominal pain,True,outpatient
+E200338,P100104,2025-04-30T08:00:33,Primary Care,Thunder Bay,NP,cough,True,inpatient;new_patient;routine
+E200339,P100287,2024-07-21T01:22:22,Pediatrics,Sudbury,PA,abdominal pain,True,inpatient;new_patient
+E200340,P100489,2025-05-27T03:27:49,Psychiatry,Sudbury,MD,chest pain,False,chronic
+E200341,P100424,2024-03-16T04:31:43,Psychiatry,Kingston,PA,back pain,True,chronic;inpatient;telehealth
+E200342,P100090,2025-03-06T05:41:00,Cardiology,Toronto,MD,back pain,True,inpatient;urgent
+E200343,P100142,2024-11-28T07:45:01,ICU,Toronto,MD,sore throat,False,routine
+E200344,P100238,2025-03-27T05:34:02,Oncology,Thunder Bay,MD,fatigue,True,chronic;inpatient;outpatient
+E200345,P100281,2024-06-27T03:11:57,Cardiology,Kingston,PA,fatigue,True,followup
+E200346,P100402,2024-10-19T08:29:55,Oncology,Waterloo,PA,back pain,False,routine
+E200347,P100113,2025-08-09T03:42:31,Pediatrics,Hamilton,NP,fatigue,False,inpatient;new_patient
+E200348,P100316,2024-11-08T01:12:58,Orthopedics,Sudbury,PA,chest pain,True,followup;inpatient;routine
+E200349,P100463,2025-02-02T20:40:31,Pediatrics,Thunder Bay,PA,fatigue,False,new_patient
+E200350,P100131,2024-11-15T14:45:12,ICU,Thunder Bay,PA,fatigue,False,telehealth;urgent
+E200351,P100459,2025-02-10T01:21:57,Pediatrics,Ottawa,PA,headache,True,urgent
+E200352,P100320,2023-11-12T20:28:59,Pediatrics,Hamilton,PA,fever,False,inpatient
+E200353,P100275,2025-06-27T16:59:41,Neurology,Hamilton,MD,shortness of breath,True,routine;urgent
+E200354,P100044,2023-11-18T21:26:32,Emergency,Toronto,NP,back pain,True,chronic;inpatient;telehealth
+E200355,P100198,2024-09-07T09:35:30,Neurology,Waterloo,NP,chest pain,False,followup;outpatient;urgent
+E200356,P100328,2025-04-04T11:05:53,Cardiology,Kingston,PA,sore throat,True,followup;outpatient;telehealth
+E200357,P100054,2024-05-05T02:56:44,ICU,Sudbury,MD,abdominal pain,False,chronic;new_patient
+E200358,P100338,2023-10-16T22:30:38,Orthopedics,Toronto,PA,fever,True,chronic;new_patient;outpatient
+E200359,P100151,2025-01-27T11:28:04,Oncology,Ottawa,PA,fatigue,True,new_patient;telehealth;urgent
+E200360,P100002,2024-12-10T20:14:54,Neurology,Sudbury,PA,headache,False,routine
+E200361,P100108,2024-08-08T12:26:14,Primary Care,Toronto,MD,shortness of breath,True,followup;outpatient;urgent
+E200362,P100092,2025-02-25T03:56:05,Emergency,Kingston,PA,cough,True,followup;telehealth
+E200363,P100050,2024-02-23T08:07:50,Orthopedics,Ottawa,NP,shortness of breath,True,outpatient
+E200364,P100317,2023-11-16T05:19:54,Pediatrics,Ottawa,NP,cough,False,chronic;outpatient;routine
+E200365,P100078,2024-12-05T06:39:12,Psychiatry,Kingston,NP,dizziness,True,routine
+E200366,P100126,2025-05-25T05:45:57,Pediatrics,Hamilton,PA,dizziness,False,routine;telehealth
+E200367,P100375,2024-06-06T12:46:52,Orthopedics,Waterloo,NP,fatigue,False,chronic;followup
+E200368,P100330,2025-01-06T04:21:33,Cardiology,Kingston,NP,shortness of breath,True,followup;routine
+E200369,P100038,2025-08-15T22:02:45,Emergency,Kingston,PA,chest pain,False,inpatient;outpatient;urgent
+E200370,P100133,2024-11-18T03:00:08,Primary Care,Waterloo,PA,shortness of breath,False,inpatient;new_patient
+E200371,P100301,2025-04-14T12:20:19,ICU,Toronto,NP,back pain,True,outpatient;routine
+E200372,P100005,2025-02-18T17:13:20,Pediatrics,Kingston,PA,shortness of breath,True,followup;telehealth
+E200373,P100289,2024-12-05T11:30:36,Oncology,Hamilton,PA,cough,False,inpatient
+E200374,P100389,2024-10-05T18:18:30,Pediatrics,Thunder Bay,NP,fatigue,True,inpatient
+E200375,P100265,2025-08-28T01:14:26,Psychiatry,Waterloo,NP,cough,True,routine
+E200376,P100052,2025-03-22T14:35:40,Primary Care,Hamilton,NP,abdominal pain,True,new_patient;telehealth
+E200377,P100300,2025-02-11T11:04:33,Cardiology,Sudbury,NP,dizziness,True,chronic;new_patient;telehealth
+E200378,P100249,2025-05-30T16:12:21,Orthopedics,Sudbury,MD,back pain,True,followup;telehealth
+E200379,P100039,2024-10-26T15:44:40,ICU,Toronto,MD,shortness of breath,True,followup;routine
+E200380,P100117,2024-08-10T00:57:33,Psychiatry,Hamilton,MD,cough,False,inpatient;outpatient
+E200381,P100082,2025-02-06T17:47:11,Neurology,Thunder Bay,MD,chest pain,True,followup;routine;telehealth
+E200382,P100262,2023-10-23T10:34:14,Oncology,Thunder Bay,MD,abdominal pain,True,chronic;new_patient;outpatient
+E200383,P100326,2023-10-07T11:06:09,ICU,Thunder Bay,MD,cough,False,followup;telehealth
+E200384,P100425,2024-08-07T01:14:56,Oncology,Kingston,PA,shortness of breath,False,routine
+E200385,P100472,2024-09-09T05:17:46,Cardiology,Toronto,NP,dizziness,True,urgent
+E200386,P100103,2024-11-02T00:02:44,Primary Care,Hamilton,NP,shortness of breath,True,chronic
+E200387,P100461,2025-01-12T11:44:11,Emergency,Kingston,PA,back pain,True,chronic
+E200388,P100337,2024-01-02T05:30:20,Primary Care,Kingston,MD,dizziness,False,routine;urgent
+E200389,P100271,2024-08-21T04:19:27,Pediatrics,Kingston,NP,dizziness,False,chronic;followup;inpatient
+E200390,P100130,2024-09-27T14:33:26,Pediatrics,Kingston,MD,abdominal pain,False,inpatient;urgent
+E200391,P100363,2025-04-22T14:33:36,Emergency,Sudbury,PA,headache,True,inpatient;routine
+E200392,P100411,2024-05-25T08:50:05,Neurology,Ottawa,MD,shortness of breath,False,chronic;outpatient;telehealth
+E200393,P100216,2024-12-04T14:12:58,Psychiatry,Sudbury,NP,dizziness,True,chronic;followup
+E200394,P100189,2024-11-30T06:15:51,Primary Care,Waterloo,NP,abdominal pain,False,followup;new_patient;routine
+E200395,P100437,2025-07-24T22:58:05,Cardiology,Hamilton,MD,cough,True,inpatient
+E200396,P100260,2024-07-30T02:59:47,Psychiatry,Kingston,PA,sore throat,True,new_patient
+E200397,P100493,2025-01-28T21:35:57,Emergency,Kingston,MD,shortness of breath,False,chronic;new_patient;urgent
+E200398,P100134,2024-03-13T06:05:49,Psychiatry,Thunder Bay,PA,chest pain,False,outpatient;routine
+E200399,P100493,2024-12-30T01:41:45,Emergency,Kingston,MD,cough,False,inpatient
+E200400,P100435,2025-02-14T05:12:33,Primary Care,Ottawa,MD,chest pain,True,routine;telehealth;urgent
+E200401,P100184,2024-03-26T20:04:00,Emergency,Toronto,MD,abdominal pain,False,inpatient;new_patient
+E200402,P100300,2024-02-25T14:03:22,Primary Care,Thunder Bay,PA,headache,True,chronic;outpatient;routine
+E200403,P100468,2024-12-18T18:38:52,Psychiatry,Ottawa,NP,fever,True,new_patient;outpatient
+E200404,P100002,2024-04-12T19:23:48,Oncology,Waterloo,PA,headache,True,outpatient;telehealth;urgent
+E200405,P100411,2024-10-25T16:21:26,ICU,Sudbury,PA,abdominal pain,False,chronic;new_patient
+E200406,P100124,2025-05-03T08:19:31,Psychiatry,Kingston,NP,cough,True,followup;telehealth
+E200407,P100034,2024-07-16T05:32:46,Pediatrics,Hamilton,PA,fever,False,outpatient;routine
+E200408,P100274,2023-09-30T13:15:12,ICU,Toronto,NP,headache,False,outpatient;routine;urgent
+E200409,P100476,2024-02-08T15:12:55,Orthopedics,Ottawa,NP,fever,False,inpatient
+E200410,P100255,2025-04-17T12:46:05,Pediatrics,Toronto,PA,fever,False,inpatient
+E200411,P100103,2025-07-02T12:25:07,Pediatrics,Kingston,PA,fatigue,True,followup
+E200412,P100471,2023-11-22T23:06:51,Orthopedics,Sudbury,MD,back pain,True,outpatient;routine
+E200413,P100161,2024-10-09T09:53:23,ICU,Waterloo,MD,back pain,False,inpatient;new_patient
+E200414,P100295,2023-12-31T14:40:40,Emergency,Sudbury,NP,cough,True,chronic;inpatient;routine
+E200415,P100397,2024-02-05T18:30:53,Orthopedics,Thunder Bay,PA,back pain,False,chronic;urgent
+E200416,P100345,2024-03-04T16:42:33,Neurology,Sudbury,MD,fatigue,False,chronic;followup;outpatient
+E200417,P100134,2024-03-25T04:35:39,ICU,Waterloo,PA,fatigue,False,chronic
+E200418,P100217,2024-03-04T12:36:35,Neurology,Hamilton,NP,fatigue,False,chronic;followup
+E200419,P100292,2024-01-02T20:36:40,Pediatrics,Kingston,MD,abdominal pain,True,chronic;inpatient;new_patient
+E200420,P100100,2024-01-14T06:43:27,Oncology,Waterloo,MD,shortness of breath,False,new_patient;telehealth
+E200421,P100322,2024-10-28T13:42:30,Primary Care,Hamilton,NP,cough,False,inpatient;urgent
+E200422,P100050,2025-03-12T08:39:28,Oncology,Thunder Bay,MD,abdominal pain,False,followup;inpatient;routine
+E200423,P100171,2024-04-11T18:26:50,Psychiatry,Ottawa,PA,back pain,False,inpatient;urgent
+E200424,P100062,2024-06-21T16:48:03,Pediatrics,Sudbury,PA,back pain,True,routine;telehealth
+E200425,P100344,2024-10-23T11:22:32,Orthopedics,Kingston,PA,cough,True,inpatient;outpatient
+E200426,P100323,2024-01-13T12:10:07,Oncology,Hamilton,NP,dizziness,False,followup
+E200427,P100082,2024-06-15T21:38:36,Pediatrics,Ottawa,NP,abdominal pain,False,inpatient;new_patient;telehealth
+E200428,P100399,2025-07-24T03:52:42,Psychiatry,Hamilton,PA,back pain,False,followup;telehealth
+E200429,P100437,2023-10-10T22:38:08,Oncology,Hamilton,MD,abdominal pain,True,telehealth
+E200430,P100203,2023-12-12T00:13:58,Cardiology,Thunder Bay,NP,back pain,True,new_patient
+E200431,P100268,2025-05-09T04:33:57,Cardiology,Thunder Bay,NP,sore throat,True,new_patient
+E200432,P100158,2024-03-19T03:30:17,Pediatrics,Hamilton,NP,cough,True,telehealth
+E200433,P100014,2023-10-20T07:20:10,Psychiatry,Kingston,NP,cough,False,chronic;inpatient;outpatient
+E200434,P100069,2025-03-17T20:37:58,Primary Care,Toronto,PA,sore throat,False,new_patient;outpatient;routine
+E200435,P100327,2024-11-10T14:27:26,ICU,Ottawa,NP,back pain,True,chronic
+E200436,P100157,2024-07-03T02:41:43,Neurology,Ottawa,MD,abdominal pain,True,telehealth
+E200437,P100176,2024-05-02T17:38:08,Orthopedics,Sudbury,MD,cough,False,new_patient;urgent
+E200438,P100220,2025-06-03T19:08:29,ICU,Sudbury,MD,chest pain,False,new_patient
+E200439,P100451,2024-12-01T09:29:26,Neurology,Waterloo,MD,shortness of breath,False,inpatient;telehealth
+E200440,P100040,2024-08-15T23:06:45,Pediatrics,Sudbury,PA,abdominal pain,False,followup;inpatient;outpatient
+E200441,P100436,2023-11-15T04:15:38,Oncology,Toronto,NP,headache,False,chronic;routine;telehealth
+E200442,P100318,2024-10-09T03:28:13,Pediatrics,Ottawa,MD,shortness of breath,True,chronic;followup;urgent
+E200443,P100144,2024-04-19T02:09:39,Oncology,Hamilton,NP,chest pain,True,telehealth
+E200444,P100007,2024-10-10T08:59:23,Pediatrics,Ottawa,NP,abdominal pain,False,chronic;routine
+E200445,P100405,2023-10-17T15:37:22,Psychiatry,Thunder Bay,MD,chest pain,False,followup;outpatient
+E200446,P100240,2024-02-11T01:20:20,Pediatrics,Kingston,NP,dizziness,True,inpatient
+E200447,P100197,2025-05-14T00:40:55,Orthopedics,Toronto,PA,chest pain,True,followup;outpatient
+E200448,P100340,2024-03-02T21:44:10,Orthopedics,Waterloo,PA,abdominal pain,False,urgent
+E200449,P100381,2025-09-20T02:47:33,Primary Care,Sudbury,MD,abdominal pain,False,followup;outpatient;telehealth
+E200450,P100454,2023-11-02T10:58:53,Pediatrics,Thunder Bay,MD,dizziness,False,telehealth
+E200451,P100406,2024-04-24T10:52:40,Cardiology,Waterloo,MD,chest pain,True,chronic;outpatient;routine
+E200452,P100079,2024-07-07T11:22:22,Cardiology,Toronto,MD,cough,True,chronic;new_patient;routine
+E200453,P100030,2023-11-08T10:17:21,Psychiatry,Hamilton,MD,back pain,True,chronic
+E200454,P100119,2024-05-26T00:27:11,Primary Care,Kingston,PA,fatigue,False,inpatient;routine;urgent
+E200455,P100193,2024-06-27T04:43:33,Oncology,Ottawa,MD,cough,False,chronic;outpatient;routine
+E200456,P100250,2024-02-17T09:40:40,Oncology,Sudbury,NP,fatigue,False,telehealth;urgent
+E200457,P100271,2024-01-21T09:53:03,Orthopedics,Ottawa,NP,back pain,False,new_patient;urgent
+E200458,P100326,2024-10-19T23:44:08,Neurology,Hamilton,MD,chest pain,False,inpatient;routine;telehealth
+E200459,P100032,2025-02-15T07:24:14,Primary Care,Kingston,NP,fever,False,chronic;outpatient;telehealth
+E200460,P100165,2024-08-06T07:18:36,Psychiatry,Thunder Bay,MD,back pain,True,telehealth
+E200461,P100091,2025-08-01T11:05:08,Emergency,Toronto,MD,cough,True,urgent
+E200462,P100292,2025-02-02T11:07:05,Neurology,Hamilton,NP,back pain,False,routine
+E200463,P100113,2025-01-05T15:47:39,Cardiology,Thunder Bay,MD,cough,True,telehealth;urgent
+E200464,P100285,2025-04-22T11:25:26,Neurology,Kingston,NP,chest pain,False,chronic;routine;urgent
+E200465,P100427,2024-05-16T01:11:29,Cardiology,Toronto,PA,headache,True,chronic;inpatient;outpatient
+E200466,P100097,2024-02-20T00:00:26,Primary Care,Hamilton,MD,sore throat,True,new_patient;routine;urgent
+E200467,P100392,2025-01-31T00:49:11,Psychiatry,Hamilton,NP,dizziness,True,telehealth
+E200468,P100281,2024-07-30T21:34:05,Primary Care,Ottawa,PA,shortness of breath,False,outpatient;routine
+E200469,P100166,2025-07-10T05:13:13,Psychiatry,Waterloo,PA,dizziness,False,inpatient;new_patient;outpatient
+E200470,P100109,2024-07-10T07:40:56,Primary Care,Hamilton,NP,fatigue,False,new_patient;urgent
+E200471,P100371,2023-10-19T22:09:47,ICU,Sudbury,MD,back pain,True,telehealth;urgent
+E200472,P100113,2024-03-07T20:35:14,Psychiatry,Thunder Bay,PA,abdominal pain,True,urgent
+E200473,P100235,2024-06-25T05:54:13,Oncology,Toronto,NP,fatigue,True,outpatient
+E200474,P100415,2024-05-13T06:02:35,Cardiology,Sudbury,NP,sore throat,True,followup;routine;telehealth
+E200475,P100405,2024-10-01T19:04:13,Oncology,Waterloo,PA,sore throat,True,outpatient;routine;urgent
+E200476,P100413,2024-12-13T14:42:24,Neurology,Thunder Bay,MD,fatigue,False,chronic;new_patient
+E200477,P100061,2025-07-29T13:59:44,Pediatrics,Hamilton,PA,sore throat,True,new_patient;telehealth;urgent
+E200478,P100268,2023-10-24T23:41:34,Psychiatry,Sudbury,PA,shortness of breath,False,followup;inpatient;urgent
+E200479,P100344,2025-04-13T05:36:46,Neurology,Waterloo,PA,sore throat,True,new_patient
+E200480,P100148,2025-05-25T18:58:03,Neurology,Toronto,MD,fatigue,True,outpatient;urgent
+E200481,P100204,2024-04-13T22:26:07,Cardiology,Waterloo,PA,dizziness,True,chronic
+E200482,P100286,2024-02-23T21:00:38,Orthopedics,Waterloo,PA,sore throat,True,followup;inpatient;urgent
+E200483,P100136,2025-05-18T08:04:39,Neurology,Ottawa,PA,sore throat,True,new_patient
+E200484,P100216,2024-07-02T17:04:56,Psychiatry,Toronto,NP,fatigue,True,chronic;telehealth
+E200485,P100315,2025-06-22T03:26:12,Orthopedics,Sudbury,MD,cough,True,inpatient
+E200486,P100350,2024-07-09T08:31:28,Oncology,Kingston,PA,headache,True,followup;outpatient;urgent
+E200487,P100474,2024-01-15T16:54:00,ICU,Thunder Bay,NP,headache,False,chronic;urgent
+E200488,P100169,2024-03-03T08:13:12,Primary Care,Toronto,MD,back pain,False,chronic;outpatient;routine
+E200489,P100072,2025-03-15T21:03:54,Emergency,Waterloo,PA,back pain,True,telehealth;urgent
+E200490,P100145,2024-02-25T21:14:44,ICU,Thunder Bay,NP,chest pain,True,outpatient;routine
+E200491,P100436,2025-09-01T01:06:26,Psychiatry,Kingston,MD,chest pain,False,followup;inpatient;new_patient
+E200492,P100260,2025-03-27T05:33:29,Cardiology,Ottawa,NP,sore throat,True,inpatient
+E200493,P100256,2024-09-12T17:28:57,Primary Care,Hamilton,MD,chest pain,True,inpatient;outpatient;telehealth
+E200494,P100201,2025-04-23T04:26:55,Oncology,Thunder Bay,NP,fatigue,False,chronic;followup;outpatient
+E200495,P100141,2025-06-14T14:46:47,Emergency,Hamilton,NP,dizziness,True,followup;new_patient;outpatient
+E200496,P100174,2025-08-19T20:33:36,Neurology,Hamilton,MD,headache,False,chronic;followup;inpatient
+E200497,P100293,2024-01-19T15:27:02,Neurology,Ottawa,PA,fatigue,False,followup;routine;telehealth
+E200498,P100070,2024-12-17T07:11:50,Primary Care,Hamilton,MD,shortness of breath,False,followup;inpatient;telehealth
+E200499,P100335,2025-09-16T16:56:19,Oncology,Ottawa,MD,back pain,True,routine
+E200500,P100429,2025-08-06T05:38:35,Oncology,Hamilton,MD,fatigue,False,inpatient;outpatient
+E200501,P100381,2025-09-17T06:42:24,ICU,Toronto,MD,headache,True,urgent
+E200502,P100390,2025-01-10T08:09:49,ICU,Sudbury,PA,sore throat,True,followup;inpatient;routine
+E200503,P100013,2024-06-28T01:07:00,Cardiology,Hamilton,NP,shortness of breath,False,followup;inpatient;routine
+E200504,P100251,2024-09-25T01:08:48,Oncology,Toronto,MD,fever,True,telehealth;urgent
+E200505,P100486,2024-08-08T19:41:55,Pediatrics,Hamilton,PA,fever,True,telehealth
+E200506,P100474,2024-08-29T04:52:10,Orthopedics,Hamilton,NP,cough,True,chronic;new_patient
+E200507,P100021,2025-01-07T04:38:08,Neurology,Hamilton,NP,dizziness,True,followup;inpatient;new_patient
+E200508,P100423,2025-08-04T18:45:44,Emergency,Toronto,PA,back pain,False,inpatient;outpatient;urgent
+E200509,P100264,2025-05-09T07:36:49,Emergency,Toronto,NP,cough,False,inpatient;outpatient
+E200510,P100085,2024-08-16T03:15:57,ICU,Sudbury,MD,back pain,True,chronic;urgent
+E200511,P100369,2024-10-15T20:56:15,Cardiology,Toronto,PA,back pain,True,new_patient;telehealth
+E200512,P100230,2023-10-12T08:23:43,Oncology,Waterloo,PA,fever,False,outpatient
+E200513,P100165,2025-03-13T06:32:50,Oncology,Hamilton,PA,headache,True,chronic
+E200514,P100324,2024-06-30T21:45:18,Cardiology,Sudbury,PA,dizziness,True,new_patient;urgent
+E200515,P100393,2024-02-02T17:31:36,Psychiatry,Sudbury,PA,shortness of breath,True,telehealth
+E200516,P100393,2025-03-29T01:31:38,Emergency,Waterloo,NP,abdominal pain,False,telehealth;urgent
+E200517,P100460,2024-01-03T04:39:42,Pediatrics,Thunder Bay,PA,abdominal pain,True,chronic;new_patient
+E200518,P100255,2024-11-18T03:35:45,Emergency,Sudbury,NP,fever,True,chronic;inpatient;new_patient
+E200519,P100226,2023-11-23T16:12:53,Emergency,Toronto,PA,abdominal pain,True,telehealth
+E200520,P100075,2023-11-04T18:27:58,Psychiatry,Thunder Bay,MD,chest pain,False,followup;urgent
+E200521,P100055,2024-08-11T20:38:25,Oncology,Toronto,PA,abdominal pain,True,routine;urgent
+E200522,P100047,2025-05-11T22:06:06,ICU,Ottawa,NP,dizziness,True,followup;telehealth
+E200523,P100241,2024-01-05T12:06:55,Cardiology,Hamilton,NP,fatigue,False,followup;inpatient;routine
+E200524,P100313,2023-11-07T04:38:21,Cardiology,Sudbury,PA,back pain,True,inpatient;outpatient
+E200525,P100311,2025-07-12T12:05:58,Psychiatry,Ottawa,PA,sore throat,False,chronic
+E200526,P100266,2025-04-11T08:59:19,Orthopedics,Waterloo,MD,sore throat,True,followup;outpatient;urgent
+E200527,P100060,2023-10-11T15:08:46,Orthopedics,Hamilton,MD,fever,False,telehealth;urgent
+E200528,P100179,2024-12-01T06:54:07,Pediatrics,Thunder Bay,PA,fever,False,followup;telehealth
+E200529,P100153,2024-10-20T13:22:45,Primary Care,Ottawa,MD,headache,False,new_patient;routine
+E200530,P100291,2025-01-13T10:56:53,Emergency,Kingston,MD,fever,False,chronic;inpatient
+E200531,P100408,2023-10-20T14:51:13,Oncology,Waterloo,MD,cough,False,new_patient;routine
+E200532,P100028,2025-07-02T15:29:57,Primary Care,Ottawa,PA,fatigue,True,routine
+E200533,P100409,2025-09-03T14:57:11,Psychiatry,Thunder Bay,MD,abdominal pain,True,new_patient;routine
+E200534,P100273,2025-07-08T07:34:54,Oncology,Sudbury,PA,dizziness,True,followup;new_patient;telehealth
+E200535,P100361,2025-07-20T06:54:50,Psychiatry,Hamilton,MD,abdominal pain,False,chronic
+E200536,P100449,2024-03-25T13:58:21,Psychiatry,Waterloo,NP,fever,False,followup
+E200537,P100191,2025-05-24T16:24:59,Emergency,Kingston,MD,headache,False,inpatient;new_patient;urgent
+E200538,P100463,2024-10-15T09:41:16,Oncology,Toronto,NP,cough,False,new_patient;telehealth
+E200539,P100446,2023-12-08T07:32:30,Primary Care,Hamilton,MD,fever,True,new_patient;routine
+E200540,P100442,2024-11-01T17:12:51,Cardiology,Thunder Bay,NP,chest pain,True,chronic;urgent
+E200541,P100052,2024-10-31T08:16:18,ICU,Thunder Bay,PA,abdominal pain,True,followup;inpatient
+E200542,P100146,2024-04-24T21:07:16,Primary Care,Ottawa,NP,headache,False,telehealth
+E200543,P100140,2023-12-20T21:41:47,Emergency,Sudbury,PA,back pain,True,routine
+E200544,P100281,2024-05-27T08:59:20,ICU,Toronto,PA,abdominal pain,True,followup
+E200545,P100159,2025-01-11T08:02:55,Psychiatry,Sudbury,NP,chest pain,True,chronic
+E200546,P100462,2025-02-28T16:09:25,Emergency,Thunder Bay,NP,chest pain,True,followup;new_patient
+E200547,P100360,2024-12-29T00:30:27,Orthopedics,Sudbury,NP,abdominal pain,False,followup
+E200548,P100498,2025-09-08T17:56:25,Orthopedics,Sudbury,MD,headache,False,chronic
+E200549,P100158,2025-03-07T15:35:39,Orthopedics,Waterloo,MD,fever,True,inpatient;outpatient;telehealth
+E200550,P100093,2025-03-19T09:45:42,Psychiatry,Kingston,NP,cough,False,followup
+E200551,P100243,2023-12-19T16:22:02,Psychiatry,Waterloo,NP,shortness of breath,False,outpatient;telehealth
+E200552,P100052,2024-08-03T02:32:05,Cardiology,Ottawa,PA,headache,False,chronic;inpatient;outpatient
+E200553,P100211,2024-03-26T07:21:56,Pediatrics,Sudbury,MD,cough,False,routine
+E200554,P100106,2025-06-16T04:29:18,Neurology,Kingston,NP,sore throat,False,followup;inpatient;routine
+E200555,P100342,2023-11-22T12:03:24,Orthopedics,Thunder Bay,PA,sore throat,False,followup;new_patient
+E200556,P100227,2024-02-06T20:07:17,ICU,Waterloo,MD,sore throat,True,inpatient;new_patient;telehealth
+E200557,P100330,2025-02-16T18:21:47,Emergency,Thunder Bay,MD,shortness of breath,True,telehealth
+E200558,P100231,2024-11-08T15:19:34,ICU,Waterloo,PA,sore throat,False,inpatient
+E200559,P100348,2025-08-04T12:23:38,Psychiatry,Ottawa,PA,abdominal pain,False,outpatient;routine;urgent
+E200560,P100004,2025-01-09T23:00:49,Primary Care,Waterloo,MD,abdominal pain,True,chronic;urgent
+E200561,P100360,2024-11-30T23:43:14,Psychiatry,Thunder Bay,NP,chest pain,True,new_patient;routine
+E200562,P100162,2025-03-28T20:25:21,Neurology,Waterloo,NP,dizziness,True,followup;inpatient;telehealth
+E200563,P100096,2024-11-27T09:48:31,Neurology,Kingston,NP,dizziness,True,followup;telehealth
+E200564,P100005,2023-11-17T17:26:32,Emergency,Toronto,PA,cough,False,followup
+E200565,P100070,2025-02-02T20:16:31,Neurology,Kingston,NP,sore throat,False,inpatient;outpatient;telehealth
+E200566,P100217,2024-11-24T18:57:30,Orthopedics,Waterloo,NP,fever,True,outpatient;urgent
+E200567,P100255,2025-07-11T17:34:06,Pediatrics,Hamilton,PA,abdominal pain,False,new_patient;routine;urgent
+E200568,P100290,2024-10-02T08:46:15,Psychiatry,Thunder Bay,PA,cough,True,outpatient
+E200569,P100238,2024-10-28T12:38:17,Cardiology,Sudbury,PA,headache,True,followup;routine
+E200570,P100324,2024-11-14T19:21:52,ICU,Sudbury,MD,fatigue,True,chronic;outpatient
+E200571,P100463,2024-09-21T11:07:32,Psychiatry,Waterloo,NP,abdominal pain,False,urgent
+E200572,P100355,2025-09-08T19:26:29,ICU,Hamilton,PA,abdominal pain,True,chronic;followup;outpatient
+E200573,P100293,2023-11-02T02:15:51,ICU,Kingston,PA,sore throat,True,chronic;urgent
+E200574,P100064,2024-10-19T16:59:40,Cardiology,Kingston,NP,abdominal pain,True,new_patient;outpatient;telehealth
+E200575,P100007,2025-04-20T21:14:29,Cardiology,Sudbury,MD,sore throat,True,chronic;followup;telehealth
+E200576,P100133,2025-05-22T19:22:25,Pediatrics,Waterloo,MD,back pain,True,chronic;followup
+E200577,P100304,2025-09-17T09:56:16,Oncology,Kingston,NP,dizziness,False,chronic
+E200578,P100371,2025-01-30T05:15:11,Oncology,Toronto,PA,fatigue,True,new_patient;outpatient;urgent
+E200579,P100026,2024-01-31T04:17:52,Orthopedics,Waterloo,NP,abdominal pain,False,chronic;inpatient;routine
+E200580,P100361,2024-07-21T23:26:27,Orthopedics,Ottawa,MD,back pain,False,outpatient
+E200581,P100474,2025-06-03T06:55:04,Orthopedics,Waterloo,PA,fatigue,True,routine
+E200582,P100489,2025-07-09T17:45:39,Neurology,Sudbury,PA,abdominal pain,False,new_patient;outpatient
+E200583,P100050,2024-04-08T07:57:20,Neurology,Waterloo,PA,fever,True,chronic;new_patient;routine
+E200584,P100092,2024-05-23T07:46:22,Primary Care,Thunder Bay,PA,chest pain,True,new_patient
+E200585,P100050,2024-11-03T23:38:08,Cardiology,Hamilton,NP,fatigue,True,followup;outpatient;telehealth
+E200586,P100017,2023-10-11T09:48:31,Cardiology,Thunder Bay,PA,fever,True,followup;outpatient;urgent
+E200587,P100066,2024-07-11T00:22:23,Oncology,Thunder Bay,PA,shortness of breath,False,chronic;routine
+E200588,P100479,2023-11-20T19:24:52,Orthopedics,Ottawa,NP,fatigue,False,followup
+E200589,P100141,2025-05-18T14:18:17,Emergency,Waterloo,NP,fatigue,True,followup;outpatient
+E200590,P100225,2023-11-15T21:40:53,Orthopedics,Toronto,PA,dizziness,True,chronic;followup;urgent
+E200591,P100276,2025-05-12T01:44:35,Neurology,Toronto,PA,headache,False,new_patient;outpatient;urgent
+E200592,P100037,2023-11-16T16:34:51,ICU,Kingston,NP,chest pain,False,urgent
+E200593,P100477,2023-10-22T09:18:26,Neurology,Ottawa,MD,fatigue,False,outpatient;routine;urgent
+E200594,P100481,2025-05-13T20:18:25,Orthopedics,Waterloo,NP,dizziness,True,chronic;inpatient;urgent
+E200595,P100488,2025-03-11T08:45:43,Orthopedics,Thunder Bay,PA,back pain,False,inpatient;outpatient
+E200596,P100028,2025-01-26T02:24:50,Cardiology,Ottawa,PA,fatigue,True,outpatient;routine
+E200597,P100103,2024-02-07T04:24:13,Primary Care,Thunder Bay,NP,fever,False,new_patient;routine;urgent
+E200598,P100352,2024-06-28T01:06:45,Orthopedics,Thunder Bay,PA,cough,True,urgent
+E200599,P100098,2023-10-12T16:49:49,Pediatrics,Waterloo,NP,headache,False,chronic;urgent
+E200600,P100018,2024-06-12T12:43:58,Emergency,Ottawa,PA,chest pain,False,inpatient
+E200601,P100413,2025-02-11T20:38:46,Primary Care,Waterloo,PA,back pain,True,inpatient;new_patient;urgent
+E200602,P100376,2024-01-10T23:26:15,Orthopedics,Hamilton,MD,cough,True,telehealth
+E200603,P100007,2024-02-03T18:57:15,Emergency,Ottawa,MD,cough,True,followup;new_patient;urgent
+E200604,P100058,2024-10-13T03:25:35,Pediatrics,Thunder Bay,MD,dizziness,False,new_patient;telehealth;urgent
+E200605,P100499,2025-03-07T08:19:54,Primary Care,Toronto,NP,fever,True,chronic;telehealth;urgent
+E200606,P100061,2024-04-22T17:44:32,Oncology,Kingston,NP,shortness of breath,False,followup;inpatient;telehealth
+E200607,P100473,2024-12-18T01:00:06,Emergency,Toronto,MD,sore throat,False,urgent
+E200608,P100450,2024-10-05T05:43:54,Cardiology,Thunder Bay,MD,shortness of breath,True,inpatient;outpatient;routine
+E200609,P100413,2025-05-30T08:26:14,Orthopedics,Hamilton,MD,fever,True,chronic;inpatient;outpatient
+E200610,P100210,2024-03-26T20:00:47,Oncology,Sudbury,PA,chest pain,True,chronic;outpatient;urgent
+E200611,P100321,2025-06-25T22:46:15,ICU,Ottawa,NP,chest pain,True,followup
+E200612,P100271,2023-12-06T07:40:34,Psychiatry,Kingston,PA,back pain,True,inpatient;telehealth
+E200613,P100027,2024-02-20T11:11:01,Cardiology,Kingston,MD,cough,False,telehealth
+E200614,P100343,2025-09-08T15:52:19,Emergency,Thunder Bay,PA,fatigue,False,new_patient
+E200615,P100128,2024-06-08T15:42:12,Orthopedics,Thunder Bay,MD,chest pain,True,urgent
+E200616,P100248,2024-10-26T22:30:03,Cardiology,Thunder Bay,MD,cough,False,inpatient;routine
+E200617,P100346,2025-08-20T18:52:55,Psychiatry,Toronto,MD,fatigue,True,inpatient
+E200618,P100377,2024-08-08T11:20:12,Pediatrics,Waterloo,MD,headache,False,chronic;inpatient;urgent
+E200619,P100074,2024-03-08T21:36:38,Orthopedics,Toronto,NP,fatigue,True,inpatient;routine
+E200620,P100183,2024-04-19T11:28:13,Pediatrics,Ottawa,MD,chest pain,True,telehealth;urgent
+E200621,P100436,2024-09-18T14:11:17,Orthopedics,Waterloo,MD,fatigue,True,new_patient;telehealth
+E200622,P100406,2025-01-30T13:10:02,Oncology,Sudbury,PA,fever,True,chronic;new_patient
+E200623,P100110,2024-12-25T11:52:00,Orthopedics,Kingston,NP,abdominal pain,True,followup;new_patient;routine
+E200624,P100126,2024-06-03T05:14:19,Neurology,Sudbury,MD,sore throat,True,chronic;inpatient;urgent
+E200625,P100020,2024-09-22T13:36:03,Primary Care,Thunder Bay,NP,back pain,False,followup;inpatient
+E200626,P100253,2024-03-27T19:27:33,Cardiology,Sudbury,MD,dizziness,True,routine
+E200627,P100151,2024-03-26T16:26:45,Cardiology,Thunder Bay,NP,abdominal pain,True,chronic;new_patient;outpatient
+E200628,P100382,2024-12-19T08:12:47,Emergency,Waterloo,NP,shortness of breath,False,routine
+E200629,P100320,2024-09-17T15:06:02,Emergency,Kingston,PA,headache,False,outpatient;routine;urgent
+E200630,P100151,2024-08-18T19:23:36,ICU,Hamilton,PA,back pain,True,followup;outpatient;telehealth
+E200631,P100376,2025-09-16T02:16:26,Emergency,Sudbury,PA,fatigue,True,new_patient
+E200632,P100187,2024-09-18T10:48:22,Emergency,Ottawa,NP,shortness of breath,True,followup;inpatient;telehealth
+E200633,P100122,2024-11-15T03:30:13,Cardiology,Hamilton,NP,sore throat,True,inpatient;new_patient;telehealth
+E200634,P100459,2024-04-17T15:54:41,Primary Care,Hamilton,NP,abdominal pain,True,routine
+E200635,P100176,2024-09-08T09:32:44,Orthopedics,Sudbury,PA,headache,False,chronic;inpatient;outpatient
+E200636,P100188,2025-06-05T07:17:19,Cardiology,Toronto,NP,headache,True,chronic;telehealth
+E200637,P100490,2023-11-21T18:24:06,Cardiology,Toronto,NP,headache,True,new_patient;telehealth
+E200638,P100104,2024-10-31T10:19:15,Emergency,Ottawa,NP,back pain,True,inpatient;routine
+E200639,P100227,2025-04-17T23:53:49,Emergency,Ottawa,MD,headache,True,routine
+E200640,P100210,2024-12-15T11:50:08,Psychiatry,Hamilton,PA,fatigue,False,chronic;inpatient;telehealth
+E200641,P100290,2024-01-03T11:48:19,ICU,Toronto,NP,fever,False,new_patient;outpatient
+E200642,P100432,2023-10-29T18:05:20,Oncology,Ottawa,NP,cough,True,outpatient;routine;telehealth
+E200643,P100146,2024-02-11T13:57:17,Oncology,Kingston,PA,shortness of breath,True,followup
+E200644,P100021,2024-05-25T22:20:00,Oncology,Waterloo,NP,fatigue,True,urgent
+E200645,P100340,2024-05-26T04:15:35,Psychiatry,Toronto,NP,cough,True,new_patient;outpatient;urgent
+E200646,P100207,2025-09-15T04:22:57,Orthopedics,Kingston,MD,cough,False,urgent
+E200647,P100496,2025-04-18T14:32:39,Primary Care,Sudbury,NP,abdominal pain,False,new_patient;telehealth
+E200648,P100289,2025-04-10T21:02:25,Orthopedics,Ottawa,PA,headache,False,telehealth
+E200649,P100347,2024-11-23T22:38:19,Cardiology,Ottawa,MD,dizziness,True,routine;urgent
+E200650,P100167,2023-11-04T17:54:04,Pediatrics,Sudbury,PA,fever,False,urgent
+E200651,P100042,2024-11-14T04:43:57,Orthopedics,Hamilton,PA,headache,False,chronic
+E200652,P100162,2025-01-03T11:56:19,Primary Care,Thunder Bay,PA,fatigue,False,new_patient
+E200653,P100189,2024-07-18T21:39:39,Psychiatry,Thunder Bay,NP,fatigue,False,chronic;new_patient
+E200654,P100287,2023-11-30T00:57:24,Pediatrics,Hamilton,NP,dizziness,False,new_patient;telehealth
+E200655,P100372,2025-08-20T06:46:51,Neurology,Hamilton,NP,shortness of breath,True,inpatient
+E200656,P100155,2024-09-25T15:25:47,Primary Care,Ottawa,MD,sore throat,False,urgent
+E200657,P100209,2025-01-31T04:12:24,ICU,Waterloo,MD,back pain,False,followup;new_patient;telehealth
+E200658,P100426,2024-07-15T12:41:59,ICU,Sudbury,NP,chest pain,False,chronic;inpatient;outpatient
+E200659,P100378,2024-09-16T23:22:06,Pediatrics,Thunder Bay,MD,shortness of breath,False,chronic;urgent
+E200660,P100334,2025-02-21T05:31:35,ICU,Waterloo,MD,cough,True,followup
+E200661,P100391,2024-04-25T07:42:00,Orthopedics,Thunder Bay,PA,fatigue,False,chronic;new_patient;telehealth
+E200662,P100321,2025-03-08T18:20:31,Orthopedics,Hamilton,MD,fatigue,True,outpatient;telehealth
+E200663,P100029,2024-01-14T12:11:36,Psychiatry,Waterloo,PA,shortness of breath,False,urgent
+E200664,P100139,2024-06-29T12:34:28,Neurology,Hamilton,NP,chest pain,False,followup;outpatient
+E200665,P100099,2025-05-10T07:31:21,Oncology,Kingston,MD,sore throat,True,new_patient;routine;telehealth
+E200666,P100423,2025-07-10T07:50:46,ICU,Ottawa,PA,fatigue,True,followup;new_patient;routine
+E200667,P100006,2024-01-07T08:55:21,Primary Care,Ottawa,NP,cough,False,telehealth;urgent
+E200668,P100111,2024-01-21T01:06:44,Primary Care,Toronto,MD,back pain,True,chronic;urgent
+E200669,P100059,2025-06-20T00:22:20,Oncology,Thunder Bay,NP,fatigue,False,followup;inpatient;routine
+E200670,P100455,2024-12-30T04:58:41,Primary Care,Kingston,NP,shortness of breath,False,followup
+E200671,P100113,2023-12-31T23:24:42,Oncology,Hamilton,MD,abdominal pain,True,telehealth
+E200672,P100040,2024-08-17T22:56:25,Cardiology,Thunder Bay,MD,cough,False,inpatient
+E200673,P100055,2023-10-18T11:18:01,Primary Care,Sudbury,MD,cough,True,chronic;urgent
+E200674,P100154,2025-02-22T12:42:46,Emergency,Kingston,MD,headache,True,followup;inpatient;routine
+E200675,P100179,2023-10-15T17:25:46,Cardiology,Toronto,PA,abdominal pain,False,new_patient;telehealth
+E200676,P100256,2025-05-21T11:12:24,Pediatrics,Sudbury,PA,headache,True,followup;outpatient;urgent
+E200677,P100366,2024-02-18T18:42:16,ICU,Toronto,PA,chest pain,True,chronic
+E200678,P100187,2025-03-18T06:08:26,Oncology,Waterloo,PA,headache,True,inpatient;new_patient
+E200679,P100109,2024-10-26T10:20:00,Pediatrics,Waterloo,MD,fatigue,True,followup;outpatient
+E200680,P100069,2024-10-12T02:40:49,Psychiatry,Hamilton,NP,back pain,True,routine
+E200681,P100252,2023-12-21T21:13:32,Neurology,Ottawa,NP,sore throat,False,chronic;followup;outpatient
+E200682,P100208,2024-05-05T16:58:39,Neurology,Toronto,MD,cough,False,urgent
+E200683,P100345,2024-10-08T20:59:23,Cardiology,Waterloo,NP,back pain,True,telehealth
+E200684,P100202,2024-07-30T04:10:40,Cardiology,Hamilton,MD,headache,False,routine
+E200685,P100102,2024-12-28T02:52:25,Neurology,Thunder Bay,MD,dizziness,False,new_patient;outpatient
+E200686,P100404,2025-06-06T03:25:41,Neurology,Ottawa,NP,sore throat,False,followup;outpatient
+E200687,P100393,2024-09-10T03:00:21,Cardiology,Thunder Bay,NP,cough,False,telehealth
+E200688,P100015,2023-12-09T08:44:30,Emergency,Kingston,MD,cough,True,new_patient
+E200689,P100309,2025-03-03T13:17:13,Psychiatry,Toronto,NP,sore throat,True,chronic
+E200690,P100405,2024-09-18T23:16:35,Pediatrics,Ottawa,PA,cough,False,chronic;outpatient;telehealth
+E200691,P100414,2025-07-21T17:27:12,Primary Care,Sudbury,MD,chest pain,False,new_patient
+E200692,P100230,2024-05-24T07:48:30,Neurology,Waterloo,NP,chest pain,True,outpatient
+E200693,P100452,2025-03-24T09:53:51,Oncology,Waterloo,NP,shortness of breath,False,inpatient;new_patient;urgent
+E200694,P100291,2025-02-28T07:22:12,Orthopedics,Hamilton,PA,back pain,False,outpatient;telehealth
+E200695,P100028,2024-07-22T23:56:30,ICU,Waterloo,PA,dizziness,False,routine;urgent
+E200696,P100014,2024-12-24T15:02:09,Emergency,Toronto,NP,fatigue,True,inpatient;routine;urgent
+E200697,P100219,2024-06-17T01:55:56,Psychiatry,Waterloo,NP,chest pain,True,inpatient
+E200698,P100331,2024-05-22T09:57:24,Cardiology,Hamilton,MD,abdominal pain,True,telehealth;urgent
+E200699,P100275,2024-06-02T07:15:30,Emergency,Waterloo,PA,dizziness,False,routine;urgent
+E200700,P100240,2024-12-22T16:54:49,Emergency,Ottawa,NP,sore throat,False,followup;new_patient
+E200701,P100250,2023-12-09T17:11:30,Pediatrics,Ottawa,NP,back pain,False,outpatient
+E200702,P100186,2024-08-26T15:27:49,Pediatrics,Waterloo,PA,headache,True,outpatient;urgent
+E200703,P100152,2024-12-11T11:12:02,Neurology,Kingston,MD,sore throat,True,followup;outpatient;telehealth
+E200704,P100139,2023-11-14T05:59:58,Primary Care,Waterloo,NP,fever,False,outpatient
+E200705,P100258,2025-06-08T14:00:30,ICU,Waterloo,PA,back pain,False,new_patient
+E200706,P100205,2024-04-05T03:54:54,Primary Care,Waterloo,PA,back pain,True,telehealth
+E200707,P100295,2024-10-14T17:49:48,Pediatrics,Hamilton,PA,cough,False,new_patient;outpatient;routine
+E200708,P100320,2023-11-08T12:16:30,Primary Care,Toronto,NP,cough,True,telehealth
+E200709,P100382,2025-03-08T07:02:29,ICU,Kingston,NP,dizziness,False,inpatient
+E200710,P100433,2024-08-08T08:24:31,ICU,Kingston,NP,shortness of breath,False,chronic;followup;inpatient
+E200711,P100058,2024-01-17T11:29:56,Pediatrics,Thunder Bay,MD,abdominal pain,False,inpatient;new_patient
+E200712,P100331,2025-08-26T10:38:40,Emergency,Toronto,MD,abdominal pain,True,outpatient
+E200713,P100404,2025-06-08T03:02:14,ICU,Hamilton,PA,shortness of breath,True,chronic;new_patient;urgent
+E200714,P100028,2025-07-21T15:48:25,Cardiology,Ottawa,PA,abdominal pain,True,chronic;routine
+E200715,P100336,2025-08-10T23:00:19,Cardiology,Waterloo,PA,shortness of breath,True,followup
+E200716,P100267,2025-02-19T21:54:17,Primary Care,Ottawa,NP,headache,True,followup;new_patient;telehealth
+E200717,P100168,2025-06-30T11:50:00,Neurology,Kingston,PA,fever,False,telehealth
+E200718,P100054,2024-02-06T01:06:43,Pediatrics,Ottawa,NP,dizziness,False,inpatient;outpatient;urgent
+E200719,P100191,2025-03-19T09:49:10,Cardiology,Ottawa,PA,dizziness,False,followup;inpatient;telehealth
+E200720,P100185,2024-09-26T02:46:33,Psychiatry,Kingston,NP,chest pain,True,new_patient;routine;urgent
+E200721,P100122,2024-04-06T11:56:34,Primary Care,Waterloo,NP,fatigue,True,chronic;inpatient;new_patient
+E200722,P100198,2023-09-29T02:38:05,Neurology,Ottawa,NP,headache,True,inpatient;new_patient
+E200723,P100455,2024-01-25T10:51:07,Orthopedics,Hamilton,NP,dizziness,True,followup;new_patient
+E200724,P100399,2024-10-08T21:48:02,Orthopedics,Hamilton,NP,fatigue,False,telehealth
+E200725,P100357,2024-04-12T16:50:05,Primary Care,Thunder Bay,NP,dizziness,False,new_patient;urgent
+E200726,P100026,2025-02-02T04:03:19,Oncology,Hamilton,NP,shortness of breath,True,inpatient;routine
+E200727,P100156,2024-05-23T16:11:53,Cardiology,Thunder Bay,MD,fever,True,chronic;new_patient;telehealth
+E200728,P100231,2024-09-28T13:22:43,Oncology,Ottawa,MD,sore throat,False,inpatient;urgent
+E200729,P100212,2024-07-04T12:33:09,Oncology,Waterloo,NP,sore throat,True,urgent
+E200730,P100472,2024-11-29T19:45:12,Pediatrics,Thunder Bay,NP,fever,False,inpatient;telehealth;urgent
+E200731,P100316,2024-08-21T03:20:17,ICU,Toronto,MD,fatigue,True,followup;routine;urgent
+E200732,P100269,2024-08-25T23:56:48,Orthopedics,Kingston,PA,cough,True,inpatient
+E200733,P100097,2025-07-23T11:39:54,ICU,Ottawa,PA,cough,False,new_patient
+E200734,P100438,2024-03-01T11:24:50,Pediatrics,Kingston,NP,fever,False,new_patient
+E200735,P100405,2024-01-14T08:34:19,Emergency,Ottawa,NP,fever,False,routine
+E200736,P100298,2025-03-07T11:39:46,Orthopedics,Thunder Bay,MD,cough,True,new_patient;routine
+E200737,P100108,2025-03-30T01:32:45,Neurology,Hamilton,NP,sore throat,False,followup
+E200738,P100285,2023-11-07T15:13:21,Emergency,Ottawa,MD,cough,False,chronic;telehealth;urgent
+E200739,P100258,2025-01-16T07:15:36,Neurology,Ottawa,NP,fatigue,True,followup;outpatient;urgent
+E200740,P100133,2024-02-01T22:32:27,Primary Care,Waterloo,NP,cough,True,routine
+E200741,P100363,2024-11-07T23:48:58,Neurology,Toronto,NP,headache,False,telehealth
+E200742,P100255,2025-07-31T01:17:04,ICU,Hamilton,NP,dizziness,False,chronic;outpatient
+E200743,P100160,2024-08-26T11:26:29,Oncology,Ottawa,PA,cough,True,chronic;followup;urgent
+E200744,P100076,2023-11-04T09:12:20,Pediatrics,Toronto,MD,cough,False,chronic
+E200745,P100223,2023-12-22T02:50:41,Orthopedics,Thunder Bay,NP,fatigue,False,chronic;urgent
+E200746,P100433,2025-04-04T01:22:21,Oncology,Thunder Bay,NP,headache,True,new_patient;telehealth
+E200747,P100086,2025-04-27T11:49:56,Primary Care,Kingston,NP,sore throat,True,new_patient;outpatient;urgent
+E200748,P100092,2024-08-11T10:36:45,Cardiology,Toronto,NP,headache,False,outpatient
+E200749,P100348,2025-03-04T16:02:17,Cardiology,Waterloo,NP,sore throat,True,telehealth;urgent
+E200750,P100041,2024-09-14T11:22:05,Orthopedics,Waterloo,PA,abdominal pain,True,routine;urgent
+E200751,P100318,2024-09-08T22:26:00,Psychiatry,Hamilton,PA,sore throat,True,urgent
+E200752,P100410,2025-02-03T22:23:39,ICU,Ottawa,MD,headache,False,new_patient
+E200753,P100130,2024-02-08T06:21:42,Pediatrics,Kingston,NP,headache,True,telehealth
+E200754,P100198,2025-05-20T10:47:39,Neurology,Ottawa,PA,shortness of breath,True,chronic;new_patient
+E200755,P100221,2025-04-16T13:58:13,ICU,Hamilton,PA,shortness of breath,False,followup;new_patient;telehealth
+E200756,P100262,2024-02-25T05:52:13,Orthopedics,Waterloo,NP,cough,False,inpatient;new_patient;urgent
+E200757,P100415,2024-07-05T00:25:01,Oncology,Waterloo,PA,dizziness,True,routine
+E200758,P100498,2024-09-17T00:43:47,Pediatrics,Hamilton,PA,shortness of breath,False,followup;inpatient;telehealth
+E200759,P100223,2023-11-23T12:04:49,Orthopedics,Ottawa,MD,shortness of breath,False,new_patient
+E200760,P100151,2024-12-07T14:16:24,Emergency,Sudbury,MD,chest pain,True,inpatient;new_patient;urgent
+E200761,P100237,2025-02-17T07:14:05,ICU,Ottawa,NP,sore throat,True,chronic;routine;urgent
+E200762,P100338,2024-09-16T12:41:20,Oncology,Kingston,MD,dizziness,True,new_patient
+E200763,P100448,2025-03-23T02:34:04,ICU,Ottawa,PA,cough,False,followup;outpatient;telehealth
+E200764,P100108,2024-02-13T18:16:44,Cardiology,Hamilton,PA,abdominal pain,True,chronic;urgent
+E200765,P100202,2023-12-22T15:02:25,Emergency,Toronto,PA,cough,False,chronic;new_patient;routine
+E200766,P100494,2025-04-23T01:45:59,Orthopedics,Ottawa,PA,sore throat,False,chronic;new_patient;telehealth
+E200767,P100044,2023-12-29T03:50:13,Oncology,Thunder Bay,MD,headache,True,inpatient;new_patient;urgent
+E200768,P100107,2024-09-30T16:40:28,Oncology,Hamilton,MD,dizziness,True,outpatient
+E200769,P100394,2024-09-16T22:52:42,Oncology,Waterloo,NP,chest pain,True,telehealth
+E200770,P100378,2025-03-21T17:22:40,Orthopedics,Waterloo,NP,chest pain,False,followup;inpatient;telehealth
+E200771,P100291,2025-06-28T06:04:58,Neurology,Thunder Bay,NP,chest pain,True,chronic;inpatient;new_patient
+E200772,P100377,2024-12-15T11:01:40,Primary Care,Ottawa,MD,cough,False,chronic;followup
+E200773,P100365,2023-11-09T03:37:02,Primary Care,Thunder Bay,NP,sore throat,False,followup;routine;telehealth
+E200774,P100213,2025-08-13T14:46:55,Orthopedics,Thunder Bay,NP,sore throat,False,new_patient;urgent
+E200775,P100082,2024-05-03T16:54:36,Pediatrics,Waterloo,NP,cough,True,inpatient;outpatient;routine
+E200776,P100173,2025-09-07T22:23:48,Orthopedics,Toronto,NP,dizziness,False,inpatient;new_patient;routine
+E200777,P100409,2025-07-09T23:12:15,Oncology,Sudbury,MD,abdominal pain,True,chronic;followup;new_patient
+E200778,P100102,2024-01-22T09:54:21,Orthopedics,Thunder Bay,NP,cough,False,inpatient
+E200779,P100285,2023-10-29T13:03:47,Emergency,Ottawa,NP,fatigue,True,urgent
+E200780,P100413,2023-11-11T10:48:45,Psychiatry,Waterloo,MD,sore throat,True,inpatient
+E200781,P100249,2024-04-10T06:09:10,Psychiatry,Kingston,NP,chest pain,False,followup
+E200782,P100361,2023-11-01T03:56:05,Orthopedics,Kingston,NP,headache,True,followup;new_patient;outpatient
+E200783,P100021,2024-10-21T00:51:51,Cardiology,Toronto,PA,headache,True,routine;telehealth
+E200784,P100149,2025-03-26T01:07:18,Orthopedics,Kingston,PA,cough,True,routine
+E200785,P100171,2025-06-20T06:15:49,Oncology,Thunder Bay,MD,cough,False,inpatient
+E200786,P100427,2025-06-12T11:33:36,Orthopedics,Ottawa,NP,back pain,True,outpatient
+E200787,P100190,2025-03-31T12:17:22,Neurology,Ottawa,PA,fever,True,chronic;followup;new_patient
+E200788,P100070,2025-06-06T18:03:05,Neurology,Waterloo,NP,cough,False,chronic
+E200789,P100074,2025-05-13T04:40:16,Emergency,Hamilton,PA,headache,True,inpatient;routine
+E200790,P100395,2024-01-28T15:14:02,Neurology,Thunder Bay,NP,chest pain,True,new_patient;routine;urgent
+E200791,P100409,2025-02-16T22:01:58,Primary Care,Ottawa,NP,dizziness,False,routine;telehealth;urgent
+E200792,P100423,2024-04-27T07:29:27,Primary Care,Sudbury,MD,dizziness,False,inpatient;new_patient;outpatient
+E200793,P100403,2025-01-15T03:50:58,Orthopedics,Hamilton,NP,dizziness,True,followup;urgent
+E200794,P100275,2024-06-08T19:24:00,Neurology,Hamilton,PA,shortness of breath,False,followup
+E200795,P100261,2024-11-24T14:02:01,ICU,Sudbury,NP,shortness of breath,True,outpatient
+E200796,P100123,2025-06-30T09:52:21,ICU,Hamilton,NP,back pain,True,new_patient;telehealth;urgent
+E200797,P100132,2025-01-21T23:55:55,Primary Care,Ottawa,MD,chest pain,True,chronic;outpatient
+E200798,P100377,2023-09-27T01:11:05,Orthopedics,Ottawa,MD,sore throat,True,outpatient;telehealth
+E200799,P100341,2025-05-24T13:31:55,Oncology,Hamilton,NP,back pain,True,routine
+E200800,P100264,2024-12-18T08:08:45,Pediatrics,Kingston,NP,cough,True,new_patient
+E200801,P100424,2024-08-08T01:13:25,Cardiology,Thunder Bay,MD,dizziness,True,chronic;inpatient
+E200802,P100039,2024-07-05T20:08:35,Primary Care,Waterloo,PA,back pain,False,chronic;routine
+E200803,P100216,2024-08-29T19:41:05,Orthopedics,Hamilton,NP,shortness of breath,True,inpatient;routine;telehealth
+E200804,P100234,2024-01-01T11:54:52,Primary Care,Kingston,PA,headache,True,chronic;urgent
+E200805,P100382,2024-01-22T19:42:13,Primary Care,Ottawa,MD,sore throat,False,followup
+E200806,P100189,2024-12-10T02:28:03,ICU,Thunder Bay,PA,shortness of breath,True,outpatient;telehealth
+E200807,P100155,2024-05-08T08:12:30,Orthopedics,Thunder Bay,MD,shortness of breath,False,outpatient
+E200808,P100455,2024-04-30T04:29:35,Pediatrics,Toronto,PA,cough,True,routine
+E200809,P100034,2025-07-30T01:55:36,Emergency,Waterloo,NP,sore throat,False,chronic;inpatient;telehealth
+E200810,P100243,2025-07-02T03:27:41,Oncology,Kingston,MD,back pain,False,chronic;followup
+E200811,P100443,2025-04-10T08:22:16,Psychiatry,Thunder Bay,PA,sore throat,False,chronic;inpatient
+E200812,P100173,2024-11-16T04:52:03,Emergency,Hamilton,NP,abdominal pain,True,urgent
+E200813,P100292,2025-01-24T10:05:13,ICU,Sudbury,PA,headache,True,urgent
+E200814,P100490,2024-12-08T22:07:32,Primary Care,Toronto,NP,back pain,True,telehealth
+E200815,P100492,2023-10-07T17:41:35,ICU,Kingston,MD,fever,False,routine
+E200816,P100205,2024-12-23T09:45:42,Emergency,Waterloo,MD,fatigue,False,new_patient
+E200817,P100012,2025-07-21T17:00:28,Primary Care,Ottawa,NP,abdominal pain,True,followup
+E200818,P100277,2024-01-31T14:39:17,ICU,Toronto,MD,abdominal pain,True,outpatient
+E200819,P100487,2024-08-04T08:10:58,Oncology,Thunder Bay,PA,fatigue,True,urgent
+E200820,P100152,2024-07-21T21:00:11,Cardiology,Ottawa,MD,dizziness,False,chronic;new_patient
+E200821,P100460,2023-12-25T22:58:28,Emergency,Toronto,MD,sore throat,True,new_patient;urgent
+E200822,P100137,2023-11-09T02:15:43,Psychiatry,Waterloo,PA,dizziness,True,inpatient;urgent
+E200823,P100324,2024-03-22T13:14:16,Emergency,Ottawa,PA,sore throat,True,telehealth
+E200824,P100155,2024-12-07T08:51:59,Neurology,Waterloo,MD,back pain,True,routine
+E200825,P100276,2024-01-31T15:15:27,Pediatrics,Sudbury,NP,back pain,False,urgent
+E200826,P100416,2024-09-17T21:44:31,ICU,Hamilton,MD,chest pain,True,chronic;outpatient
+E200827,P100128,2025-07-06T01:11:07,Neurology,Ottawa,PA,fever,False,telehealth
+E200828,P100378,2024-11-10T20:08:45,Cardiology,Ottawa,MD,dizziness,True,outpatient
+E200829,P100449,2024-08-23T12:21:48,Pediatrics,Sudbury,PA,fatigue,False,new_patient;outpatient;routine
+E200830,P100231,2024-04-22T01:20:01,Pediatrics,Hamilton,NP,fatigue,True,routine;urgent
+E200831,P100467,2025-03-13T08:55:36,Oncology,Hamilton,MD,sore throat,False,urgent
+E200832,P100344,2024-02-04T18:56:45,Neurology,Sudbury,PA,cough,False,followup;new_patient;routine
+E200833,P100333,2023-11-22T05:08:08,Primary Care,Thunder Bay,PA,cough,True,chronic;new_patient
+E200834,P100307,2024-06-27T00:57:54,Neurology,Toronto,PA,chest pain,True,followup;routine
+E200835,P100227,2023-09-30T06:32:40,Pediatrics,Hamilton,MD,abdominal pain,False,followup
+E200836,P100417,2025-01-11T11:24:03,ICU,Kingston,PA,fever,True,routine;urgent
+E200837,P100143,2024-10-09T19:09:49,Pediatrics,Thunder Bay,MD,dizziness,True,chronic;followup
+E200838,P100282,2024-02-20T12:08:21,Oncology,Thunder Bay,PA,shortness of breath,True,outpatient
+E200839,P100477,2024-12-08T15:46:02,Pediatrics,Sudbury,PA,abdominal pain,True,new_patient;routine;urgent
+E200840,P100272,2025-01-12T06:18:01,ICU,Hamilton,PA,cough,True,new_patient;urgent
+E200841,P100480,2024-05-30T21:08:33,Neurology,Kingston,NP,abdominal pain,True,chronic;inpatient;telehealth
+E200842,P100264,2025-05-04T13:11:25,Emergency,Hamilton,MD,chest pain,False,chronic;telehealth
+E200843,P100002,2024-07-23T08:46:44,Pediatrics,Ottawa,MD,sore throat,True,chronic;inpatient;routine
+E200844,P100490,2023-11-19T19:40:08,Pediatrics,Toronto,MD,fatigue,False,followup
+E200845,P100014,2024-09-29T19:13:21,Neurology,Kingston,MD,sore throat,False,inpatient;urgent
+E200846,P100242,2024-03-26T03:20:15,Psychiatry,Kingston,MD,fatigue,True,chronic
+E200847,P100391,2023-12-06T07:25:55,Orthopedics,Sudbury,MD,headache,True,new_patient
+E200848,P100160,2025-08-14T08:21:48,Cardiology,Kingston,MD,chest pain,False,outpatient
+E200849,P100312,2025-01-21T08:56:18,Neurology,Thunder Bay,MD,chest pain,True,inpatient;new_patient
+E200850,P100049,2025-01-14T11:20:34,Neurology,Toronto,PA,sore throat,True,inpatient;new_patient
+E200851,P100407,2024-08-20T12:28:09,Cardiology,Ottawa,PA,chest pain,False,followup;outpatient;routine
+E200852,P100055,2023-12-11T18:16:26,Emergency,Sudbury,PA,headache,True,outpatient;routine;telehealth
+E200853,P100131,2024-06-25T00:58:20,Neurology,Waterloo,PA,sore throat,False,inpatient
+E200854,P100070,2025-06-03T01:38:01,Emergency,Thunder Bay,MD,abdominal pain,False,outpatient;routine;telehealth
+E200855,P100453,2024-11-16T07:38:59,Oncology,Toronto,NP,abdominal pain,False,routine;urgent
+E200856,P100265,2024-12-21T12:01:56,Oncology,Thunder Bay,MD,back pain,True,followup;routine
+E200857,P100499,2024-02-25T15:12:10,Pediatrics,Kingston,MD,fatigue,True,chronic;new_patient;routine
+E200858,P100239,2024-12-31T20:22:46,Psychiatry,Kingston,PA,sore throat,False,inpatient;outpatient;telehealth
+E200859,P100083,2023-12-13T10:30:23,Orthopedics,Kingston,MD,cough,True,inpatient
+E200860,P100354,2024-03-19T20:37:07,Orthopedics,Sudbury,MD,fever,False,chronic;new_patient;routine
+E200861,P100192,2024-02-29T11:22:27,Neurology,Toronto,MD,fatigue,True,routine
+E200862,P100015,2024-11-26T20:12:03,Cardiology,Toronto,NP,cough,True,new_patient;routine;urgent
+E200863,P100101,2024-02-23T15:43:30,ICU,Toronto,MD,abdominal pain,True,followup;inpatient
+E200864,P100100,2023-10-09T16:38:25,Oncology,Kingston,NP,headache,True,inpatient;routine;telehealth
+E200865,P100403,2025-08-10T09:48:38,Cardiology,Ottawa,MD,abdominal pain,False,routine
+E200866,P100414,2024-07-08T05:06:42,Oncology,Sudbury,PA,dizziness,True,telehealth
+E200867,P100451,2025-09-09T19:30:23,Oncology,Kingston,MD,fever,False,outpatient;routine;telehealth
+E200868,P100219,2025-01-29T02:33:50,Pediatrics,Thunder Bay,PA,sore throat,True,followup;new_patient;outpatient
+E200869,P100167,2024-04-01T23:36:48,Emergency,Hamilton,NP,shortness of breath,False,followup
+E200870,P100401,2024-09-22T13:52:27,Cardiology,Toronto,PA,dizziness,False,chronic;followup
+E200871,P100164,2025-03-29T09:43:04,Psychiatry,Sudbury,PA,cough,False,chronic;outpatient
+E200872,P100205,2025-01-30T15:09:01,Emergency,Toronto,MD,fever,False,new_patient
+E200873,P100111,2024-05-17T16:14:07,Neurology,Waterloo,PA,shortness of breath,False,chronic;followup
+E200874,P100384,2023-11-27T06:23:53,ICU,Waterloo,PA,fatigue,True,inpatient;outpatient;urgent
+E200875,P100318,2024-06-10T06:27:55,Neurology,Waterloo,NP,dizziness,False,chronic;telehealth
+E200876,P100139,2024-07-15T23:54:38,Emergency,Toronto,NP,fever,False,followup;telehealth;urgent
+E200877,P100150,2025-07-08T11:15:56,Primary Care,Sudbury,PA,headache,False,followup
+E200878,P100060,2023-11-17T10:02:08,Psychiatry,Thunder Bay,PA,fever,False,routine
+E200879,P100128,2024-05-15T03:01:38,ICU,Toronto,PA,sore throat,True,outpatient;telehealth;urgent
+E200880,P100144,2025-06-22T16:56:53,Psychiatry,Kingston,NP,dizziness,True,new_patient;telehealth
+E200881,P100203,2024-03-17T18:22:14,Pediatrics,Hamilton,PA,fever,False,chronic
+E200882,P100369,2025-06-16T13:28:25,Orthopedics,Ottawa,MD,fatigue,True,followup;new_patient
+E200883,P100224,2024-09-06T12:05:05,Primary Care,Thunder Bay,NP,shortness of breath,True,inpatient;urgent
+E200884,P100414,2025-02-15T17:49:09,Psychiatry,Ottawa,MD,dizziness,False,chronic;new_patient;routine
+E200885,P100275,2024-05-12T17:38:32,Psychiatry,Sudbury,MD,sore throat,True,telehealth
+E200886,P100487,2024-06-05T12:18:57,Neurology,Waterloo,MD,dizziness,True,followup;inpatient;new_patient
+E200887,P100055,2024-06-04T10:02:50,Orthopedics,Hamilton,NP,headache,True,telehealth
+E200888,P100016,2025-06-25T22:36:26,Orthopedics,Thunder Bay,MD,fever,True,followup;outpatient
+E200889,P100119,2024-05-06T02:36:01,Primary Care,Thunder Bay,NP,chest pain,False,followup;telehealth;urgent
+E200890,P100440,2025-08-29T16:07:59,Neurology,Waterloo,MD,headache,True,inpatient;new_patient;routine
+E200891,P100035,2024-07-21T03:21:11,Pediatrics,Toronto,MD,abdominal pain,False,chronic;followup;outpatient
+E200892,P100294,2025-09-21T11:06:15,ICU,Sudbury,MD,back pain,False,inpatient;urgent
+E200893,P100073,2024-09-03T05:02:20,Cardiology,Kingston,NP,sore throat,True,inpatient;outpatient;routine
+E200894,P100235,2024-09-16T09:16:06,Emergency,Hamilton,MD,abdominal pain,False,inpatient;outpatient
+E200895,P100313,2025-06-23T13:50:25,Oncology,Waterloo,MD,shortness of breath,False,new_patient;routine
+E200896,P100093,2025-03-18T13:23:40,Cardiology,Waterloo,PA,chest pain,True,outpatient
+E200897,P100451,2025-01-22T20:19:10,Primary Care,Ottawa,PA,headache,True,chronic;new_patient
+E200898,P100283,2023-12-26T03:54:09,Psychiatry,Thunder Bay,MD,back pain,False,chronic;followup
+E200899,P100129,2024-03-02T01:41:45,Primary Care,Thunder Bay,NP,chest pain,True,chronic;inpatient;telehealth
+E200900,P100381,2024-07-29T04:16:16,Pediatrics,Waterloo,MD,chest pain,False,telehealth
+E200901,P100167,2025-02-24T15:12:54,Orthopedics,Waterloo,NP,headache,True,chronic;inpatient;routine
+E200902,P100071,2024-09-22T16:07:09,ICU,Kingston,MD,shortness of breath,True,chronic;followup;telehealth
+E200903,P100063,2024-11-11T06:40:11,Neurology,Toronto,MD,chest pain,False,chronic
+E200904,P100183,2024-02-08T05:02:46,Pediatrics,Hamilton,MD,back pain,True,new_patient;urgent
+E200905,P100325,2025-06-14T07:40:36,Primary Care,Hamilton,PA,headache,False,inpatient;outpatient;urgent
+E200906,P100306,2023-09-26T14:58:32,Emergency,Kingston,NP,fever,True,followup;inpatient
+E200907,P100046,2023-10-05T10:58:41,Neurology,Thunder Bay,MD,fatigue,True,chronic;followup;urgent
+E200908,P100408,2025-07-02T20:42:23,Oncology,Hamilton,MD,chest pain,False,followup;new_patient;telehealth
+E200909,P100165,2024-12-02T13:26:53,Pediatrics,Sudbury,MD,back pain,False,chronic;followup
+E200910,P100109,2023-12-14T05:50:43,Psychiatry,Ottawa,MD,chest pain,False,inpatient;routine;urgent
+E200911,P100108,2024-09-13T08:12:11,Pediatrics,Thunder Bay,PA,abdominal pain,False,followup
+E200912,P100453,2024-03-10T18:16:10,Neurology,Ottawa,PA,cough,True,chronic;telehealth;urgent
+E200913,P100307,2024-05-31T22:24:07,Neurology,Hamilton,PA,shortness of breath,False,routine
+E200914,P100435,2025-02-21T14:02:53,Orthopedics,Thunder Bay,NP,chest pain,False,inpatient;outpatient
+E200915,P100300,2025-03-23T07:14:20,Emergency,Toronto,MD,sore throat,True,inpatient;routine
+E200916,P100219,2025-05-03T04:05:01,Pediatrics,Sudbury,MD,chest pain,True,chronic;telehealth
+E200917,P100103,2024-01-18T19:20:40,Neurology,Toronto,PA,chest pain,True,chronic;routine;telehealth
+E200918,P100068,2024-04-26T00:39:09,Psychiatry,Hamilton,MD,back pain,False,new_patient;outpatient;urgent
+E200919,P100117,2025-07-11T20:00:35,Psychiatry,Ottawa,MD,fever,True,inpatient;new_patient;routine
+E200920,P100356,2025-04-03T20:29:36,Pediatrics,Sudbury,NP,back pain,False,chronic
+E200921,P100322,2023-09-27T16:38:36,Cardiology,Kingston,NP,headache,True,telehealth
+E200922,P100480,2024-02-28T14:56:13,Oncology,Thunder Bay,MD,sore throat,True,followup
+E200923,P100218,2025-04-08T02:46:35,Orthopedics,Ottawa,MD,fever,True,outpatient;telehealth
+E200924,P100127,2024-05-15T10:12:24,ICU,Sudbury,NP,fever,False,followup;telehealth
+E200925,P100203,2024-07-12T09:09:51,Oncology,Waterloo,NP,dizziness,False,chronic
+E200926,P100010,2025-05-06T19:23:29,Neurology,Waterloo,MD,abdominal pain,True,chronic;inpatient;telehealth
+E200927,P100237,2024-05-17T13:24:23,Orthopedics,Ottawa,NP,back pain,False,routine
+E200928,P100069,2025-03-31T06:01:08,Orthopedics,Toronto,MD,fever,True,routine
+E200929,P100251,2024-08-02T05:27:23,Neurology,Waterloo,PA,fatigue,False,outpatient;routine
+E200930,P100301,2023-11-17T07:54:16,Neurology,Thunder Bay,MD,dizziness,True,new_patient
+E200931,P100490,2024-04-08T06:21:42,Psychiatry,Sudbury,PA,cough,False,inpatient;routine;urgent
+E200932,P100474,2024-08-17T08:41:05,Pediatrics,Toronto,NP,chest pain,False,new_patient;routine;urgent
+E200933,P100330,2024-01-15T20:45:46,ICU,Sudbury,NP,shortness of breath,False,telehealth
+E200934,P100006,2023-12-22T16:01:00,Cardiology,Hamilton,PA,dizziness,False,chronic;followup;outpatient
+E200935,P100448,2024-08-16T12:15:49,Oncology,Kingston,NP,abdominal pain,False,new_patient;outpatient;telehealth
+E200936,P100375,2024-08-07T16:56:51,Cardiology,Thunder Bay,PA,sore throat,False,outpatient
+E200937,P100383,2024-03-03T17:50:21,Neurology,Hamilton,NP,chest pain,True,chronic;urgent
+E200938,P100035,2025-05-15T23:37:36,Neurology,Sudbury,NP,abdominal pain,False,telehealth
+E200939,P100191,2024-02-14T18:44:54,Oncology,Toronto,NP,shortness of breath,True,followup;inpatient
+E200940,P100102,2023-11-07T19:30:19,Oncology,Kingston,MD,abdominal pain,False,followup;new_patient
+E200941,P100325,2024-01-30T00:48:56,Cardiology,Ottawa,MD,dizziness,True,followup;telehealth
+E200942,P100015,2024-12-20T21:14:24,Pediatrics,Waterloo,NP,headache,True,outpatient
+E200943,P100384,2023-09-28T14:42:52,Emergency,Thunder Bay,MD,back pain,True,inpatient;outpatient
+E200944,P100242,2025-05-02T21:51:20,Psychiatry,Sudbury,NP,fatigue,False,followup;routine;telehealth
+E200945,P100481,2024-06-29T13:27:14,Neurology,Waterloo,PA,chest pain,False,followup;urgent
+E200946,P100233,2025-07-30T04:04:11,Neurology,Hamilton,MD,chest pain,True,followup;outpatient;routine
+E200947,P100188,2024-09-08T00:21:48,Orthopedics,Sudbury,NP,fever,True,chronic;routine;urgent
+E200948,P100184,2025-08-01T09:59:56,Emergency,Kingston,PA,fatigue,False,chronic
+E200949,P100204,2025-04-19T03:46:23,Cardiology,Ottawa,NP,cough,True,new_patient;outpatient;telehealth
+E200950,P100099,2025-03-28T23:33:37,Oncology,Kingston,PA,sore throat,True,chronic
+E200951,P100407,2023-11-29T15:28:23,ICU,Kingston,PA,back pain,False,chronic
+E200952,P100488,2023-12-21T20:24:22,Orthopedics,Hamilton,PA,fever,True,telehealth
+E200953,P100385,2025-02-16T10:32:24,Cardiology,Thunder Bay,NP,chest pain,True,chronic;new_patient
+E200954,P100143,2024-03-12T04:06:25,ICU,Hamilton,NP,headache,True,chronic;routine;urgent
+E200955,P100170,2025-07-31T06:09:03,Pediatrics,Sudbury,PA,headache,False,new_patient;routine
+E200956,P100328,2025-05-24T18:59:13,Primary Care,Kingston,NP,fever,True,followup;telehealth
+E200957,P100044,2023-12-18T12:19:14,Cardiology,Ottawa,PA,sore throat,True,followup;outpatient;telehealth
+E200958,P100065,2025-07-16T19:13:47,Psychiatry,Waterloo,PA,chest pain,False,inpatient
+E200959,P100433,2024-07-20T11:33:25,Neurology,Ottawa,NP,shortness of breath,True,new_patient
+E200960,P100004,2024-11-14T02:30:27,Orthopedics,Ottawa,MD,abdominal pain,True,chronic;followup
+E200961,P100307,2024-04-30T02:49:30,Oncology,Hamilton,PA,chest pain,False,followup;telehealth
+E200962,P100434,2025-03-24T18:31:46,Orthopedics,Hamilton,MD,cough,False,new_patient;telehealth;urgent
+E200963,P100078,2025-06-27T00:53:21,Pediatrics,Kingston,PA,fever,True,chronic
+E200964,P100372,2024-07-23T07:49:40,ICU,Kingston,PA,shortness of breath,True,inpatient;new_patient;telehealth
+E200965,P100347,2024-09-24T17:13:06,Psychiatry,Kingston,NP,dizziness,True,outpatient;routine;telehealth
+E200966,P100472,2024-02-21T12:46:54,Primary Care,Waterloo,MD,shortness of breath,False,new_patient;routine;urgent
+E200967,P100155,2024-09-12T09:01:26,Oncology,Sudbury,MD,cough,False,followup;telehealth
+E200968,P100111,2025-06-08T18:19:41,Pediatrics,Hamilton,PA,chest pain,False,chronic;followup;routine
+E200969,P100192,2024-08-19T17:55:38,Oncology,Thunder Bay,MD,fatigue,False,urgent
+E200970,P100060,2024-10-27T08:24:29,Psychiatry,Sudbury,NP,shortness of breath,False,urgent
+E200971,P100060,2024-03-28T01:52:13,Neurology,Waterloo,NP,sore throat,True,chronic;new_patient;routine
+E200972,P100407,2025-02-24T23:25:23,Cardiology,Kingston,NP,dizziness,False,chronic;telehealth;urgent
+E200973,P100061,2023-12-22T14:05:48,Cardiology,Thunder Bay,NP,back pain,True,chronic
+E200974,P100140,2025-03-14T19:59:13,Cardiology,Kingston,PA,shortness of breath,False,new_patient;telehealth
+E200975,P100292,2023-12-29T06:34:35,Cardiology,Ottawa,MD,back pain,True,inpatient;urgent
+E200976,P100284,2025-06-18T22:36:42,Primary Care,Kingston,PA,cough,True,chronic;followup;new_patient
+E200977,P100494,2025-02-15T12:51:55,Cardiology,Toronto,PA,shortness of breath,True,chronic;new_patient;telehealth
+E200978,P100062,2023-10-23T09:40:53,Oncology,Sudbury,MD,shortness of breath,True,new_patient;outpatient;urgent
+E200979,P100043,2023-12-28T20:53:44,Primary Care,Ottawa,NP,back pain,True,followup;urgent
+E200980,P100153,2023-10-28T20:36:05,Primary Care,Kingston,NP,back pain,False,chronic
+E200981,P100355,2024-05-23T01:33:02,Primary Care,Ottawa,PA,back pain,True,followup;routine;urgent
+E200982,P100121,2023-10-21T12:46:13,Pediatrics,Toronto,NP,fever,True,inpatient;outpatient;telehealth
+E200983,P100142,2023-12-31T19:15:59,Neurology,Thunder Bay,PA,abdominal pain,False,inpatient;telehealth
+E200984,P100233,2023-11-26T15:58:06,ICU,Hamilton,NP,shortness of breath,True,outpatient
+E200985,P100324,2025-03-17T05:20:53,Pediatrics,Hamilton,NP,sore throat,True,chronic;telehealth
+E200986,P100403,2024-08-24T19:23:44,Neurology,Thunder Bay,PA,fever,True,followup;outpatient
+E200987,P100056,2025-03-07T06:17:50,Primary Care,Waterloo,MD,fatigue,True,new_patient;routine
+E200988,P100139,2024-01-14T15:46:55,Pediatrics,Ottawa,MD,headache,False,new_patient
+E200989,P100487,2023-12-13T13:23:33,Cardiology,Toronto,PA,abdominal pain,False,routine
+E200990,P100358,2024-12-10T09:47:58,ICU,Sudbury,NP,sore throat,True,telehealth
+E200991,P100162,2025-04-28T23:55:37,Neurology,Toronto,NP,back pain,False,chronic;telehealth
+E200992,P100004,2025-03-09T08:14:21,Primary Care,Hamilton,MD,shortness of breath,True,outpatient;urgent
+E200993,P100470,2025-04-08T10:47:43,Psychiatry,Hamilton,MD,sore throat,False,chronic;followup;inpatient
+E200994,P100181,2025-06-04T04:32:20,Orthopedics,Sudbury,NP,abdominal pain,False,inpatient;routine;telehealth
+E200995,P100439,2023-11-29T12:43:17,ICU,Waterloo,NP,headache,True,inpatient
+E200996,P100483,2023-12-04T17:27:25,Oncology,Sudbury,MD,headache,False,chronic;new_patient;urgent
+E200997,P100492,2024-08-17T07:37:39,Primary Care,Hamilton,MD,cough,False,followup;inpatient;urgent
+E200998,P100315,2024-02-17T17:17:12,Emergency,Hamilton,NP,back pain,False,urgent
+E200999,P100310,2024-09-05T11:28:48,Oncology,Hamilton,PA,fever,True,routine
+E201000,P100429,2024-01-04T13:14:33,Primary Care,Ottawa,MD,dizziness,False,chronic;telehealth
+E201001,P100496,2023-12-19T22:49:32,Psychiatry,Hamilton,MD,back pain,True,inpatient;outpatient
+E201002,P100150,2024-04-15T15:18:44,Pediatrics,Thunder Bay,PA,sore throat,False,outpatient
+E201003,P100475,2025-09-16T18:27:28,Primary Care,Kingston,MD,cough,False,routine
+E201004,P100003,2025-01-13T02:18:55,Orthopedics,Ottawa,NP,fatigue,True,routine
+E201005,P100455,2025-04-06T03:08:17,Oncology,Waterloo,NP,chest pain,True,chronic;followup
+E201006,P100043,2024-11-06T23:04:29,Primary Care,Toronto,NP,headache,False,telehealth
+E201007,P100393,2025-02-14T00:32:04,ICU,Toronto,NP,dizziness,False,inpatient;routine
+E201008,P100456,2024-02-11T12:07:09,Primary Care,Kingston,NP,headache,False,chronic;followup;new_patient
+E201009,P100181,2025-04-25T06:47:14,Neurology,Thunder Bay,NP,fever,True,outpatient
+E201010,P100020,2024-01-04T19:58:55,Neurology,Waterloo,PA,fatigue,True,inpatient
+E201011,P100485,2024-09-29T06:42:21,ICU,Thunder Bay,NP,cough,False,chronic;inpatient;telehealth
+E201012,P100256,2025-04-08T21:31:09,Neurology,Toronto,MD,headache,True,telehealth
+E201013,P100176,2024-10-15T08:41:34,Emergency,Kingston,PA,fever,True,inpatient;outpatient;routine
+E201014,P100377,2023-09-29T05:40:09,Neurology,Waterloo,NP,abdominal pain,False,new_patient
+E201015,P100126,2025-01-14T17:08:37,Oncology,Hamilton,PA,shortness of breath,True,followup;new_patient
+E201016,P100134,2025-03-20T10:45:45,Pediatrics,Hamilton,NP,fever,False,followup;new_patient;routine
+E201017,P100257,2025-01-09T15:44:16,Oncology,Toronto,PA,shortness of breath,True,telehealth
+E201018,P100205,2023-10-22T19:12:07,ICU,Toronto,MD,dizziness,True,inpatient;new_patient;urgent
+E201019,P100194,2024-08-04T08:34:11,Primary Care,Ottawa,PA,fever,True,inpatient;new_patient
+E201020,P100031,2024-10-23T00:32:53,Neurology,Hamilton,MD,abdominal pain,True,routine;telehealth
+E201021,P100482,2024-06-21T15:34:16,Neurology,Toronto,NP,chest pain,True,urgent
+E201022,P100026,2025-02-16T23:19:17,Psychiatry,Toronto,NP,cough,False,chronic;followup;inpatient
+E201023,P100129,2024-10-08T14:14:28,Psychiatry,Ottawa,NP,headache,True,outpatient;routine;urgent
+E201024,P100394,2025-07-23T12:21:54,Oncology,Ottawa,NP,fatigue,False,outpatient
+E201025,P100107,2024-12-19T20:38:55,Neurology,Thunder Bay,MD,shortness of breath,True,inpatient
+E201026,P100098,2025-03-23T07:48:55,Orthopedics,Thunder Bay,MD,back pain,False,chronic;new_patient
+E201027,P100103,2024-11-10T10:14:01,Oncology,Thunder Bay,MD,fever,False,chronic;new_patient;outpatient
+E201028,P100499,2024-06-18T18:52:41,Psychiatry,Waterloo,PA,headache,False,chronic
+E201029,P100214,2024-11-02T19:38:43,Primary Care,Kingston,MD,shortness of breath,False,chronic;telehealth;urgent
+E201030,P100489,2024-12-05T18:15:45,Emergency,Kingston,PA,fever,False,chronic;followup
+E201031,P100224,2025-04-28T02:34:49,Primary Care,Waterloo,PA,dizziness,False,followup;new_patient;outpatient
+E201032,P100001,2024-01-25T06:40:23,Pediatrics,Sudbury,PA,chest pain,False,followup;outpatient;telehealth
+E201033,P100151,2025-03-26T02:49:28,ICU,Sudbury,MD,shortness of breath,True,inpatient
+E201034,P100149,2023-10-23T08:42:10,Oncology,Ottawa,MD,abdominal pain,True,followup;inpatient;new_patient
+E201035,P100273,2023-12-22T05:50:32,Emergency,Hamilton,NP,sore throat,False,followup;routine
+E201036,P100452,2024-11-22T15:13:46,ICU,Hamilton,MD,dizziness,False,routine;urgent
+E201037,P100417,2023-10-01T02:01:21,Psychiatry,Toronto,PA,abdominal pain,True,outpatient;urgent
+E201038,P100336,2025-07-28T04:21:21,Cardiology,Hamilton,PA,dizziness,False,chronic;inpatient;new_patient
+E201039,P100112,2024-05-31T20:42:03,ICU,Toronto,PA,dizziness,True,inpatient;routine
+E201040,P100371,2024-08-25T00:32:55,Psychiatry,Toronto,NP,headache,False,chronic
+E201041,P100094,2025-06-17T11:50:54,Oncology,Toronto,PA,cough,True,outpatient;telehealth;urgent
+E201042,P100083,2025-08-10T14:18:46,Oncology,Kingston,NP,sore throat,True,telehealth
+E201043,P100036,2024-08-19T04:34:46,Pediatrics,Waterloo,PA,dizziness,True,routine;telehealth;urgent
+E201044,P100308,2023-12-09T11:06:03,Neurology,Waterloo,MD,headache,True,followup;new_patient;urgent
+E201045,P100394,2023-11-26T22:20:02,ICU,Toronto,PA,sore throat,True,followup
+E201046,P100277,2025-04-16T18:29:09,Psychiatry,Kingston,PA,headache,True,chronic
+E201047,P100388,2024-12-03T04:18:26,Orthopedics,Kingston,MD,abdominal pain,False,followup;telehealth
+E201048,P100028,2024-11-18T04:04:01,ICU,Hamilton,PA,headache,True,followup
+E201049,P100278,2024-05-10T11:36:23,Cardiology,Sudbury,NP,shortness of breath,True,urgent
+E201050,P100116,2024-08-19T18:22:53,Neurology,Toronto,NP,abdominal pain,True,chronic;new_patient;routine
+E201051,P100421,2025-08-23T07:18:55,Cardiology,Waterloo,MD,headache,True,outpatient
+E201052,P100182,2023-11-21T06:08:51,Psychiatry,Thunder Bay,NP,headache,True,followup;inpatient;telehealth
+E201053,P100271,2024-06-09T01:56:44,Oncology,Hamilton,NP,shortness of breath,False,outpatient;telehealth;urgent
+E201054,P100138,2025-09-03T15:50:46,Orthopedics,Hamilton,NP,abdominal pain,True,telehealth
+E201055,P100398,2025-02-13T10:00:25,Oncology,Ottawa,MD,dizziness,False,chronic;new_patient;urgent
+E201056,P100057,2024-12-14T19:46:19,Neurology,Hamilton,NP,shortness of breath,True,followup;telehealth
+E201057,P100392,2024-07-18T01:14:40,Psychiatry,Ottawa,NP,dizziness,False,new_patient;outpatient;routine
+E201058,P100170,2024-01-08T08:37:52,Pediatrics,Waterloo,NP,back pain,False,chronic;new_patient;outpatient
+E201059,P100420,2024-03-19T17:38:43,Neurology,Thunder Bay,PA,dizziness,True,chronic;followup;telehealth
+E201060,P100001,2024-02-27T21:24:27,Emergency,Ottawa,PA,cough,True,urgent
+E201061,P100466,2024-06-20T08:18:36,Psychiatry,Kingston,MD,abdominal pain,False,new_patient
+E201062,P100124,2024-03-04T16:25:45,Pediatrics,Thunder Bay,PA,shortness of breath,True,inpatient;routine;telehealth
+E201063,P100013,2025-03-16T16:39:52,Neurology,Ottawa,MD,headache,True,telehealth;urgent
+E201064,P100075,2024-07-02T16:38:44,Oncology,Thunder Bay,MD,headache,True,chronic;followup;new_patient
+E201065,P100240,2025-04-22T12:55:28,Oncology,Hamilton,PA,abdominal pain,False,inpatient;routine
+E201066,P100400,2025-02-04T20:49:19,Emergency,Ottawa,MD,shortness of breath,True,followup;outpatient;urgent
+E201067,P100257,2024-01-25T13:07:05,Emergency,Waterloo,NP,cough,False,followup;outpatient;routine
+E201068,P100216,2025-09-15T11:29:27,Oncology,Ottawa,MD,back pain,False,inpatient
+E201069,P100205,2025-01-15T19:48:43,Emergency,Toronto,NP,shortness of breath,True,chronic;inpatient;telehealth
+E201070,P100334,2025-02-02T13:42:44,Neurology,Kingston,NP,shortness of breath,True,followup;new_patient
+E201071,P100138,2023-12-16T04:44:20,Cardiology,Thunder Bay,NP,sore throat,False,inpatient
+E201072,P100144,2024-01-27T10:04:25,Primary Care,Thunder Bay,MD,fever,True,inpatient;outpatient
+E201073,P100103,2025-01-30T20:25:57,Emergency,Toronto,NP,headache,True,chronic;new_patient;urgent
+E201074,P100161,2023-12-04T09:34:39,ICU,Thunder Bay,NP,abdominal pain,False,chronic;inpatient;telehealth
+E201075,P100371,2024-06-25T09:17:16,Oncology,Hamilton,PA,headache,False,followup;outpatient
+E201076,P100413,2025-05-17T00:10:08,Oncology,Thunder Bay,PA,dizziness,False,followup;telehealth;urgent
+E201077,P100077,2025-03-06T00:22:22,Orthopedics,Thunder Bay,PA,headache,True,telehealth
+E201078,P100393,2025-04-03T02:49:38,Oncology,Sudbury,PA,sore throat,False,chronic;telehealth
+E201079,P100148,2024-06-28T20:47:01,Neurology,Thunder Bay,PA,dizziness,True,followup
+E201080,P100490,2024-01-19T08:58:05,Orthopedics,Thunder Bay,MD,shortness of breath,False,followup;inpatient;urgent
+E201081,P100232,2024-05-23T16:08:25,Oncology,Ottawa,MD,headache,False,routine;telehealth;urgent
+E201082,P100036,2024-02-09T04:16:25,Orthopedics,Ottawa,NP,abdominal pain,False,outpatient;telehealth;urgent
+E201083,P100249,2023-10-23T18:03:37,Psychiatry,Kingston,NP,dizziness,False,chronic;inpatient;telehealth
+E201084,P100262,2025-07-10T04:52:40,Psychiatry,Ottawa,MD,dizziness,False,outpatient;urgent
+E201085,P100329,2023-11-06T07:39:02,Pediatrics,Hamilton,PA,chest pain,True,outpatient
+E201086,P100192,2024-01-23T21:10:11,Neurology,Kingston,MD,fever,False,followup;telehealth
+E201087,P100238,2024-09-20T21:15:44,Primary Care,Kingston,NP,headache,True,followup
+E201088,P100469,2025-09-08T12:28:26,Neurology,Kingston,NP,fever,False,followup;telehealth
+E201089,P100175,2025-01-04T10:15:45,Orthopedics,Toronto,PA,cough,True,chronic;urgent
+E201090,P100279,2024-01-21T23:13:29,Orthopedics,Toronto,PA,fever,False,inpatient;outpatient;urgent
+E201091,P100031,2025-09-19T08:52:24,Psychiatry,Kingston,NP,cough,True,inpatient
+E201092,P100444,2023-10-10T19:41:00,Neurology,Ottawa,NP,shortness of breath,True,followup
+E201093,P100140,2024-08-02T15:01:25,Cardiology,Ottawa,PA,cough,False,inpatient;routine;telehealth
+E201094,P100094,2025-06-29T02:33:26,Emergency,Thunder Bay,NP,fatigue,False,inpatient
+E201095,P100178,2024-08-13T12:36:37,Orthopedics,Waterloo,PA,shortness of breath,False,chronic;new_patient
+E201096,P100005,2024-12-01T16:05:28,Pediatrics,Thunder Bay,PA,sore throat,True,routine;urgent
+E201097,P100077,2025-08-19T07:59:31,Orthopedics,Toronto,NP,fatigue,True,new_patient;outpatient;telehealth
+E201098,P100369,2023-09-25T20:32:31,Orthopedics,Kingston,MD,cough,True,inpatient
+E201099,P100381,2024-02-15T18:10:44,Neurology,Hamilton,PA,shortness of breath,False,routine
+E201100,P100107,2024-02-18T11:27:43,Emergency,Ottawa,NP,chest pain,False,followup;routine
+E201101,P100255,2025-02-08T00:35:25,Orthopedics,Waterloo,NP,fatigue,False,new_patient;outpatient;telehealth
+E201102,P100058,2025-09-11T12:23:39,Oncology,Waterloo,NP,fatigue,True,inpatient;outpatient;telehealth
+E201103,P100195,2024-05-01T09:18:20,Neurology,Hamilton,NP,sore throat,True,followup
+E201104,P100045,2025-02-08T13:52:48,Emergency,Sudbury,NP,headache,False,followup;inpatient;routine
+E201105,P100257,2024-12-17T10:58:45,Emergency,Hamilton,NP,dizziness,True,chronic
+E201106,P100282,2024-07-14T23:50:34,Cardiology,Toronto,NP,headache,False,chronic;new_patient
+E201107,P100330,2025-03-22T16:26:04,Neurology,Thunder Bay,NP,fever,False,outpatient;telehealth
+E201108,P100429,2025-08-24T03:02:43,Neurology,Hamilton,MD,chest pain,False,urgent
+E201109,P100013,2024-01-20T03:07:25,Psychiatry,Kingston,PA,sore throat,False,outpatient;telehealth
+E201110,P100220,2024-03-28T20:03:31,Primary Care,Waterloo,MD,sore throat,False,new_patient
+E201111,P100065,2025-09-21T15:31:50,Neurology,Hamilton,MD,dizziness,False,followup;inpatient;telehealth
+E201112,P100050,2025-03-27T11:49:21,Oncology,Sudbury,MD,sore throat,False,chronic;new_patient;outpatient
+E201113,P100081,2024-05-30T10:03:28,Pediatrics,Thunder Bay,MD,chest pain,False,telehealth
+E201114,P100014,2025-01-15T02:12:44,Primary Care,Thunder Bay,PA,dizziness,True,inpatient;routine;telehealth
+E201115,P100323,2025-05-18T23:19:24,Psychiatry,Toronto,MD,fever,False,inpatient
+E201116,P100371,2025-05-20T20:47:36,Neurology,Kingston,NP,chest pain,False,telehealth
+E201117,P100321,2023-10-10T23:22:34,Cardiology,Thunder Bay,NP,sore throat,True,telehealth
+E201118,P100144,2024-04-13T11:56:04,Oncology,Thunder Bay,MD,cough,False,new_patient
+E201119,P100051,2024-10-08T09:35:32,Emergency,Waterloo,MD,cough,True,new_patient
+E201120,P100192,2025-08-14T01:27:43,Psychiatry,Hamilton,NP,shortness of breath,True,followup;urgent
+E201121,P100337,2024-12-06T15:07:25,Emergency,Thunder Bay,NP,fatigue,False,followup;outpatient;urgent
+E201122,P100379,2024-04-07T16:14:34,Cardiology,Toronto,PA,chest pain,True,chronic;followup;telehealth
+E201123,P100058,2025-08-20T22:36:11,Pediatrics,Thunder Bay,NP,shortness of breath,True,telehealth
+E201124,P100137,2024-04-22T13:30:46,Orthopedics,Toronto,MD,fatigue,False,chronic;inpatient
+E201125,P100262,2024-07-29T15:27:43,Pediatrics,Ottawa,MD,fever,False,followup;outpatient
+E201126,P100406,2025-05-10T07:38:32,ICU,Toronto,MD,cough,False,new_patient;outpatient
+E201127,P100382,2024-04-21T00:22:08,Psychiatry,Sudbury,MD,sore throat,False,inpatient;outpatient
+E201128,P100180,2024-07-09T11:07:43,Cardiology,Waterloo,MD,chest pain,False,new_patient;outpatient;telehealth
+E201129,P100423,2025-08-04T09:09:51,Primary Care,Ottawa,NP,chest pain,True,routine
+E201130,P100219,2025-05-29T07:22:37,Oncology,Ottawa,MD,headache,True,followup;routine;telehealth
+E201131,P100399,2024-05-24T05:49:36,Cardiology,Thunder Bay,NP,chest pain,False,chronic
+E201132,P100290,2025-06-01T16:20:14,Psychiatry,Toronto,PA,headache,False,inpatient;outpatient
+E201133,P100111,2023-12-11T22:34:17,Primary Care,Ottawa,PA,sore throat,True,inpatient;new_patient;routine
+E201134,P100162,2025-06-15T18:46:19,Psychiatry,Toronto,MD,chest pain,False,telehealth;urgent
+E201135,P100215,2023-12-24T15:08:57,Cardiology,Waterloo,MD,sore throat,False,followup;new_patient;outpatient
+E201136,P100010,2024-05-01T09:28:23,Emergency,Hamilton,PA,chest pain,False,new_patient;telehealth
+E201137,P100495,2024-07-31T20:56:14,Emergency,Sudbury,PA,chest pain,False,chronic;inpatient;urgent
+E201138,P100048,2025-06-28T13:31:45,Neurology,Hamilton,NP,abdominal pain,False,new_patient;urgent
+E201139,P100284,2025-05-16T15:50:27,Psychiatry,Waterloo,PA,chest pain,False,chronic;inpatient
+E201140,P100434,2025-02-01T22:55:00,Cardiology,Kingston,NP,sore throat,True,inpatient
+E201141,P100024,2025-06-25T03:37:30,Emergency,Toronto,MD,fatigue,False,telehealth
+E201142,P100045,2024-02-18T11:28:29,Psychiatry,Kingston,PA,chest pain,True,chronic;urgent
+E201143,P100024,2024-05-16T08:22:42,Cardiology,Ottawa,NP,sore throat,False,followup;telehealth
+E201144,P100298,2024-09-14T19:57:15,Cardiology,Toronto,NP,shortness of breath,False,chronic;routine;urgent
+E201145,P100267,2024-11-05T18:58:13,Pediatrics,Sudbury,NP,cough,False,chronic;followup
+E201146,P100047,2024-04-14T21:48:45,ICU,Hamilton,MD,fatigue,True,inpatient;routine;urgent
+E201147,P100038,2024-10-11T04:07:10,Emergency,Toronto,MD,fever,False,chronic;inpatient
+E201148,P100053,2024-06-13T10:27:02,Pediatrics,Kingston,PA,back pain,False,chronic;routine
+E201149,P100078,2025-07-12T12:16:03,Primary Care,Thunder Bay,MD,fever,False,chronic;new_patient
+E201150,P100317,2024-10-25T19:39:48,Pediatrics,Kingston,NP,fever,True,followup;new_patient
+E201151,P100351,2024-05-18T13:37:51,Cardiology,Toronto,NP,headache,True,urgent
+E201152,P100457,2024-09-14T22:48:26,Oncology,Ottawa,MD,cough,False,outpatient;urgent
+E201153,P100474,2024-11-23T10:24:54,Cardiology,Ottawa,NP,fever,True,new_patient;outpatient
+E201154,P100170,2023-11-03T06:55:10,Orthopedics,Ottawa,NP,headache,True,inpatient;new_patient;routine
+E201155,P100099,2024-05-08T08:40:01,Pediatrics,Waterloo,MD,sore throat,False,chronic;inpatient;outpatient
+E201156,P100055,2025-03-05T01:45:09,Emergency,Hamilton,MD,headache,True,urgent
+E201157,P100458,2023-10-20T17:16:18,ICU,Toronto,MD,back pain,True,inpatient;outpatient
+E201158,P100358,2025-03-31T23:54:49,Neurology,Waterloo,NP,headache,True,followup;inpatient;outpatient
+E201159,P100087,2025-05-25T07:01:30,Pediatrics,Ottawa,PA,abdominal pain,False,chronic;followup;urgent
+E201160,P100257,2025-08-28T02:17:28,Orthopedics,Hamilton,NP,fever,True,chronic;followup
+E201161,P100095,2024-06-06T23:49:25,Orthopedics,Toronto,MD,cough,False,followup;urgent
+E201162,P100498,2024-04-14T22:11:18,Cardiology,Toronto,PA,chest pain,False,inpatient;urgent
+E201163,P100447,2024-04-02T05:55:43,Orthopedics,Thunder Bay,MD,chest pain,False,telehealth
+E201164,P100386,2024-01-14T20:30:15,Cardiology,Thunder Bay,NP,fatigue,False,outpatient;routine
+E201165,P100131,2025-02-19T06:49:52,Orthopedics,Ottawa,NP,cough,True,outpatient;routine
+E201166,P100170,2025-08-15T08:23:10,Primary Care,Kingston,PA,sore throat,False,outpatient
+E201167,P100351,2024-10-30T08:37:10,Emergency,Toronto,NP,fever,True,chronic;urgent
+E201168,P100125,2024-12-14T14:56:59,Neurology,Ottawa,MD,headache,True,followup;telehealth
+E201169,P100449,2025-01-21T22:06:30,Primary Care,Waterloo,PA,shortness of breath,False,inpatient;routine;telehealth
+E201170,P100301,2024-08-12T02:55:45,ICU,Ottawa,MD,chest pain,False,followup;inpatient;new_patient
+E201171,P100290,2025-05-30T13:44:50,Psychiatry,Ottawa,MD,chest pain,False,inpatient;routine;telehealth
+E201172,P100076,2024-11-02T08:53:49,ICU,Sudbury,PA,shortness of breath,False,outpatient;urgent
+E201173,P100409,2024-05-08T22:06:16,Emergency,Waterloo,MD,fever,False,followup;inpatient;urgent
+E201174,P100156,2023-09-26T22:53:20,Neurology,Ottawa,PA,chest pain,True,chronic;telehealth
+E201175,P100449,2024-04-30T00:27:08,Primary Care,Hamilton,PA,shortness of breath,True,followup;outpatient;routine
+E201176,P100100,2024-08-23T14:00:37,Cardiology,Ottawa,MD,chest pain,False,inpatient;new_patient
+E201177,P100347,2025-01-29T19:22:22,Neurology,Waterloo,NP,headache,False,followup;outpatient
+E201178,P100288,2024-08-26T12:12:14,Psychiatry,Kingston,PA,shortness of breath,True,inpatient;telehealth
+E201179,P100283,2024-02-24T23:22:53,ICU,Ottawa,MD,abdominal pain,False,inpatient;new_patient;telehealth
+E201180,P100049,2024-01-08T15:52:31,Primary Care,Waterloo,PA,fatigue,False,inpatient;routine
+E201181,P100238,2024-08-14T14:47:37,Neurology,Waterloo,MD,back pain,True,followup;new_patient
+E201182,P100071,2025-01-12T20:19:06,ICU,Kingston,MD,sore throat,False,outpatient
+E201183,P100027,2025-05-01T16:28:05,Neurology,Toronto,NP,chest pain,False,chronic;new_patient;urgent
+E201184,P100043,2023-11-04T11:32:48,ICU,Kingston,PA,headache,False,followup;new_patient;telehealth
+E201185,P100289,2024-09-30T23:12:43,Psychiatry,Kingston,MD,headache,True,followup;inpatient;outpatient
+E201186,P100287,2025-04-20T02:30:21,Orthopedics,Toronto,MD,shortness of breath,False,outpatient;routine;urgent
+E201187,P100412,2024-10-03T16:13:08,Pediatrics,Thunder Bay,MD,chest pain,True,followup;outpatient;urgent
+E201188,P100126,2024-02-28T16:18:35,Cardiology,Waterloo,MD,back pain,False,chronic;urgent
+E201189,P100153,2024-08-02T05:29:43,Orthopedics,Toronto,MD,back pain,False,chronic;new_patient;routine
+E201190,P100315,2023-12-27T16:32:59,Neurology,Toronto,PA,chest pain,True,inpatient
+E201191,P100087,2024-10-24T07:19:50,Primary Care,Toronto,NP,cough,False,followup;outpatient
+E201192,P100252,2024-07-04T07:42:10,ICU,Waterloo,NP,headache,False,followup;new_patient
+E201193,P100014,2024-04-30T03:22:23,Orthopedics,Thunder Bay,PA,dizziness,True,outpatient;routine;urgent
+E201194,P100333,2025-08-16T18:50:44,Orthopedics,Thunder Bay,NP,shortness of breath,False,chronic;telehealth;urgent
+E201195,P100081,2024-06-26T20:53:59,Primary Care,Kingston,PA,fever,False,new_patient;outpatient;urgent
+E201196,P100089,2025-02-13T11:13:15,Oncology,Ottawa,PA,sore throat,False,chronic;telehealth
+E201197,P100401,2025-05-07T08:02:08,ICU,Waterloo,MD,cough,False,outpatient;telehealth
+E201198,P100362,2025-09-12T08:13:02,Primary Care,Kingston,PA,back pain,False,routine
+E201199,P100301,2024-12-17T01:29:36,Psychiatry,Sudbury,PA,dizziness,True,urgent

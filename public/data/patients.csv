@@ -1,0 +1,501 @@
+patient_id,first_name,last_name,age,sex,has_allergy,home_location,primary_condition,patient_tags
+P100000,Jordan,Lee,60,M,False,Sudbury,Migraine,followup;routine;urgent
+P100001,Morgan,Patel,49,M,True,Hamilton,Upper Respiratory Infection,followup;inpatient
+P100002,Quinn,Martin,63,F,False,Kingston,Anemia,followup
+P100003,Jordan,Martin,79,Other,True,Waterloo,Asthma,followup;inpatient;outpatient
+P100004,Sam,Patel,47,M,False,Sudbury,Diabetes Mellitus,urgent
+P100005,Morgan,Lee,47,F,False,Waterloo,Gastritis,inpatient
+P100006,Riley,Chan,80,F,True,Ottawa,Anxiety,urgent
+P100007,Taylor,Brown,65,F,False,Kingston,Hypertension,inpatient;new_patient;routine
+P100008,Riley,Brown,43,F,False,Waterloo,COVID-19 (resolved),followup;inpatient;new_patient
+P100009,Riley,Patel,61,F,False,Ottawa,Migraine,new_patient;outpatient;urgent
+P100010,Casey,Martin,43,F,True,Thunder Bay,COVID-19 (resolved),new_patient
+P100011,Jordan,Roy,43,F,False,Waterloo,Anxiety,followup;outpatient
+P100012,Quinn,Patel,56,F,False,Kingston,COVID-19 (resolved),routine
+P100013,Alex,Chan,17,M,False,Sudbury,Anxiety,followup
+P100014,Quinn,Patel,20,F,False,Ottawa,COVID-19 (resolved),followup;telehealth
+P100015,Riley,Garcia,41,M,False,Sudbury,Hyperlipidemia,new_patient;outpatient
+P100016,Sam,Wilson,33,F,False,Kingston,Upper Respiratory Infection,chronic
+P100017,Taylor,Martin,57,Other,False,Toronto,Anemia,followup;inpatient;urgent
+P100018,Jamie,O'Neil,35,F,False,Ottawa,Anemia,new_patient;outpatient;routine
+P100019,Quinn,O'Neil,26,F,True,Waterloo,Asthma,followup;outpatient;routine
+P100020,Riley,Martin,78,Other,False,Ottawa,Hypertension,followup;routine;urgent
+P100021,Taylor,Chan,47,M,False,Sudbury,Hypertension,outpatient
+P100022,Morgan,Garcia,53,M,False,Thunder Bay,Asthma,inpatient
+P100023,Jordan,Garcia,26,F,False,Ottawa,Gastritis,new_patient
+P100024,Drew,Lee,42,F,False,Waterloo,Anemia,chronic;routine
+P100025,Casey,Wilson,53,M,False,Toronto,Gastritis,chronic;telehealth
+P100026,Taylor,Brown,31,M,True,Hamilton,Anxiety,inpatient;routine
+P100027,Sam,Nguyen,58,M,False,Thunder Bay,Anxiety,followup;outpatient
+P100028,Sam,Chan,41,M,False,Toronto,Diabetes Mellitus,outpatient;routine;telehealth
+P100029,Taylor,Nguyen,46,F,True,Ottawa,COVID-19 (resolved),telehealth
+P100030,Sam,Nguyen,41,M,False,Sudbury,Hypertension,new_patient;telehealth
+P100031,Jordan,Martin,85,F,False,Kingston,Diabetes Mellitus,inpatient;routine;telehealth
+P100032,Sam,O'Neil,51,F,True,Sudbury,Upper Respiratory Infection,inpatient
+P100033,Quinn,O'Neil,32,F,False,Waterloo,Asthma,routine
+P100034,Drew,Brown,66,M,False,Sudbury,Asthma,outpatient;urgent
+P100035,Sam,Martin,30,F,False,Thunder Bay,Anxiety,routine
+P100036,Drew,Nguyen,55,F,True,Sudbury,Anemia,chronic
+P100037,Riley,Roy,16,M,False,Waterloo,Gastritis,chronic;followup
+P100038,Alex,O'Neil,28,F,False,Hamilton,Hypertension,followup;telehealth
+P100039,Jordan,Chan,55,M,False,Ottawa,Diabetes Mellitus,chronic;outpatient;routine
+P100040,Alex,Chan,65,F,False,Kingston,Gastritis,new_patient;telehealth
+P100041,Riley,Lee,55,M,True,Ottawa,Diabetes Mellitus,telehealth
+P100042,Jordan,Patel,49,M,False,Sudbury,COVID-19 (resolved),chronic;new_patient;urgent
+P100043,Taylor,Roy,46,F,True,Toronto,Upper Respiratory Infection,telehealth
+P100044,Taylor,O'Neil,25,F,True,Ottawa,Upper Respiratory Infection,new_patient;routine;telehealth
+P100045,Drew,Garcia,39,F,False,Hamilton,Gastritis,followup;inpatient
+P100046,Riley,O'Neil,43,F,False,Sudbury,Gastritis,chronic;outpatient
+P100047,Drew,Lee,71,Other,False,Kingston,Gastritis,routine;urgent
+P100048,Casey,Chan,58,F,False,Waterloo,Diabetes Mellitus,followup;outpatient;routine
+P100049,Sam,Nguyen,20,M,False,Hamilton,COVID-19 (resolved),routine;urgent
+P100050,Jamie,Garcia,57,F,False,Sudbury,Hyperlipidemia,followup;new_patient
+P100051,Casey,Martin,45,M,False,Hamilton,Gastritis,routine;urgent
+P100052,Sam,Wilson,39,M,False,Ottawa,Anemia,chronic;followup;outpatient
+P100053,Jordan,Nguyen,63,M,False,Kingston,Hypertension,followup;new_patient;routine
+P100054,Drew,Wilson,70,F,True,Waterloo,Hypertension,followup;inpatient
+P100055,Jordan,Roy,68,F,False,Sudbury,Diabetes Mellitus,outpatient;telehealth
+P100056,Jordan,Patel,36,F,False,Thunder Bay,Gastritis,outpatient;telehealth;urgent
+P100057,Sam,Garcia,46,M,False,Waterloo,Anxiety,chronic;urgent
+P100058,Riley,Brown,57,M,True,Thunder Bay,Asthma,followup;outpatient
+P100059,Sam,Garcia,69,Other,False,Hamilton,Hyperlipidemia,inpatient
+P100060,Morgan,O'Neil,43,F,False,Toronto,Anemia,followup;routine;urgent
+P100061,Taylor,Chan,48,M,False,Waterloo,COVID-19 (resolved),followup;new_patient
+P100062,Taylor,O'Neil,32,M,False,Hamilton,Anxiety,followup;routine;telehealth
+P100063,Casey,O'Neil,30,F,True,Thunder Bay,Upper Respiratory Infection,chronic;telehealth
+P100064,Taylor,Roy,66,F,False,Ottawa,Anxiety,followup;new_patient;outpatient
+P100065,Sam,Nguyen,76,M,False,Ottawa,Diabetes Mellitus,inpatient;routine;telehealth
+P100066,Quinn,Brown,50,M,False,Toronto,Hyperlipidemia,inpatient;routine
+P100067,Drew,Brown,70,M,False,Waterloo,Migraine,chronic;followup;urgent
+P100068,Sam,O'Neil,58,F,False,Waterloo,Migraine,followup
+P100069,Sam,Wilson,40,M,False,Waterloo,Gastritis,outpatient;urgent
+P100070,Jamie,Roy,58,F,False,Hamilton,Gastritis,followup;inpatient;outpatient
+P100071,Drew,O'Neil,79,F,False,Kingston,Diabetes Mellitus,followup
+P100072,Morgan,Patel,51,F,False,Kingston,COVID-19 (resolved),chronic;followup;urgent
+P100073,Taylor,Chan,80,M,False,Toronto,Gastritis,routine
+P100074,Drew,Nguyen,4,M,True,Waterloo,Asthma,inpatient
+P100075,Taylor,Martin,66,M,True,Hamilton,Hyperlipidemia,chronic;followup
+P100076,Casey,Patel,53,F,False,Ottawa,Diabetes Mellitus,outpatient;routine;telehealth
+P100077,Drew,Wilson,46,M,False,Thunder Bay,Hypertension,chronic;followup;inpatient
+P100078,Taylor,Garcia,53,F,False,Hamilton,Upper Respiratory Infection,inpatient;urgent
+P100079,Morgan,Garcia,16,M,False,Kingston,Diabetes Mellitus,new_patient
+P100080,Alex,Patel,48,F,False,Kingston,Diabetes Mellitus,inpatient;new_patient
+P100081,Jordan,O'Neil,58,F,True,Ottawa,Migraine,routine;urgent
+P100082,Jordan,Martin,78,F,False,Ottawa,Anemia,followup;inpatient;urgent
+P100083,Morgan,Lee,42,F,False,Thunder Bay,COVID-19 (resolved),new_patient;routine;urgent
+P100084,Jamie,Lee,37,M,False,Ottawa,Anemia,inpatient
+P100085,Alex,Wilson,42,M,False,Toronto,Asthma,chronic
+P100086,Casey,O'Neil,68,F,False,Thunder Bay,Hypertension,new_patient
+P100087,Morgan,Brown,57,M,False,Ottawa,Migraine,outpatient
+P100088,Jordan,Brown,42,F,True,Sudbury,Hypertension,inpatient;new_patient
+P100089,Jordan,Nguyen,61,M,True,Hamilton,Asthma,chronic
+P100090,Jordan,Martin,53,M,False,Ottawa,Anemia,followup;routine;urgent
+P100091,Riley,Martin,69,M,False,Toronto,Diabetes Mellitus,chronic;followup;urgent
+P100092,Morgan,Garcia,39,F,False,Waterloo,Gastritis,new_patient
+P100093,Sam,Roy,46,M,False,Ottawa,Gastritis,chronic;followup
+P100094,Casey,Wilson,44,M,True,Kingston,Anxiety,followup;urgent
+P100095,Jordan,Lee,25,F,True,Kingston,Upper Respiratory Infection,inpatient;urgent
+P100096,Taylor,Wilson,57,F,False,Kingston,COVID-19 (resolved),chronic;telehealth
+P100097,Morgan,Brown,56,M,False,Waterloo,Asthma,chronic;followup
+P100098,Riley,Brown,52,M,True,Kingston,Upper Respiratory Infection,outpatient
+P100099,Morgan,Patel,47,M,False,Sudbury,COVID-19 (resolved),urgent
+P100100,Casey,Nguyen,26,M,True,Ottawa,Upper Respiratory Infection,routine;telehealth;urgent
+P100101,Riley,Martin,44,M,False,Kingston,Anemia,urgent
+P100102,Casey,Chan,45,F,False,Thunder Bay,COVID-19 (resolved),chronic;new_patient;outpatient
+P100103,Morgan,Wilson,37,F,False,Waterloo,Anemia,urgent
+P100104,Sam,Brown,49,F,False,Sudbury,Diabetes Mellitus,chronic;followup;new_patient
+P100105,Casey,Roy,59,M,False,Thunder Bay,Migraine,followup
+P100106,Riley,Garcia,85,F,True,Thunder Bay,Anemia,chronic;inpatient;urgent
+P100107,Riley,Lee,55,M,True,Thunder Bay,Gastritis,inpatient;new_patient;outpatient
+P100108,Casey,Nguyen,56,M,False,Thunder Bay,Upper Respiratory Infection,followup
+P100109,Quinn,Roy,50,M,False,Ottawa,Anxiety,routine;telehealth
+P100110,Morgan,Nguyen,17,F,False,Kingston,Hyperlipidemia,routine
+P100111,Quinn,Patel,51,M,False,Hamilton,COVID-19 (resolved),outpatient
+P100112,Jamie,Chan,53,F,False,Ottawa,Asthma,routine;telehealth
+P100113,Morgan,Brown,96,M,False,Ottawa,Anxiety,inpatient;outpatient;telehealth
+P100114,Casey,Garcia,48,F,False,Sudbury,Gastritis,urgent
+P100115,Alex,Roy,57,F,True,Sudbury,Anemia,followup;urgent
+P100116,Casey,Nguyen,51,M,False,Kingston,Migraine,inpatient;outpatient;telehealth
+P100117,Quinn,Martin,30,F,True,Hamilton,Diabetes Mellitus,routine
+P100118,Sam,Patel,72,F,False,Sudbury,Hyperlipidemia,inpatient
+P100119,Casey,Martin,65,M,False,Kingston,Hypertension,followup;outpatient
+P100120,Casey,Garcia,66,M,True,Kingston,Anxiety,chronic;outpatient
+P100121,Sam,Roy,35,M,False,Toronto,Migraine,outpatient;routine;urgent
+P100122,Casey,Patel,77,M,False,Hamilton,Hypertension,chronic;followup
+P100123,Jordan,Roy,26,M,False,Sudbury,Hyperlipidemia,followup;urgent
+P100124,Alex,Brown,62,F,False,Hamilton,Asthma,chronic;new_patient;telehealth
+P100125,Taylor,O'Neil,91,F,True,Ottawa,Asthma,inpatient;routine;telehealth
+P100126,Alex,Patel,34,F,False,Ottawa,Upper Respiratory Infection,outpatient
+P100127,Casey,Martin,41,M,False,Hamilton,Hyperlipidemia,chronic;telehealth;urgent
+P100128,Jordan,Garcia,53,M,True,Toronto,Hyperlipidemia,new_patient
+P100129,Morgan,Chan,42,F,False,Toronto,Hypertension,chronic;urgent
+P100130,Casey,Brown,24,F,True,Hamilton,Migraine,routine;telehealth
+P100131,Quinn,O'Neil,53,M,True,Sudbury,COVID-19 (resolved),routine;telehealth
+P100132,Jordan,Chan,32,F,False,Waterloo,Hypertension,new_patient;outpatient
+P100133,Sam,Lee,60,M,True,Toronto,Diabetes Mellitus,followup
+P100134,Jordan,Brown,35,M,False,Thunder Bay,Asthma,telehealth
+P100135,Sam,Garcia,79,M,False,Ottawa,Asthma,new_patient;telehealth;urgent
+P100136,Jamie,Nguyen,37,F,False,Hamilton,Upper Respiratory Infection,followup;inpatient;telehealth
+P100137,Taylor,Patel,46,M,True,Thunder Bay,Diabetes Mellitus,outpatient
+P100138,Drew,Roy,66,M,True,Hamilton,Asthma,telehealth;urgent
+P100139,Jordan,Garcia,29,M,True,Kingston,Hypertension,inpatient
+P100140,Riley,Patel,56,M,False,Ottawa,Diabetes Mellitus,followup;outpatient;telehealth
+P100141,Quinn,Chan,75,M,False,Ottawa,Hypertension,followup;telehealth
+P100142,Casey,Roy,23,M,True,Toronto,COVID-19 (resolved),telehealth
+P100143,Quinn,Wilson,55,F,False,Toronto,COVID-19 (resolved),followup;urgent
+P100144,Alex,Martin,56,M,True,Thunder Bay,Asthma,inpatient;new_patient;routine
+P100145,Drew,Lee,66,M,False,Kingston,Asthma,followup;inpatient;telehealth
+P100146,Alex,Brown,29,F,False,Hamilton,Migraine,followup;inpatient;urgent
+P100147,Jamie,Garcia,28,M,False,Kingston,COVID-19 (resolved),followup;inpatient
+P100148,Drew,Lee,61,M,False,Ottawa,Anxiety,routine;telehealth
+P100149,Drew,Nguyen,57,M,False,Thunder Bay,Anxiety,inpatient
+P100150,Alex,Patel,56,F,False,Waterloo,Upper Respiratory Infection,inpatient
+P100151,Sam,Patel,58,F,False,Thunder Bay,COVID-19 (resolved),routine;telehealth
+P100152,Alex,Garcia,39,Other,True,Sudbury,Hypertension,outpatient
+P100153,Quinn,O'Neil,56,M,False,Thunder Bay,Hypertension,new_patient;routine
+P100154,Sam,O'Neil,57,F,False,Kingston,Gastritis,new_patient;routine;urgent
+P100155,Quinn,Wilson,39,M,False,Sudbury,Diabetes Mellitus,outpatient;telehealth
+P100156,Jamie,Martin,85,M,False,Sudbury,Anemia,chronic;urgent
+P100157,Casey,Roy,60,M,False,Sudbury,Anxiety,new_patient;routine;telehealth
+P100158,Morgan,Nguyen,30,M,False,Waterloo,Asthma,new_patient;outpatient
+P100159,Sam,Lee,63,F,False,Thunder Bay,Upper Respiratory Infection,followup;inpatient;outpatient
+P100160,Jamie,O'Neil,34,F,True,Kingston,Anemia,outpatient
+P100161,Riley,Wilson,66,F,True,Thunder Bay,Hyperlipidemia,new_patient
+P100162,Jamie,Wilson,72,M,False,Waterloo,Upper Respiratory Infection,inpatient
+P100163,Alex,Garcia,37,F,True,Ottawa,Hyperlipidemia,new_patient;urgent
+P100164,Alex,Nguyen,69,F,False,Toronto,COVID-19 (resolved),outpatient;routine;telehealth
+P100165,Morgan,Chan,59,F,True,Kingston,Hyperlipidemia,followup;routine;telehealth
+P100166,Jamie,Roy,66,M,False,Kingston,Hyperlipidemia,inpatient;outpatient;routine
+P100167,Taylor,Martin,86,M,False,Thunder Bay,Migraine,new_patient;routine
+P100168,Casey,Brown,47,F,True,Toronto,Migraine,followup;telehealth
+P100169,Alex,Garcia,38,F,False,Hamilton,Migraine,new_patient;routine
+P100170,Morgan,Roy,35,M,False,Hamilton,COVID-19 (resolved),new_patient;outpatient;telehealth
+P100171,Casey,Brown,37,F,False,Waterloo,Anemia,new_patient;outpatient
+P100172,Jamie,Brown,50,F,False,Hamilton,Upper Respiratory Infection,outpatient
+P100173,Jamie,Nguyen,58,F,False,Kingston,Upper Respiratory Infection,chronic;inpatient
+P100174,Drew,Nguyen,56,F,False,Hamilton,Asthma,inpatient;new_patient;routine
+P100175,Morgan,Lee,66,F,False,Ottawa,Migraine,inpatient;outpatient
+P100176,Alex,Wilson,52,M,False,Ottawa,COVID-19 (resolved),routine;telehealth
+P100177,Taylor,Roy,78,F,False,Ottawa,Asthma,outpatient
+P100178,Jamie,Garcia,47,M,True,Hamilton,Diabetes Mellitus,followup;routine;urgent
+P100179,Taylor,Patel,99,F,False,Waterloo,Asthma,followup;new_patient;outpatient
+P100180,Jamie,Garcia,63,M,True,Sudbury,Anemia,urgent
+P100181,Alex,Lee,36,M,True,Sudbury,Anxiety,inpatient
+P100182,Casey,Martin,32,F,False,Toronto,Hyperlipidemia,followup;inpatient
+P100183,Jordan,Wilson,60,M,False,Sudbury,Migraine,inpatient;routine
+P100184,Casey,Patel,47,F,False,Sudbury,Anxiety,chronic;inpatient;new_patient
+P100185,Jamie,O'Neil,64,Other,False,Ottawa,Asthma,telehealth
+P100186,Quinn,Martin,60,F,False,Ottawa,COVID-19 (resolved),chronic;new_patient;urgent
+P100187,Jordan,Nguyen,50,F,False,Hamilton,Hyperlipidemia,followup;inpatient
+P100188,Jordan,Brown,36,F,False,Toronto,Upper Respiratory Infection,chronic;outpatient;urgent
+P100189,Taylor,O'Neil,24,Other,False,Thunder Bay,Hypertension,followup
+P100190,Morgan,Garcia,43,M,False,Kingston,Hyperlipidemia,new_patient;telehealth
+P100191,Taylor,Garcia,67,M,True,Toronto,Anemia,new_patient;routine
+P100192,Taylor,Nguyen,55,F,False,Toronto,Anemia,chronic;new_patient
+P100193,Quinn,Lee,29,M,False,Waterloo,Asthma,chronic;followup;routine
+P100194,Casey,Roy,55,F,False,Hamilton,Diabetes Mellitus,chronic;telehealth
+P100195,Casey,O'Neil,58,M,False,Waterloo,Anemia,outpatient
+P100196,Riley,O'Neil,36,F,False,Toronto,Anemia,chronic;followup;routine
+P100197,Jamie,Chan,54,F,False,Toronto,COVID-19 (resolved),chronic;urgent
+P100198,Quinn,Martin,53,F,False,Toronto,Asthma,followup;outpatient;telehealth
+P100199,Riley,Wilson,31,F,False,Sudbury,Hyperlipidemia,outpatient;routine
+P100200,Alex,Martin,58,M,False,Kingston,Diabetes Mellitus,telehealth
+P100201,Jamie,Roy,62,F,False,Kingston,Anxiety,inpatient
+P100202,Jamie,Garcia,71,M,False,Waterloo,Hypertension,routine;telehealth
+P100203,Drew,Garcia,70,F,True,Toronto,Migraine,followup
+P100204,Drew,Garcia,27,M,False,Kingston,Upper Respiratory Infection,new_patient;telehealth
+P100205,Sam,Chan,35,F,False,Ottawa,Anemia,chronic;inpatient;urgent
+P100206,Sam,Garcia,61,F,False,Kingston,Asthma,new_patient
+P100207,Taylor,Roy,61,M,True,Hamilton,Migraine,new_patient;urgent
+P100208,Alex,Nguyen,61,F,False,Hamilton,Upper Respiratory Infection,inpatient;new_patient;urgent
+P100209,Jordan,Wilson,99,F,False,Kingston,Upper Respiratory Infection,new_patient;outpatient
+P100210,Jordan,Roy,62,M,True,Ottawa,Anxiety,new_patient;outpatient
+P100211,Drew,Wilson,72,M,False,Hamilton,Anxiety,chronic;followup;inpatient
+P100212,Drew,Roy,69,F,False,Sudbury,Anxiety,inpatient;new_patient
+P100213,Drew,Garcia,63,F,True,Kingston,Gastritis,new_patient
+P100214,Quinn,Nguyen,46,M,False,Sudbury,Gastritis,new_patient;routine
+P100215,Morgan,O'Neil,65,F,False,Kingston,Upper Respiratory Infection,chronic
+P100216,Sam,Martin,38,F,False,Thunder Bay,Anxiety,urgent
+P100217,Quinn,Brown,47,F,False,Thunder Bay,COVID-19 (resolved),chronic;urgent
+P100218,Casey,Nguyen,43,M,False,Thunder Bay,Anemia,followup;inpatient;new_patient
+P100219,Jordan,O'Neil,53,M,False,Hamilton,Migraine,urgent
+P100220,Jamie,Lee,93,F,False,Sudbury,Migraine,new_patient;telehealth
+P100221,Sam,Roy,18,F,False,Sudbury,Gastritis,chronic
+P100222,Riley,Lee,64,F,True,Sudbury,Upper Respiratory Infection,new_patient;routine
+P100223,Casey,O'Neil,22,M,False,Ottawa,Asthma,new_patient;outpatient
+P100224,Sam,Nguyen,43,F,False,Sudbury,Hyperlipidemia,new_patient;outpatient
+P100225,Quinn,Roy,71,F,False,Ottawa,Hyperlipidemia,chronic
+P100226,Alex,Brown,53,M,False,Thunder Bay,Gastritis,urgent
+P100227,Jamie,Garcia,32,F,False,Thunder Bay,Asthma,inpatient;routine
+P100228,Sam,Roy,39,M,False,Hamilton,Gastritis,urgent
+P100229,Morgan,Roy,64,F,True,Kingston,Hyperlipidemia,inpatient
+P100230,Drew,Nguyen,38,F,False,Thunder Bay,Asthma,urgent
+P100231,Drew,Nguyen,55,F,False,Kingston,Anxiety,followup;new_patient;telehealth
+P100232,Jamie,O'Neil,52,M,False,Kingston,Upper Respiratory Infection,followup;outpatient
+P100233,Quinn,Patel,40,M,True,Hamilton,Migraine,chronic
+P100234,Drew,Roy,90,M,True,Toronto,COVID-19 (resolved),new_patient;outpatient;telehealth
+P100235,Sam,Martin,63,F,False,Toronto,Diabetes Mellitus,followup
+P100236,Riley,Roy,15,M,False,Waterloo,Upper Respiratory Infection,outpatient
+P100237,Jordan,O'Neil,55,F,False,Hamilton,Anxiety,urgent
+P100238,Jordan,Wilson,40,F,False,Waterloo,Hyperlipidemia,inpatient;new_patient
+P100239,Casey,Lee,67,M,False,Waterloo,Anxiety,inpatient;outpatient;urgent
+P100240,Taylor,Garcia,37,F,False,Toronto,Gastritis,inpatient;routine;urgent
+P100241,Alex,Patel,49,F,False,Hamilton,Asthma,followup;new_patient
+P100242,Jamie,Brown,61,F,True,Toronto,Migraine,outpatient;telehealth;urgent
+P100243,Casey,Brown,67,F,True,Waterloo,Anemia,routine;urgent
+P100244,Taylor,Brown,30,F,True,Hamilton,Gastritis,inpatient;routine;urgent
+P100245,Quinn,Nguyen,45,M,False,Waterloo,Upper Respiratory Infection,followup;inpatient
+P100246,Morgan,Brown,43,F,False,Sudbury,Gastritis,chronic;routine
+P100247,Morgan,Garcia,40,M,False,Kingston,Upper Respiratory Infection,new_patient
+P100248,Alex,Lee,83,M,False,Hamilton,Anemia,outpatient
+P100249,Drew,Brown,59,F,False,Hamilton,Hypertension,chronic;inpatient;new_patient
+P100250,Sam,Roy,29,F,False,Kingston,Migraine,followup;outpatient;telehealth
+P100251,Casey,Roy,68,F,False,Waterloo,COVID-19 (resolved),outpatient
+P100252,Casey,Nguyen,90,M,True,Sudbury,COVID-19 (resolved),inpatient;new_patient
+P100253,Jamie,Garcia,70,F,True,Ottawa,Diabetes Mellitus,new_patient;telehealth
+P100254,Jamie,Lee,24,M,False,Kingston,Anxiety,chronic
+P100255,Morgan,Patel,43,F,True,Toronto,Hypertension,inpatient;telehealth
+P100256,Morgan,O'Neil,74,M,False,Waterloo,COVID-19 (resolved),routine
+P100257,Riley,Lee,39,F,False,Kingston,Gastritis,routine;telehealth
+P100258,Riley,O'Neil,59,F,True,Kingston,Anxiety,chronic;outpatient;urgent
+P100259,Drew,Wilson,65,M,True,Hamilton,Hypertension,followup;inpatient;urgent
+P100260,Riley,O'Neil,35,M,False,Toronto,Asthma,inpatient;new_patient;outpatient
+P100261,Sam,Martin,50,F,False,Toronto,Asthma,chronic
+P100262,Sam,Roy,0,M,False,Toronto,Anxiety,chronic;inpatient;urgent
+P100263,Casey,Garcia,33,M,False,Kingston,Upper Respiratory Infection,outpatient
+P100264,Jordan,Chan,47,M,True,Ottawa,Upper Respiratory Infection,new_patient
+P100265,Sam,Nguyen,29,M,True,Thunder Bay,Gastritis,inpatient;routine;telehealth
+P100266,Taylor,Martin,81,F,False,Waterloo,Hypertension,inpatient;outpatient;routine
+P100267,Morgan,O'Neil,26,F,False,Thunder Bay,Hypertension,chronic;inpatient;routine
+P100268,Jamie,Brown,44,F,True,Kingston,Anxiety,chronic;routine;telehealth
+P100269,Riley,Garcia,54,M,False,Thunder Bay,Hyperlipidemia,outpatient;telehealth
+P100270,Casey,Martin,77,M,False,Kingston,Asthma,inpatient;urgent
+P100271,Alex,Nguyen,26,F,False,Thunder Bay,Hypertension,inpatient;telehealth;urgent
+P100272,Jamie,Roy,72,F,False,Toronto,Anxiety,followup;new_patient;telehealth
+P100273,Taylor,Garcia,52,M,False,Sudbury,Anemia,chronic;routine;telehealth
+P100274,Riley,Nguyen,34,Other,False,Toronto,Diabetes Mellitus,followup;outpatient;urgent
+P100275,Taylor,Wilson,60,M,False,Toronto,Anemia,inpatient;telehealth
+P100276,Morgan,Wilson,55,F,True,Hamilton,Migraine,outpatient
+P100277,Morgan,Nguyen,41,F,True,Hamilton,Gastritis,telehealth
+P100278,Drew,Martin,53,F,False,Thunder Bay,Hypertension,chronic;urgent
+P100279,Casey,Garcia,45,M,False,Kingston,Migraine,followup;outpatient;routine
+P100280,Jamie,Martin,54,F,True,Toronto,COVID-19 (resolved),chronic;new_patient;urgent
+P100281,Quinn,Patel,63,M,False,Thunder Bay,Migraine,inpatient;new_patient;outpatient
+P100282,Quinn,O'Neil,80,F,False,Hamilton,Anxiety,followup;routine
+P100283,Jamie,Patel,29,M,True,Sudbury,Hypertension,outpatient
+P100284,Alex,Wilson,90,M,False,Waterloo,Diabetes Mellitus,followup;new_patient
+P100285,Casey,Roy,16,M,False,Thunder Bay,Anxiety,new_patient
+P100286,Taylor,Lee,49,F,False,Sudbury,Anxiety,followup;outpatient
+P100287,Alex,O'Neil,62,F,True,Waterloo,Gastritis,followup;new_patient;urgent
+P100288,Jordan,Wilson,57,F,False,Ottawa,Gastritis,followup;outpatient;urgent
+P100289,Jamie,Martin,40,M,False,Thunder Bay,Asthma,new_patient
+P100290,Taylor,Martin,48,M,False,Thunder Bay,Asthma,inpatient;new_patient;outpatient
+P100291,Quinn,Martin,43,M,False,Ottawa,Upper Respiratory Infection,chronic;inpatient
+P100292,Sam,Roy,41,M,False,Ottawa,Hyperlipidemia,new_patient;telehealth
+P100293,Drew,Patel,67,M,False,Thunder Bay,Hypertension,outpatient;routine;urgent
+P100294,Quinn,Lee,58,F,False,Ottawa,Hypertension,inpatient
+P100295,Casey,Martin,39,M,False,Toronto,Migraine,inpatient;routine;telehealth
+P100296,Morgan,Chan,68,F,True,Waterloo,Hypertension,telehealth
+P100297,Sam,O'Neil,57,F,False,Waterloo,Hypertension,telehealth
+P100298,Drew,Garcia,66,M,False,Waterloo,Hyperlipidemia,chronic;followup;urgent
+P100299,Drew,Chan,63,F,False,Toronto,COVID-19 (resolved),chronic;routine
+P100300,Jordan,Lee,37,F,True,Kingston,Asthma,chronic;telehealth;urgent
+P100301,Jordan,Roy,41,M,False,Ottawa,Asthma,outpatient
+P100302,Riley,Lee,65,F,False,Sudbury,Diabetes Mellitus,inpatient;outpatient;routine
+P100303,Quinn,Garcia,62,M,False,Ottawa,Hypertension,inpatient
+P100304,Quinn,O'Neil,51,F,True,Thunder Bay,Hyperlipidemia,chronic;inpatient
+P100305,Quinn,Garcia,54,F,False,Hamilton,Asthma,inpatient
+P100306,Riley,Nguyen,74,F,False,Waterloo,Hyperlipidemia,chronic;followup;telehealth
+P100307,Alex,O'Neil,41,F,True,Ottawa,Anemia,urgent
+P100308,Drew,Lee,61,M,False,Sudbury,COVID-19 (resolved),outpatient
+P100309,Sam,Martin,48,F,False,Thunder Bay,Hypertension,inpatient;outpatient;urgent
+P100310,Casey,Lee,48,M,False,Toronto,Diabetes Mellitus,outpatient;routine
+P100311,Drew,Lee,71,F,False,Kingston,Migraine,chronic;outpatient
+P100312,Jordan,O'Neil,66,M,False,Toronto,Asthma,chronic;inpatient;urgent
+P100313,Taylor,Nguyen,66,M,False,Sudbury,Anemia,inpatient;routine;urgent
+P100314,Morgan,Lee,75,M,False,Thunder Bay,Hyperlipidemia,outpatient;urgent
+P100315,Riley,Chan,52,F,False,Waterloo,Gastritis,inpatient
+P100316,Jamie,Wilson,64,F,False,Ottawa,Anxiety,new_patient;routine;urgent
+P100317,Taylor,Brown,46,F,False,Thunder Bay,Hypertension,new_patient;urgent
+P100318,Casey,Brown,57,M,False,Kingston,Hypertension,chronic
+P100319,Quinn,Lee,49,F,False,Toronto,Anemia,chronic;followup;telehealth
+P100320,Jordan,Chan,53,M,False,Kingston,Hyperlipidemia,inpatient;new_patient;routine
+P100321,Jordan,Martin,62,M,False,Kingston,Upper Respiratory Infection,chronic
+P100322,Jordan,Roy,37,F,False,Sudbury,Hypertension,new_patient;telehealth
+P100323,Quinn,Roy,89,M,True,Sudbury,Upper Respiratory Infection,followup;new_patient
+P100324,Jamie,O'Neil,33,F,False,Ottawa,Gastritis,routine
+P100325,Riley,Brown,30,F,True,Sudbury,Anemia,chronic;telehealth
+P100326,Taylor,Lee,72,M,False,Sudbury,Hyperlipidemia,chronic;new_patient;outpatient
+P100327,Quinn,Roy,66,M,False,Thunder Bay,Hyperlipidemia,chronic
+P100328,Casey,Lee,63,M,False,Waterloo,COVID-19 (resolved),routine
+P100329,Riley,O'Neil,63,F,False,Ottawa,Anxiety,routine;urgent
+P100330,Casey,Brown,51,F,False,Thunder Bay,Asthma,routine;urgent
+P100331,Riley,Garcia,35,M,False,Waterloo,Asthma,chronic;inpatient;urgent
+P100332,Jamie,Wilson,53,M,False,Kingston,Migraine,routine
+P100333,Morgan,Wilson,39,M,False,Thunder Bay,Diabetes Mellitus,chronic;inpatient;routine
+P100334,Casey,Roy,69,F,False,Hamilton,Anemia,inpatient
+P100335,Quinn,Wilson,49,M,True,Thunder Bay,Gastritis,chronic;telehealth
+P100336,Riley,Garcia,37,F,False,Sudbury,Hyperlipidemia,chronic;urgent
+P100337,Jordan,Lee,46,F,False,Waterloo,Anxiety,inpatient
+P100338,Drew,O'Neil,59,M,False,Ottawa,Upper Respiratory Infection,chronic;outpatient;telehealth
+P100339,Jordan,Garcia,41,F,False,Ottawa,Anemia,new_patient
+P100340,Alex,O'Neil,37,M,False,Waterloo,Migraine,inpatient
+P100341,Morgan,O'Neil,56,F,False,Sudbury,Anemia,chronic
+P100342,Morgan,Brown,56,F,False,Toronto,Migraine,telehealth
+P100343,Jordan,Lee,42,M,False,Thunder Bay,Hyperlipidemia,chronic;outpatient
+P100344,Taylor,Chan,43,M,True,Sudbury,Diabetes Mellitus,inpatient;new_patient;outpatient
+P100345,Jamie,Wilson,56,M,False,Hamilton,Migraine,chronic;inpatient
+P100346,Casey,Chan,25,M,False,Kingston,Hyperlipidemia,followup;inpatient;telehealth
+P100347,Quinn,Brown,26,M,False,Waterloo,Hyperlipidemia,new_patient;telehealth;urgent
+P100348,Morgan,O'Neil,39,M,False,Thunder Bay,Diabetes Mellitus,new_patient;telehealth
+P100349,Jordan,Roy,48,M,False,Ottawa,Asthma,new_patient;outpatient;urgent
+P100350,Jordan,Wilson,57,F,False,Kingston,Anemia,new_patient;outpatient
+P100351,Jamie,Wilson,78,M,False,Toronto,Hypertension,chronic;followup;new_patient
+P100352,Jamie,Lee,67,F,False,Hamilton,Hypertension,chronic;telehealth
+P100353,Sam,Nguyen,49,Other,False,Ottawa,Upper Respiratory Infection,inpatient;new_patient
+P100354,Sam,Patel,51,M,False,Waterloo,Upper Respiratory Infection,inpatient;routine
+P100355,Taylor,Patel,33,F,True,Thunder Bay,Hypertension,new_patient
+P100356,Taylor,Patel,51,M,True,Waterloo,Gastritis,new_patient
+P100357,Alex,Nguyen,46,M,True,Kingston,Hypertension,routine
+P100358,Taylor,Lee,57,F,False,Thunder Bay,Upper Respiratory Infection,chronic;inpatient;routine
+P100359,Riley,Nguyen,37,M,False,Sudbury,Anxiety,inpatient;telehealth
+P100360,Jamie,Patel,61,M,False,Toronto,Upper Respiratory Infection,telehealth
+P100361,Quinn,Brown,79,F,False,Sudbury,Gastritis,new_patient;routine;urgent
+P100362,Riley,Garcia,50,M,True,Sudbury,Anemia,followup;outpatient
+P100363,Casey,O'Neil,59,F,False,Waterloo,Hypertension,routine;urgent
+P100364,Jordan,Nguyen,64,M,False,Kingston,Diabetes Mellitus,new_patient
+P100365,Taylor,Lee,44,Other,True,Toronto,Anxiety,inpatient;telehealth;urgent
+P100366,Jordan,Lee,56,M,False,Thunder Bay,Hyperlipidemia,outpatient;routine
+P100367,Morgan,Chan,52,F,False,Thunder Bay,Gastritis,new_patient;routine;urgent
+P100368,Alex,Garcia,53,M,False,Hamilton,Upper Respiratory Infection,new_patient;telehealth
+P100369,Morgan,Roy,38,M,False,Ottawa,Diabetes Mellitus,chronic;new_patient;outpatient
+P100370,Alex,Wilson,52,F,False,Hamilton,Migraine,followup
+P100371,Sam,Patel,60,M,False,Hamilton,Asthma,outpatient
+P100372,Jordan,Roy,78,F,False,Thunder Bay,Hypertension,followup
+P100373,Alex,Chan,69,M,False,Waterloo,Asthma,followup;new_patient
+P100374,Drew,Patel,90,F,False,Sudbury,Gastritis,chronic;followup;inpatient
+P100375,Riley,Garcia,38,F,False,Kingston,Migraine,new_patient;outpatient;urgent
+P100376,Alex,Chan,67,F,False,Sudbury,Migraine,telehealth;urgent
+P100377,Alex,Patel,55,M,True,Sudbury,Migraine,inpatient;routine
+P100378,Riley,Garcia,91,F,True,Toronto,Hyperlipidemia,inpatient
+P100379,Jordan,Martin,37,M,False,Thunder Bay,Gastritis,new_patient;outpatient;routine
+P100380,Jordan,Roy,36,F,True,Kingston,Anemia,telehealth
+P100381,Riley,Roy,41,F,False,Waterloo,Asthma,followup
+P100382,Morgan,Wilson,13,M,False,Toronto,Anemia,new_patient;outpatient;routine
+P100383,Drew,Garcia,42,M,True,Ottawa,Diabetes Mellitus,chronic
+P100384,Quinn,Nguyen,38,F,False,Waterloo,COVID-19 (resolved),followup;inpatient;telehealth
+P100385,Casey,Martin,54,M,False,Hamilton,Anxiety,inpatient;outpatient;telehealth
+P100386,Drew,Brown,58,M,False,Waterloo,Anxiety,inpatient;new_patient;urgent
+P100387,Jordan,Patel,85,M,False,Waterloo,Anemia,telehealth;urgent
+P100388,Quinn,Martin,69,F,False,Sudbury,COVID-19 (resolved),outpatient;routine
+P100389,Sam,Garcia,41,F,False,Waterloo,COVID-19 (resolved),new_patient;routine
+P100390,Taylor,O'Neil,35,M,True,Hamilton,Hypertension,chronic;new_patient
+P100391,Alex,Patel,60,F,False,Hamilton,Diabetes Mellitus,chronic;inpatient
+P100392,Riley,Lee,28,M,False,Thunder Bay,Gastritis,chronic;followup
+P100393,Riley,Roy,84,M,False,Waterloo,COVID-19 (resolved),outpatient;routine
+P100394,Alex,Garcia,73,M,False,Sudbury,Upper Respiratory Infection,outpatient;urgent
+P100395,Taylor,Lee,43,M,False,Waterloo,Anxiety,new_patient;telehealth;urgent
+P100396,Casey,Wilson,21,Other,False,Ottawa,Upper Respiratory Infection,outpatient;routine;urgent
+P100397,Taylor,Chan,76,F,True,Ottawa,Diabetes Mellitus,new_patient;outpatient
+P100398,Quinn,Brown,49,M,False,Sudbury,COVID-19 (resolved),routine
+P100399,Taylor,Brown,74,F,False,Thunder Bay,Asthma,inpatient
+P100400,Quinn,Lee,23,F,False,Thunder Bay,Anxiety,new_patient;outpatient;routine
+P100401,Taylor,Roy,41,M,False,Hamilton,Hypertension,routine;telehealth;urgent
+P100402,Casey,Wilson,52,M,False,Hamilton,Hypertension,inpatient;telehealth;urgent
+P100403,Casey,O'Neil,52,Other,False,Toronto,Migraine,routine
+P100404,Jordan,Roy,43,M,False,Sudbury,Hyperlipidemia,chronic;telehealth;urgent
+P100405,Alex,Martin,63,F,False,Waterloo,COVID-19 (resolved),followup;new_patient
+P100406,Casey,Brown,32,F,False,Kingston,Diabetes Mellitus,telehealth
+P100407,Quinn,Martin,49,M,False,Sudbury,Anxiety,new_patient;outpatient;routine
+P100408,Casey,Patel,54,F,False,Toronto,Hyperlipidemia,chronic;telehealth
+P100409,Jordan,Nguyen,61,F,True,Hamilton,Diabetes Mellitus,outpatient;routine
+P100410,Riley,Garcia,64,F,False,Sudbury,Anemia,followup;inpatient
+P100411,Quinn,Wilson,31,F,False,Sudbury,COVID-19 (resolved),telehealth
+P100412,Jordan,Roy,24,F,False,Hamilton,Gastritis,new_patient
+P100413,Morgan,Brown,74,F,True,Toronto,Gastritis,inpatient;routine;urgent
+P100414,Morgan,Martin,57,F,False,Hamilton,COVID-19 (resolved),outpatient
+P100415,Sam,Chan,38,F,False,Thunder Bay,Migraine,followup;inpatient;telehealth
+P100416,Taylor,Patel,79,Other,True,Waterloo,Migraine,chronic;inpatient;outpatient
+P100417,Alex,Garcia,54,F,True,Hamilton,Gastritis,chronic;routine;urgent
+P100418,Jamie,Garcia,73,F,True,Toronto,Asthma,chronic
+P100419,Drew,Roy,53,M,False,Ottawa,Anxiety,routine
+P100420,Jordan,Wilson,89,F,False,Thunder Bay,Gastritis,inpatient;routine;urgent
+P100421,Riley,O'Neil,83,M,False,Ottawa,Asthma,chronic;routine;telehealth
+P100422,Drew,Chan,47,M,False,Kingston,Hyperlipidemia,followup;new_patient;urgent
+P100423,Riley,Roy,69,F,False,Hamilton,Asthma,urgent
+P100424,Drew,Martin,63,F,False,Thunder Bay,Hyperlipidemia,chronic;urgent
+P100425,Jordan,Nguyen,76,M,False,Waterloo,Diabetes Mellitus,inpatient
+P100426,Jamie,Lee,34,M,False,Hamilton,Upper Respiratory Infection,inpatient;new_patient;telehealth
+P100427,Drew,O'Neil,64,F,True,Waterloo,Diabetes Mellitus,new_patient;outpatient
+P100428,Jordan,Wilson,71,M,False,Sudbury,Gastritis,inpatient;routine;telehealth
+P100429,Casey,Patel,20,F,False,Ottawa,Hyperlipidemia,chronic
+P100430,Jamie,O'Neil,30,Other,False,Thunder Bay,Gastritis,new_patient;telehealth;urgent
+P100431,Quinn,Brown,15,F,False,Waterloo,COVID-19 (resolved),followup;inpatient;routine
+P100432,Riley,Wilson,47,M,False,Toronto,Anxiety,inpatient;new_patient
+P100433,Morgan,Nguyen,64,M,False,Waterloo,Hypertension,followup;routine
+P100434,Taylor,Brown,79,M,True,Toronto,Gastritis,routine;urgent
+P100435,Morgan,O'Neil,53,M,True,Hamilton,Anxiety,followup;outpatient
+P100436,Jamie,Lee,81,F,False,Thunder Bay,Asthma,chronic
+P100437,Quinn,Lee,27,F,False,Waterloo,Diabetes Mellitus,inpatient
+P100438,Riley,Nguyen,21,F,False,Kingston,Asthma,chronic;telehealth;urgent
+P100439,Quinn,Garcia,51,F,True,Waterloo,Hypertension,telehealth
+P100440,Drew,Chan,58,M,True,Kingston,Hyperlipidemia,inpatient;outpatient;urgent
+P100441,Riley,Patel,51,F,False,Thunder Bay,COVID-19 (resolved),inpatient
+P100442,Drew,Garcia,14,F,True,Waterloo,Anxiety,routine
+P100443,Jordan,Lee,50,Other,False,Toronto,COVID-19 (resolved),urgent
+P100444,Jamie,Lee,28,M,False,Waterloo,Upper Respiratory Infection,followup;telehealth
+P100445,Jordan,Martin,64,M,False,Ottawa,Gastritis,followup;new_patient;outpatient
+P100446,Sam,Brown,58,Other,True,Hamilton,Hyperlipidemia,urgent
+P100447,Quinn,O'Neil,35,F,False,Sudbury,Upper Respiratory Infection,urgent
+P100448,Drew,Patel,42,F,True,Toronto,Anemia,inpatient;outpatient
+P100449,Casey,Nguyen,32,M,False,Ottawa,Gastritis,followup;urgent
+P100450,Jordan,O'Neil,50,M,False,Kingston,Asthma,followup;urgent
+P100451,Sam,Martin,69,F,False,Hamilton,Diabetes Mellitus,new_patient;outpatient;urgent
+P100452,Alex,Lee,34,M,False,Thunder Bay,Anxiety,followup;inpatient;new_patient
+P100453,Morgan,Nguyen,61,F,False,Toronto,Hypertension,followup;inpatient
+P100454,Riley,Lee,42,F,False,Sudbury,Hypertension,inpatient;outpatient;urgent
+P100455,Sam,Patel,37,M,False,Hamilton,Asthma,inpatient;outpatient;routine
+P100456,Jamie,Brown,50,M,False,Kingston,Migraine,urgent
+P100457,Jordan,O'Neil,33,M,False,Sudbury,Hypertension,inpatient;new_patient
+P100458,Jamie,O'Neil,42,F,False,Thunder Bay,Anxiety,followup;inpatient;routine
+P100459,Morgan,Garcia,30,M,False,Thunder Bay,Asthma,followup;urgent
+P100460,Casey,Nguyen,87,F,False,Kingston,Hyperlipidemia,telehealth;urgent
+P100461,Quinn,Chan,52,F,False,Toronto,Hypertension,outpatient
+P100462,Quinn,Martin,39,M,False,Kingston,COVID-19 (resolved),inpatient;outpatient;routine
+P100463,Jamie,Chan,55,M,True,Waterloo,Asthma,chronic;inpatient;outpatient
+P100464,Drew,Garcia,49,M,False,Thunder Bay,Anxiety,new_patient;routine;urgent
+P100465,Casey,Patel,48,M,False,Hamilton,COVID-19 (resolved),inpatient
+P100466,Quinn,Martin,63,M,True,Waterloo,Gastritis,chronic;followup
+P100467,Casey,Brown,65,M,False,Ottawa,Gastritis,new_patient;routine
+P100468,Sam,Chan,42,F,True,Sudbury,Hypertension,inpatient;new_patient
+P100469,Casey,Brown,41,F,False,Waterloo,COVID-19 (resolved),followup;inpatient;telehealth
+P100470,Taylor,Chan,47,F,True,Sudbury,Diabetes Mellitus,outpatient;telehealth
+P100471,Morgan,Brown,10,F,False,Kingston,Gastritis,chronic
+P100472,Quinn,Chan,24,M,False,Waterloo,Diabetes Mellitus,followup
+P100473,Casey,Brown,76,M,False,Kingston,Hyperlipidemia,followup
+P100474,Jamie,Garcia,81,F,False,Ottawa,Asthma,followup;routine
+P100475,Alex,Wilson,47,F,False,Thunder Bay,Upper Respiratory Infection,followup;new_patient;routine
+P100476,Taylor,Martin,62,M,False,Ottawa,Anxiety,new_patient;outpatient;urgent
+P100477,Taylor,Nguyen,57,F,False,Thunder Bay,Asthma,chronic;routine;urgent
+P100478,Drew,Patel,99,M,False,Kingston,Anxiety,new_patient;routine
+P100479,Casey,Roy,72,M,True,Thunder Bay,COVID-19 (resolved),chronic;new_patient;routine
+P100480,Drew,Lee,49,M,False,Sudbury,Hyperlipidemia,outpatient
+P100481,Drew,Nguyen,34,M,False,Hamilton,Anemia,outpatient;telehealth;urgent
+P100482,Alex,Lee,23,M,False,Ottawa,Hypertension,followup;inpatient;routine
+P100483,Sam,Martin,55,F,False,Waterloo,Anxiety,inpatient;new_patient
+P100484,Casey,Nguyen,38,M,False,Ottawa,Anxiety,routine
+P100485,Jordan,Brown,26,M,False,Sudbury,COVID-19 (resolved),routine;telehealth;urgent
+P100486,Quinn,Brown,40,F,True,Thunder Bay,Diabetes Mellitus,chronic;inpatient;new_patient
+P100487,Drew,Roy,32,M,False,Sudbury,Asthma,outpatient;routine;urgent
+P100488,Morgan,Lee,82,M,True,Toronto,Anemia,followup;outpatient;urgent
+P100489,Riley,Patel,67,M,False,Toronto,Migraine,outpatient;telehealth
+P100490,Morgan,Martin,51,M,False,Waterloo,Hypertension,followup;urgent
+P100491,Alex,Brown,78,M,False,Sudbury,Upper Respiratory Infection,new_patient
+P100492,Alex,Wilson,53,M,True,Kingston,Migraine,telehealth
+P100493,Jamie,Garcia,36,M,False,Waterloo,Asthma,chronic;routine;urgent
+P100494,Sam,Garcia,79,M,False,Kingston,Hypertension,chronic;inpatient;new_patient
+P100495,Quinn,Chan,61,M,False,Waterloo,Anxiety,followup;routine
+P100496,Drew,Patel,33,M,True,Toronto,Upper Respiratory Infection,outpatient;routine
+P100497,Morgan,Garcia,48,M,False,Waterloo,Diabetes Mellitus,followup;urgent
+P100498,Riley,Chan,36,F,False,Toronto,Anemia,telehealth
+P100499,Alex,Lee,27,M,False,Thunder Bay,Diabetes Mellitus,chronic;routine;urgent
