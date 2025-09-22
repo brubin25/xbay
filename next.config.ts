@@ -1,19 +1,20 @@
 // next.config.ts
-import type { NextConfig } from 'next';
+import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  // keeps images simple on static/CDN
   images: { unoptimized: true },
+
+  // NEW: skip ESLint in CI builds to avoid requiring eslint as a devDependency
+  eslint: { ignoreDuringBuilds: true },
 
   async headers() {
     return [
       {
-        source: '/(.*)',
+        source: "/(.*)",
         headers: [
-          { key: 'Cross-Origin-Opener-Policy', value: 'same-origin' },
-          { key: 'Cross-Origin-Embedder-Policy', value: 'require-corp' },
-          // helpful when loading assets from same origin
-          { key: 'Cross-Origin-Resource-Policy', value: 'cross-origin' },
+          { key: "Cross-Origin-Opener-Policy", value: "same-origin" },
+          { key: "Cross-Origin-Embedder-Policy", value: "require-corp" },
+          { key: "Cross-Origin-Resource-Policy", value: "cross-origin" },
         ],
       },
     ];
