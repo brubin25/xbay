@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="256" height="256" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+  <title>Built for clinical datasets</title>
+  <desc>Database cylinder with medical cross badge</desc>
+  <!-- Database (cylinder) -->
+  <ellipse cx="12" cy="6" rx="7" ry="3"/>
+  <path d="M5 6v9"/>
+  <path d="M19 6v9"/>
+  <path d="M5 15a7 3 0 0 0 14 0"/>
+  <!-- Middle band hint -->
+  <path d="M5 10a7 3 0 0 0 14 0" opacity="0.6"/>
+  <!-- Badge circle -->
+  <circle cx="18" cy="18" r="3.6"/>
+  <!-- Medical cross -->
+  <path d="M18 16.6v2.8"/>
+  <path d="M16.6 18h2.8"/>
+</svg>

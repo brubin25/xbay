@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Professional Data Grid (light strokes for dark/colored backgrounds) -->
+  <g stroke="#FFFFFF" stroke-opacity="0.92" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="5" y="7" width="30" height="26" rx="4" />
+    <line x1="5" y1="14" x2="35" y2="14" stroke="#93C5FD"/>
+    <line x1="15" y1="14" x2="15" y2="33" />
+    <line x1="25" y1="14" x2="25" y2="33" />
+    <line x1="5" y1="21" x2="35" y2="21" stroke-opacity="0.7"/>
+    <line x1="5" y1="27.5" x2="35" y2="27.5" stroke-opacity="0.7"/>
+  </g>
+  <g stroke="#93C5FD" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+    <polyline points="28,11 30,9 32,11"/>
+    <polyline points="28,13 30,15 32,13"/>
+  </g>
+  <g fill="#93C5FD">
+    <circle cx="29" cy="31.5" r="0.9"/>
+    <circle cx="31.5" cy="31.5" r="0.9"/>
+    <circle cx="34" cy="31.5" r="0.9"/>
+  </g>
+</svg>

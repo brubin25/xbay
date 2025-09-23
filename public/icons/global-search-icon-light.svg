@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Grid / tables -->
+  <rect x="8" y="10" width="22" height="16" rx="2" stroke="#FFFFFF" stroke-width="2"/>
+  <rect x="8" y="30" width="22" height="16" rx="2" stroke="#FFFFFF" stroke-width="2"/>
+  <rect x="34" y="10" width="22" height="16" rx="2" stroke="#FFFFFF" stroke-width="2"/>
+  <!-- Tiny cells to suggest columns/rows -->
+  <line x1="15" y1="18" x2="23" y2="18" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+  <line x1="15" y1="38" x2="23" y2="38" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+  <line x1="41" y1="18" x2="49" y2="18" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+  <!-- Magnifier over tables -->
+  <circle cx="38" cy="40" r="10" stroke="#FFFFFF" stroke-width="2"/>
+  <line x1="45" y1="47" x2="54" y2="56" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+  <!-- Spark to suggest "global" / discovery -->
+  <path d="M32 8h2M33 6v4M28 13h4M30 11v4" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+</svg>

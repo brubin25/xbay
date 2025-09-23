@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Professional Data Grid (dark strokes for light backgrounds) -->
+  <g stroke="#111827" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <!-- outer grid -->
+    <rect x="5" y="7" width="30" height="26" rx="4" />
+    <!-- header separator -->
+    <line x1="5" y1="14" x2="35" y2="14" stroke="#2563EB"/>
+    <!-- vertical grid lines -->
+    <line x1="15" y1="14" x2="15" y2="33" />
+    <line x1="25" y1="14" x2="25" y2="33" />
+    <!-- row separators (subtle) -->
+    <line x1="5" y1="21" x2="35" y2="21" opacity="0.6"/>
+    <line x1="5" y1="27.5" x2="35" y2="27.5" opacity="0.6"/>
+  </g>
+  <!-- sort indicator chevrons on a column header -->
+  <g stroke="#2563EB" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+    <polyline points="28,11 30,9 32,11"/>
+    <polyline points="28,13 30,15 32,13"/>
+  </g>
+  <!-- resize handle dots -->
+  <g fill="#2563EB" opacity="0.9">
+    <circle cx="29" cy="31.5" r="0.9"/>
+    <circle cx="31.5" cy="31.5" r="0.9"/>
+    <circle cx="34" cy="31.5" r="0.9"/>
+  </g>
+</svg>

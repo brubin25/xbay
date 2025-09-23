@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Top slider -->
+    <line x1="10" y1="8" x2="54" y2="8"/>
+    <circle cx="28" cy="8" r="3"/>
+    <!-- Bottom slider -->
+    <line x1="10" y1="56" x2="54" y2="56"/>
+    <circle cx="40" cy="56" r="3"/>
+    <!-- Funnel / filter -->
+    <path d="M14 14 H50 L36 30 V40 L26 48 V30 L14 14 Z"/>
+    <!-- Spark accents to suggest "dynamic" -->
+    <path d="M8 26 L8 30 M6 28 L10 28"/>
+    <path d="M56 34 L56 38 M54 36 L58 36"/>
+  </g>
+</svg>

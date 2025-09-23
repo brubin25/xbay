@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Browser window -->
+    <rect x="5" y="8" width="30" height="22" rx="3"/>
+    <!-- Window controls -->
+    <circle cx="10" cy="12" r="1.2" fill="currentColor"/>
+    <circle cx="14" cy="12" r="1.2" fill="currentColor"/>
+    <circle cx="18" cy="12" r="1.2" fill="currentColor"/>
+    <!-- Shield centered -->
+    <path d="M20 14c3 0 6-2 8-4v8c0 6.5-4.2 10.8-8 12-3.8-1.2-8-5.5-8-12v-8c2 2 5 4 8 4z"/>
+    <!-- Check inside shield -->
+    <path d="M16.5 20.5l2.7 2.8 4.3-5.1"/>
+  </g>
+</svg>
