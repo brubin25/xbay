@@ -29,29 +29,79 @@ export default function Page() {
 
   const [counts, setCounts] = useState<Record<string, number> | null>(null);           // totals
   const [matchCounts, setMatchCounts] = useState<Record<string, number> | null>(null); // filtered when searching
-  const [initError, setInitError] = useState<string | null>(null);
+  const [initError, setInitError] = useState<string | null>(null); // kept internal only
   const [ready, setReady] = useState(false);
   const [errors, setErrors] = useState<Record<string, string>>({});
 
   const resultLen = (r: any): number =>
     Array.isArray(r) ? r.length : Array.isArray(r?.rows) ? r.rows.length : Number(r?.total || r?.count || 0);
 
-  // -------- initial boot (data/queries unchanged)
+  // ---------- helper: silent auto-reload after 5s with loop guard ----------
+  const scheduleAutoReload = () => {
+    try {
+      const KEY = "xbay.autoReload.explore";
+      const now = Date.now();
+      const raw = sessionStorage.getItem(KEY);
+      let state: { count: number; last: number } = raw ? JSON.parse(raw) : { count: 0, last: 0 };
+      // reset counter if > 2 minutes since last reload
+      if (now - (state.last || 0) > 120_000) state.count = 0;
+
+      if (state.count >= 2) {
+        // avoid infinite loops; give up silently
+        return;
+      }
+      state.count += 1;
+      state.last = now;
+      sessionStorage.setItem(KEY, JSON.stringify(state));
+      setTimeout(() => location.reload(), 3000); // refresh after 5s
+    } catch {
+      setTimeout(() => location.reload(), 3000);
+    }
+  };
+
+  // -------- initial boot (unchanged logic; silent failure handling) --------
   useEffect(() => {
     (async () => {
       setInitError(null);
       setLoading(true);
       try {
         await registerDefaultCSVs();
-        const c = await getRowCounts();
-        setCounts(c);
+
+        // quick “are tables there?” probe with a couple retries
+        const tryCounts = async (): Promise<boolean> => {
+          for (let i = 0; i < 2; i++) {
+            try {
+              const c = await getRowCounts();
+              setCounts(c);
+              return true;
+            } catch {
+              await new Promise((r) => setTimeout(r, 150));
+            }
+          }
+          return false;
+        };
+
+        const ok = await tryCounts();
+        if (!ok) {
+          setInitError("counts failed");
+          scheduleAutoReload(); // auto-refresh after 5s
+          return;
+        }
+
         setReady(true);
+
+        // initial searches (errors will be retried in later effect)
         for (const t of selected) {
-          const r = await runGlobalSearch(t as any, term, dynFilters);
-          setResult(t as any, r);
+          try {
+            const r = await runGlobalSearch(t as any, term, dynFilters);
+            setResult(t as any, r);
+          } catch {
+            /* ignore transient init errors; watchdogs below will refresh if needed */
+          }
         }
       } catch (e: any) {
         setInitError(String(e?.message ?? e));
+        scheduleAutoReload(); // auto-refresh after 5s
       } finally {
         setLoading(false);
       }
@@ -59,7 +109,31 @@ export default function Page() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  // -------- re-run when selected / term / filters change (unchanged)
+  // -------- watchdog #1: if not fully loaded within 5s, refresh --------
+  useEffect(() => {
+    const t = setTimeout(() => {
+      const countsReady = !!counts;
+      const resultsReady =
+        selected.length === 0 ? true : selected.every((t) => (results as any)[t] !== undefined);
+      if (!ready || !countsReady || !resultsReady) {
+        scheduleAutoReload(); // auto-refresh after 5s (from now)
+      }
+    }, 5000);
+    return () => clearTimeout(t);
+  }, [ready, counts, results, selected]); // run once based on current snapshot
+
+  // -------- watchdog #2: any internal error -> refresh (after 5s) --------
+  useEffect(() => {
+    if (initError) {
+      scheduleAutoReload();
+      return;
+    }
+    if (Object.keys(errors).length > 0) {
+      scheduleAutoReload();
+    }
+  }, [initError, errors]);
+
+  // -------- re-run when selected / term / filters change (unchanged) --------
   useEffect(() => {
     if (!ready) return;
     let cancelled = false;
@@ -85,7 +159,7 @@ export default function Page() {
     };
   }, [ready, selected, term, dynFilters, setLoading, setResult]);
 
-  // -------- live counts for Status (unchanged)
+  // -------- live counts for Status (unchanged) --------
   const hasTermOrFilters =
     (term ?? "").trim().length > 0 || Object.keys(dynFilters || {}).length > 0;
 
@@ -139,7 +213,7 @@ export default function Page() {
     setActiveTableIndex(next);
   };
 
-  // --- NEW: data for Status chart (colorful SVG bars)
+  // --- data for Status chart (colorful SVG bars) ---
   const barRows = useMemo<[string, number][]>(() => {
     if (!displayCounts) return [];
     return Object.entries(displayCounts)
@@ -149,7 +223,6 @@ export default function Page() {
 
   const maxBar = useMemo(() => Math.max(1, ...barRows.map(([, n]) => n)), [barRows]);
 
-  // Pleasant, elegant palette (cycled if more tables appear)
   const palette = [
     "#6366F1", // indigo
     "#06B6D4", // cyan
@@ -186,7 +259,7 @@ export default function Page() {
                     {hasTermOrFilters ? "Matches by table" : "Rows by table"}
                   </div>
 
-                  {/* NEW: Colorful compact bar chart (SVG, responsive width) */}
+                  {/* Colorful compact bar chart (SVG, responsive width) */}
                   <div className="w-full">
                     <svg
                       role="img"
@@ -207,20 +280,17 @@ export default function Page() {
                             </linearGradient>
                           );
                         })}
-                        {/* faint grid line color respects theme */}
                         <pattern id="gridDots" width="8" height="8" patternUnits="userSpaceOnUse">
                           <circle cx="1" cy="1" r="0.6" fill="currentColor" opacity="0.08" />
                         </pattern>
                       </defs>
 
-                      {/* background grid */}
                       <rect x="0" y="0" width="360" height="160" fill="url(#gridDots)" />
 
-                      {/* chart area */}
                       {(() => {
                         const pad = 24;
                         const w = 360 - pad * 2;
-                        const h = 120; // leave room for labels
+                        const h = 120;
                         const baseY = pad + h;
                         const gap = 10;
                         const n = Math.max(1, barRows.length);
@@ -228,7 +298,6 @@ export default function Page() {
 
                         return (
                           <>
-                            {/* baseline */}
                             <line
                               x1={pad}
                               x2={pad + w}
@@ -244,19 +313,10 @@ export default function Page() {
                               const y = baseY - bh;
                               const grad = `url(#gbar_${i})`;
                               const label = pretty(k);
-
                               return (
                                 <g key={k}>
                                   <title>{`${label}: ${n.toLocaleString()}`}</title>
-                                  <rect
-                                    x={x}
-                                    y={y}
-                                    width={bw}
-                                    height={bh}
-                                    fill={grad}
-                                    rx="3"
-                                  />
-                                  {/* value label */}
+                                  <rect x={x} y={y} width={bw} height={bh} fill={grad} rx="3" />
                                   <text
                                     x={x + bw / 2}
                                     y={y - 6}
@@ -267,7 +327,6 @@ export default function Page() {
                                   >
                                     {n.toLocaleString()}
                                   </text>
-                                  {/* x label */}
                                   <text
                                     x={x + bw / 2}
                                     y={baseY + 12}
@@ -288,10 +347,7 @@ export default function Page() {
                   </div>
                 </div>
               )}
-
-              {initError && (
-                <p className="text-xs text-red-400 mt-2">Init error: {initError}</p>
-              )}
+              {/* NOTE: no visible error text is rendered */}
             </div>
           </div>
         </div>
