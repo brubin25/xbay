@@ -139,6 +139,30 @@ export default function Page() {
     setActiveTableIndex(next);
   };
 
+  // --- NEW: data for Status chart (colorful SVG bars)
+  const barRows = useMemo<[string, number][]>(() => {
+    if (!displayCounts) return [];
+    return Object.entries(displayCounts)
+      .map(([k, v]) => [k, Number(v) || 0] as [string, number])
+      .sort((a, b) => b[1] - a[1]);
+  }, [displayCounts]);
+
+  const maxBar = useMemo(() => Math.max(1, ...barRows.map(([, n]) => n)), [barRows]);
+
+  // Pleasant, elegant palette (cycled if more tables appear)
+  const palette = [
+    "#6366F1", // indigo
+    "#06B6D4", // cyan
+    "#10B981", // emerald
+    "#F59E0B", // amber
+    "#EF4444", // red
+    "#8B5CF6", // violet
+    "#14B8A6", // teal
+    "#F97316", // orange
+  ];
+
+  const pretty = (k: string) => k.replace(/_/g, " ");
+
   return (
     <>
       <div className="grid grid-cols-1 gap-6 lg:grid-cols-3">
@@ -152,20 +176,119 @@ export default function Page() {
             <div className="card-header">Status</div>
             <div className="card-body text-sm space-y-2">
               <div className="flex items-center justify-between">
-                <span>Engine</span>
-                <span className="badge">DuckDB-WASM</span>
-              </div>
-              <div className="flex items-center justify-between">
                 <span>Loading</span>
                 <span className="badge">{String(loading)}</span>
               </div>
 
               {displayCounts && (
                 <div className="mt-2">
-                  <div className="text-xs text-[var(--muted)] mb-1">
-                    {hasTermOrFilters ? "Row counts (matches in all tables)" : "Row counts"}
+                  <div className="text-xs text-[var(--muted)] mb-2">
+                    {hasTermOrFilters ? "Matches by table" : "Rows by table"}
                   </div>
-                  <ul className="text-xs space-y-1">
+
+                  {/* NEW: Colorful compact bar chart (SVG, responsive width) */}
+                  <div className="w-full">
+                    <svg
+                      role="img"
+                      aria-label="Bar chart of row/match counts by table"
+                      viewBox="0 0 360 160"
+                      width="100%"
+                      height="160"
+                      style={{ display: "block" }}
+                    >
+                      <defs>
+                        {barRows.map(([, _n], i) => {
+                          const c = palette[i % palette.length];
+                          const id = `gbar_${i}`;
+                          return (
+                            <linearGradient id={id} key={id} x1="0" y1="0" x2="0" y2="1">
+                              <stop offset="0%" stopColor={c} stopOpacity="0.95" />
+                              <stop offset="100%" stopColor={c} stopOpacity="0.65" />
+                            </linearGradient>
+                          );
+                        })}
+                        {/* faint grid line color respects theme */}
+                        <pattern id="gridDots" width="8" height="8" patternUnits="userSpaceOnUse">
+                          <circle cx="1" cy="1" r="0.6" fill="currentColor" opacity="0.08" />
+                        </pattern>
+                      </defs>
+
+                      {/* background grid */}
+                      <rect x="0" y="0" width="360" height="160" fill="url(#gridDots)" />
+
+                      {/* chart area */}
+                      {(() => {
+                        const pad = 24;
+                        const w = 360 - pad * 2;
+                        const h = 120; // leave room for labels
+                        const baseY = pad + h;
+                        const gap = 10;
+                        const n = Math.max(1, barRows.length);
+                        const bw = Math.max(10, (w - gap * (n - 1)) / n);
+
+                        return (
+                          <>
+                            {/* baseline */}
+                            <line
+                              x1={pad}
+                              x2={pad + w}
+                              y1={baseY + 0.5}
+                              y2={baseY + 0.5}
+                              stroke="currentColor"
+                              opacity="0.25"
+                              strokeWidth="1"
+                            />
+                            {barRows.map(([k, n], i) => {
+                              const x = pad + i * (bw + gap);
+                              const bh = Math.max(1, Math.round((n / maxBar) * (h - 14)));
+                              const y = baseY - bh;
+                              const grad = `url(#gbar_${i})`;
+                              const label = pretty(k);
+
+                              return (
+                                <g key={k}>
+                                  <title>{`${label}: ${n.toLocaleString()}`}</title>
+                                  <rect
+                                    x={x}
+                                    y={y}
+                                    width={bw}
+                                    height={bh}
+                                    fill={grad}
+                                    rx="3"
+                                  />
+                                  {/* value label */}
+                                  <text
+                                    x={x + bw / 2}
+                                    y={y - 6}
+                                    textAnchor="middle"
+                                    fontSize="9"
+                                    fill="currentColor"
+                                    opacity="0.75"
+                                  >
+                                    {n.toLocaleString()}
+                                  </text>
+                                  {/* x label */}
+                                  <text
+                                    x={x + bw / 2}
+                                    y={baseY + 12}
+                                    textAnchor="middle"
+                                    fontSize="10"
+                                    fill="currentColor"
+                                    opacity="0.9"
+                                  >
+                                    {label}
+                                  </text>
+                                </g>
+                              );
+                            })}
+                          </>
+                        );
+                      })()}
+                    </svg>
+                  </div>
+
+                  {/* Keep the existing textual summary (unchanged) */}
+                  <ul className="text-xs space-y-1 mt-2">
                     {Object.entries(displayCounts).map(([k, v]) => (
                       <li key={k}>
                         <span className="badge mr-2">{k}</span>
