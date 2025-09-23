@@ -286,16 +286,6 @@ export default function Page() {
                       })()}
                     </svg>
                   </div>
-
-                  {/* Keep the existing textual summary (unchanged) */}
-                  <ul className="text-xs space-y-1 mt-2">
-                    {Object.entries(displayCounts).map(([k, v]) => (
-                      <li key={k}>
-                        <span className="badge mr-2">{k}</span>
-                        {Number(v).toLocaleString()}
-                      </li>
-                    ))}
-                  </ul>
                 </div>
               )}
 
