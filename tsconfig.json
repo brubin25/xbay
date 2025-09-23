@@ -17,6 +17,7 @@
     "skipLibCheck": true,
     "incremental": true,
     "isolatedModules": true,
+    "typeRoots": ["./src/types", "./node_modules/@types"],
     "plugins": [{ "name": "next" }]
   },
   "include": [
