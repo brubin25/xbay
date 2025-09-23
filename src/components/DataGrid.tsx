@@ -19,11 +19,15 @@ type Props = { title: string; data?: QueryResult };
 /* ---- helpers / constants ---- */
 const clamp = (n: number, min: number, max: number) => Math.max(min, Math.min(max, n));
 const LS_KEY = (title: string) => `xbay.gridHeight.${title}`;
-const MIN_H = 240;   // keep constants stable to avoid hydration mismatch
+const MIN_H = 240;
 const MAX_H = 900;
+
+// Keep this in sync with your row CSS height for best results
+const ROW_ESTIMATE = 44; // px
 
 export default function DataGrid({ title, data }: Props) {
   const rows = React.useMemo(() => data?.rows ?? [], [data]);
+
   const cols = React.useMemo<ColumnDef<any>[]>(() => {
     if (!data?.columns?.length) return [];
     return data.columns.map((c) => ({
@@ -51,28 +55,37 @@ export default function DataGrid({ title, data }: Props) {
     initialState: { pagination: { pageIndex: 0, pageSize: 25 } },
   });
 
-  // ----- virtualization -----
+  /* ---------- Virtualization (stable) ---------- */
   const parentRef = React.useRef<HTMLDivElement>(null);
-  const virtual = useVirtualizer({
-    count: table.getRowModel().rows.length,
+  const tableRows = table.getRowModel().rows;
+
+  // Stable item keys avoid remounts while scrolling
+  const rowVirtualizer = useVirtualizer({
+    count: tableRows.length,
     getScrollElement: () => parentRef.current,
-    estimateSize: () => 40,
-    overscan: 8,
+    estimateSize: () => ROW_ESTIMATE,
+    overscan: 12,
+    getItemKey: (index) => tableRows[index]?.id ?? index,
   });
 
-  // ----- layout refs for auto-height -----
+  const virtualItems = rowVirtualizer.getVirtualItems();
+  const paddingTop = virtualItems.length > 0 ? virtualItems[0].start : 0;
+  const paddingBottom =
+    virtualItems.length > 0
+      ? rowVirtualizer.getTotalSize() - virtualItems[virtualItems.length - 1].end
+      : 0;
+
+  /* ---------- Layout / resizable height ---------- */
   const cardRef = React.useRef<HTMLElement>(null);
   const toolbarRef = React.useRef<HTMLDivElement>(null);
   const footRef = React.useRef<HTMLDivElement>(null);
 
-  // Height (resizable, per table). Start stable; auto-compute after mount if no saved value.
   const [heightPx, setHeightPx] = React.useState<number>(() => {
-    if (typeof window === "undefined") return 480; // SSR-safe default
+    if (typeof window === "undefined") return 480;
     const saved = localStorage.getItem(LS_KEY(title));
     return saved ? clamp(parseInt(saved, 10), MIN_H, MAX_H) : 480;
   });
 
-  // Compute an auto height that fills to footer (runs only if not user-set)
   const computeAutoHeight = React.useCallback(() => {
     const card = cardRef.current;
     const bar = toolbarRef.current;
@@ -81,17 +94,14 @@ export default function DataGrid({ title, data }: Props) {
 
     const top = card.getBoundingClientRect().top;
     const viewport = window.innerHeight;
-
-    // non-scroll chrome (toolbar + footer) + small padding
     const nonScroll =
       bar.getBoundingClientRect().height + foot.getBoundingClientRect().height + 32;
 
-    const available = Math.floor(viewport - top - nonScroll - 24); // leave bottom margin
+    const available = Math.floor(viewport - top - nonScroll - 24);
     const next = clamp(available, MIN_H, MAX_H);
     setHeightPx(next);
   }, []);
 
-  // First mount: if no saved height, compute auto height and keep it responsive
   React.useEffect(() => {
     const saved = typeof window !== "undefined" ? localStorage.getItem(LS_KEY(title)) : null;
     if (!saved) {
@@ -105,7 +115,6 @@ export default function DataGrid({ title, data }: Props) {
     }
   }, [title, computeAutoHeight]);
 
-  // Persist height (debounced lightly)
   React.useEffect(() => {
     const id = setTimeout(() => {
       try {
@@ -115,7 +124,7 @@ export default function DataGrid({ title, data }: Props) {
     return () => clearTimeout(id);
   }, [title, heightPx]);
 
-  // ----- resize handle (mouse + keyboard) -----
+  /* ---------- Resize handle (mouse + keyboard) ---------- */
   const dragState = React.useRef<{ startY: number; startH: number } | null>(null);
 
   const onHandlePointerDown = (e: React.PointerEvent) => {
@@ -139,8 +148,9 @@ export default function DataGrid({ title, data }: Props) {
   };
 
   const onHandleDoubleClick = () => {
-    // reset to auto height and clear saved value
-    try { localStorage.removeItem(LS_KEY(title)); } catch {}
+    try {
+      localStorage.removeItem(LS_KEY(title));
+    } catch {}
     computeAutoHeight();
   };
 
@@ -215,7 +225,15 @@ export default function DataGrid({ title, data }: Props) {
 
       <div className="table-wrap">
         {/* Controlled scroll height so the footer stays visible by default */}
-        <div ref={parentRef} style={{ height: heightPx, overflow: "auto" }}>
+        <div
+          ref={parentRef}
+          style={{
+            height: heightPx,
+            overflow: "auto",
+            contain: "strict",
+            willChange: "transform",
+          }}
+        >
           <table className="table">
             <thead>
               {table.getHeaderGroups().map((hg) => (
@@ -237,17 +255,35 @@ export default function DataGrid({ title, data }: Props) {
                 </tr>
               ))}
             </thead>
-            <tbody style={{ height: virtual.getTotalSize() }}>
-              {virtual.getVirtualItems().map((vi) => {
-                const r = table.getRowModel().rows[vi.index];
+
+            {/* Virtualized tbody using padding rows (prevents remount “jump”) */}
+            <tbody>
+              {/* top spacer */}
+              {paddingTop > 0 && (
+                <tr aria-hidden>
+                  <td colSpan={cols.length} style={{ height: paddingTop }} />
+                </tr>
+              )}
+
+              {virtualItems.map((vi) => {
+                const r = tableRows[vi.index];
                 return (
-                  <tr key={r.id} style={{ transform: `translateY(${vi.start}px)` }}>
+                  <tr key={r.id} data-index={vi.index} style={{ height: ROW_ESTIMATE }}>
                     {r.getVisibleCells().map((cell) => (
-                      <td key={cell.id}>{flexRender(cell.column.columnDef.cell, cell.getContext())}</td>
+                      <td key={cell.id}>
+                        {flexRender(cell.column.columnDef.cell, cell.getContext())}
+                      </td>
                     ))}
                   </tr>
                 );
               })}
+
+              {/* bottom spacer */}
+              {paddingBottom > 0 && (
+                <tr aria-hidden>
+                  <td colSpan={cols.length} style={{ height: paddingBottom }} />
+                </tr>
+              )}
             </tbody>
           </table>
         </div>
@@ -258,7 +294,7 @@ export default function DataGrid({ title, data }: Props) {
           aria-orientation="horizontal"
           aria-label={`Resize ${title} table`}
           aria-valuemin={MIN_H}
-          aria-valuemax={MAX_H}     /* constant to prevent hydration mismatch */
+          aria-valuemax={MAX_H}
           aria-valuenow={heightPx}
           tabIndex={0}
           onPointerDown={onHandlePointerDown}
