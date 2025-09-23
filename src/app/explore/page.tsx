@@ -1,4 +1,3 @@
-// src/app/explore/page.tsx
 "use client";
 
 import { useEffect, useState, useMemo } from "react";
@@ -21,6 +20,10 @@ export default function Page() {
   const setResult = useXBay((s) => s.setResult);
   const loading = useXBay((s) => s.loading);
   const results = useXBay((s) => s.results);
+
+  // NEW: tiny, privacy-safe search metrics (display only)
+  const getSearchSeries = useXBay((s) => s.getSearchSeries);
+  const logSearchEvent = useXBay((s) => s.logSearchEvent);
 
   // NEW (display-only state)
   const resultsLayout = useXBay((s) => s.resultsLayout);
@@ -76,14 +79,18 @@ export default function Page() {
           }
         }
       } finally {
-        if (!cancelled) setErrors(errs);
+        if (!cancelled) {
+          setErrors(errs);
+          // NEW: count one completed search interaction (once per re-run)
+          logSearchEvent();
+        }
         setLoading(false);
       }
     })();
     return () => {
       cancelled = true;
     };
-  }, [ready, selected, term, dynFilters, setLoading, setResult]);
+  }, [ready, selected, term, dynFilters, setLoading, setResult, logSearchEvent]);
 
   // -------- live counts for Status (unchanged)
   const hasTermOrFilters =
@@ -139,6 +146,12 @@ export default function Page() {
     setActiveTableIndex(next);
   };
 
+  // --- NEW: compute a small search-activity series for the Status card
+  // last 60 minutes, 24 buckets -> tiny histogram sparkline
+  const searchStats = getSearchSeries(60, 24);
+  const maxBucket = Math.max(1, searchStats.max);
+  const bars = searchStats.counts;
+
   return (
     <>
       <div className="grid grid-cols-1 gap-6 lg:grid-cols-3">
@@ -158,6 +171,41 @@ export default function Page() {
               <div className="flex items-center justify-between">
                 <span>Loading</span>
                 <span className="badge">{String(loading)}</span>
+              </div>
+
+              {/* NEW: tiny search activity sparkline */}
+              <div className="mt-2">
+                <div className="flex items-center justify-between mb-1">
+                  <div className="text-xs text-[var(--muted)]">Search activity (last 60m)</div>
+                  <span className="badge" title="Total searches in window">
+                    {searchStats.total}
+                  </span>
+                </div>
+                <div className="text-[var(--fg)]/70">
+                  <svg
+                    className="w-full h-10"
+                    viewBox={`0 0 ${bars.length} 100`}
+                    preserveAspectRatio="none"
+                    aria-label="Searches over time sparkline"
+                    role="img"
+                  >
+                    {bars.map((n, i) => {
+                      const h = (n / maxBucket) * 100;
+                      return (
+                        <rect
+                          key={i}
+                          x={i + 0.1}
+                          y={100 - h}
+                          width={0.8}
+                          height={h}
+                          rx={0.6}
+                          fill="currentColor"
+                          opacity={0.25 + (n / maxBucket) * 0.65}
+                        />
+                      );
+                    })}
+                  </svg>
+                </div>
               </div>
 
               {displayCounts && (

@@ -1,4 +1,3 @@
-// src/lib/store.ts
 "use client";
 
 import { create } from "zustand";
@@ -56,6 +55,15 @@ type XBayState = {
 
   activeTableIndex: number;
   setActiveTableIndex: (i: number) => void;
+
+  /* NEW: tiny, privacy-safe metrics for a mini chart in Status */
+  searchEvents: number[]; // epoch ms timestamps of completed searches
+  logSearchEvent: () => void;
+  getSearchSeries: (windowMinutes?: number, buckets?: number) => {
+    counts: number[];
+    total: number;
+    max: number;
+  };
 };
 
 export const useXBay = create<XBayState>()((set, get) => {
@@ -65,6 +73,22 @@ export const useXBay = create<XBayState>()((set, get) => {
     const saved = localStorage.getItem("xbay.resultsLayout");
     if (saved === "single" || saved === "stacked") initialLayout = saved;
   } catch {}
+
+  // hydrate local search activity (optional; safe to fail)
+  let initialSearchEvents: number[] = [];
+  try {
+    const raw = localStorage.getItem("xbay.searchEvents");
+    if (raw) {
+      const parsed = JSON.parse(raw);
+      if (Array.isArray(parsed)) initialSearchEvents = parsed.filter((n) => typeof n === "number");
+    }
+  } catch {}
+
+  const persistSearchEvents = (events: number[]) => {
+    try {
+      localStorage.setItem("xbay.searchEvents", JSON.stringify(events));
+    } catch {}
+  };
 
   return {
     selected: ALL_TABLES,
@@ -122,5 +146,32 @@ export const useXBay = create<XBayState>()((set, get) => {
 
     activeTableIndex: 0,
     setActiveTableIndex: (i) => set({ activeTableIndex: Math.max(0, Math.floor(i)) }),
+
+    // NEW: search metrics
+    searchEvents: initialSearchEvents,
+    logSearchEvent: () => {
+      const now = Date.now();
+      const oneWeekMs = 7 * 24 * 60 * 60 * 1000;
+      const events = [...get().searchEvents, now].filter((t) => now - t <= oneWeekMs);
+      persistSearchEvents(events);
+      set({ searchEvents: events });
+    },
+    getSearchSeries: (windowMinutes = 60, buckets = 24) => {
+      const now = Date.now();
+      const windowMs = Math.max(1, windowMinutes) * 60_000;
+      const start = now - windowMs;
+      const step = Math.max(1, Math.floor(windowMs / Math.max(1, buckets)));
+      const counts = new Array(Math.max(1, buckets)).fill(0) as number[];
+
+      for (const t of get().searchEvents) {
+        if (t < start || t > now) continue;
+        let idx = Math.floor((t - start) / step);
+        if (idx >= counts.length) idx = counts.length - 1;
+        counts[idx]++;
+      }
+      const total = counts.reduce((a, b) => a + b, 0);
+      const max = counts.reduce((m, n) => (n > m ? n : m), 0);
+      return { counts, total, max };
+    },
   };
 });
